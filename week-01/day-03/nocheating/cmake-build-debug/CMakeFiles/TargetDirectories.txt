@@ -1,0 +1,3 @@
+C:/Projects/nocheating/cmake-build-debug/CMakeFiles/nocheating.dir
+C:/Projects/nocheating/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Projects/nocheating/cmake-build-debug/CMakeFiles/rebuild_cache.dir

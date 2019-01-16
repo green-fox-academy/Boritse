@@ -1,0 +1,3 @@
+C:/Projects/partyindicator/cmake-build-debug/CMakeFiles/partyindicator.dir
+C:/Projects/partyindicator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Projects/partyindicator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

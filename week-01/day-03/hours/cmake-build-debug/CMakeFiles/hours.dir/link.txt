@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\hours.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\hours.dir/objects.a @CMakeFiles\hours.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\hours.dir/objects.a -Wl,--no-whole-archive  -o hours.exe -Wl,--out-implib,libhours.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\hours.dir\linklibs.rsp

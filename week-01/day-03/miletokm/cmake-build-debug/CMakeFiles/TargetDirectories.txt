@@ -1,0 +1,3 @@
+C:/Projects/miletokm/cmake-build-debug/CMakeFiles/miletokm.dir
+C:/Projects/miletokm/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Projects/miletokm/cmake-build-debug/CMakeFiles/rebuild_cache.dir

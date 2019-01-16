@@ -1,0 +1,3 @@
+C:/Projects/secsinaday/cmake-build-debug/CMakeFiles/secsinaday.dir
+C:/Projects/secsinaday/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Projects/secsinaday/cmake-build-debug/CMakeFiles/rebuild_cache.dir

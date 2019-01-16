@@ -1,0 +1,3 @@
+C:/Projects/hello/cmake-build-debug/CMakeFiles/hello.dir
+C:/Projects/hello/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Projects/hello/cmake-build-debug/CMakeFiles/rebuild_cache.dir
