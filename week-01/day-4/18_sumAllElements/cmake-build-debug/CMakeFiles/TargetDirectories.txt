@@ -1,0 +1,3 @@
+C:/GREENFOX/Boritse/week-01/day-4/18_sumAllElements/cmake-build-debug/CMakeFiles/18_sumAllElements.dir
+C:/GREENFOX/Boritse/week-01/day-4/18_sumAllElements/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/GREENFOX/Boritse/week-01/day-4/18_sumAllElements/cmake-build-debug/CMakeFiles/rebuild_cache.dir
