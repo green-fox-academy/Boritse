@@ -1,0 +1,3 @@
+C:/GREENFOX/Boritse/week-02/03_takeslonger/cmake-build-debug/CMakeFiles/03_takeslonger.dir
+C:/GREENFOX/Boritse/week-02/03_takeslonger/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/GREENFOX/Boritse/week-02/03_takeslonger/cmake-build-debug/CMakeFiles/rebuild_cache.dir
