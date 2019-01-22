@@ -1,0 +1,3 @@
+C:/GREENFOX/Boritse/week-02/day-02/09_findminimum_again/cmake-build-debug/CMakeFiles/09_findminimum_again.dir
+C:/GREENFOX/Boritse/week-02/day-02/09_findminimum_again/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/GREENFOX/Boritse/week-02/day-02/09_findminimum_again/cmake-build-debug/CMakeFiles/rebuild_cache.dir
