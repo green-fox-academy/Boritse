@@ -14,11 +14,9 @@ int main()
     }
 
     int* p_myArray = myArray;
-    int y=0;
     int z=0;
     for(int i=0; i<x; i++){
-        if(myArray[i]>myArray[i-1]){
-            y=myArray[i];
+        if(myArray[i]>myArray[z]){
             z=i;
         }
     }
