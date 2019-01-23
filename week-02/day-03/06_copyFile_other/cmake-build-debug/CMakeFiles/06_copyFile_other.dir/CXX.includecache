@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/GREENFOX/Boritse/week-02/day-03/06_copyFile_other/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+exception
+-
+vector
+-
+sstream
+-
+
