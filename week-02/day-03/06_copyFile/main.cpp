@@ -20,7 +20,7 @@ bool copier(std::string firstFile, std::string secondFile){
 
     std::ofstream recieverFile(secondFile);
     for(int i=0; i<contentOfFile.size(); i++){
-        recieverFile << contentOfFile[i];
+        recieverFile << contentOfFile[i] << std::endl;
     }
     recieverFile.close();
 
@@ -48,16 +48,10 @@ bool copier(std::string firstFile, std::string secondFile){
 
 int main() {
 
-    std::string path = "./";
-    std::string myFirstFile = path+"origin-file.txt";
-    std::string mySecondFile = path+"destination-file.txt";
+    std::string myFirstFile = "origin-file.txt";
+    std::string mySecondFile = "destination-file.txt";
 
-    std::string content;
-    std::cout << "please give some content to my first file" << std::endl;
-    std::cin.ignore();
-    std::getline(std::cin, content);
-
-    copier(myFirstFile, mySecondFile);
+    std::cout << copier(myFirstFile, mySecondFile);
 
     return 0;
 }
