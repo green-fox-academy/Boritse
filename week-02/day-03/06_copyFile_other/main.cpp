@@ -24,7 +24,7 @@ void copier(std::string originalFile, std::string copyFile){
     std::ofstream writeInFile(copyFile);
 
     while(std::getline(readOutFile, lines)){
-        writeInFile << lines;
+        writeInFile << lines << std::endl;
         std::cout << lines << std::endl;
     }
     writeInFile.close();
