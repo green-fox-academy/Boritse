@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\tothecentre.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\tothecentre.dir/objects.a @CMakeFiles\tothecentre.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\tothecentre.dir/objects.a -Wl,--no-whole-archive  -o tothecentre.exe -Wl,--out-implib,libtothecentre.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\tothecentre.dir\linklibs.rsp
