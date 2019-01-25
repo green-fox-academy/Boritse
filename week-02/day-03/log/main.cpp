@@ -11,7 +11,6 @@
 
 int main() {
 
-    std::vector<std::string> allinput;
     std::vector<std::string> urls;
     std::vector<std::string> getPost;
     std::string day;
@@ -27,11 +26,7 @@ int main() {
 
 
     while(dataset >> day >> month >> date >> time >> year >> url >> getpost >> slash){
-        allinput.push_back(day);
-        allinput.push_back(month);
-        allinput.push_back(date);
-        allinput.push_back(time);
-        allinput.push_back(year);
+
         urls.push_back(url);
         getPost.push_back(getpost);
         }
