@@ -1,0 +1,1832 @@
+"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\GREENFOX\Boritse\week-02\day-05\triangles
+-- The C compiler identification is GNU 8.2.0
+-- The CXX compiler identification is GNU 8.2.0
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/MinGW/bin/g++.exe
+-- Check for working CXX compiler: C:/MinGW/bin/g++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE  
+-- Found SDL2: mingw32;-mwindows;C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2main.a;C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2.dll.a  
+-- Found SDL2_image: C:/GREENFOX/SDL2_windows/SDL2_image-2.0.3/i686-w64-mingw32/lib/libSDL2_image.dll.a (found version "2.0.3") 
+-- Found SDL2_ttf: C:/GREENFOX/SDL2_windows/SDL2_ttf-2.0.14/i686-w64-mingw32/lib/libSDL2_ttf.dll.a (found version "2.0.14") 
+-- SDL2_LIBRARY=mingw32;-mwindows;C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2main.a;C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2.dll.a
+-- CHECK_INCLUDE_FILE_VAR=pthread.h
+-- CMAKE_AR=C:/MinGW/bin/ar.exe
+-- CMAKE_AR=C:/MinGW/bin/ar.exe
+-- CMAKE_AUTOMOC_COMPILER_PREDEFINES=ON
+-- CMAKE_AUTOMOC_MACRO_NAMES=Q_OBJECT;Q_GADGET;Q_NAMESPACE
+-- CMAKE_BASE_NAME=g++
+-- CMAKE_BINARY_DIR=C:/GREENFOX/Boritse/week-02/day-05/triangles/cmake-build-debug
+-- CMAKE_BUILD_TOOL=C:/MinGW/bin/mingw32-make.exe
+-- CMAKE_BUILD_TYPE=Debug
+-- CMAKE_C11_COMPILE_FEATURES=c_std_11;c_static_assert
+-- CMAKE_C11_EXTENSION_COMPILE_OPTION=-std=gnu11
+-- CMAKE_C11_STANDARD_COMPILE_OPTION=-std=c11
+-- CMAKE_C90_COMPILE_FEATURES=c_std_90;c_function_prototypes
+-- CMAKE_C90_EXTENSION_COMPILE_OPTION=-std=gnu90
+-- CMAKE_C90_STANDARD_COMPILE_OPTION=-std=c90
+-- CMAKE_C99_COMPILE_FEATURES=c_std_99;c_restrict;c_variadic_macros
+-- CMAKE_C99_EXTENSION_COMPILE_OPTION=-std=gnu99
+-- CMAKE_C99_STANDARD_COMPILE_OPTION=-std=c99
+-- CMAKE_CFG_INTDIR=.
+-- CMAKE_CODEBLOCKS_COMPILER_ID=
+-- CMAKE_CODEBLOCKS_EXECUTABLE=CMAKE_CODEBLOCKS_EXECUTABLE-NOTFOUND
+-- CMAKE_CODEBLOCKS_MAKE_ARGUMENTS=
+-- CMAKE_COLOR_MAKEFILE=ON
+-- CMAKE_COMMAND=C:/Program Files/JetBrains/CLion 2018.3.3/bin/cmake/win/bin/cmake.exe
+-- CMAKE_COMPILER_IS_GNUCC=1
+-- CMAKE_COMPILER_IS_GNUCXX=1
+-- CMAKE_COMPILER_IS_MINGW=1
+-- CMAKE_CPACK_COMMAND=C:/Program Files/JetBrains/CLion 2018.3.3/bin/cmake/win/bin/cpack.exe
+-- CMAKE_CREATE_WIN32_EXE=-mwindows
+-- CMAKE_CROSSCOMPILING=FALSE
+-- CMAKE_CTEST_COMMAND=C:/Program Files/JetBrains/CLion 2018.3.3/bin/cmake/win/bin/ctest.exe
+-- CMAKE_CURRENT_BINARY_DIR=C:/GREENFOX/Boritse/week-02/day-05/triangles/cmake-build-debug
+-- CMAKE_CURRENT_LIST_DIR=C:/GREENFOX/Boritse/week-02/day-05/triangles
+-- CMAKE_CURRENT_LIST_FILE=C:/GREENFOX/Boritse/week-02/day-05/triangles/CMakeLists.txt
+-- CMAKE_CURRENT_SOURCE_DIR=C:/GREENFOX/Boritse/week-02/day-05/triangles
+-- CMAKE_CXX11_COMPILE_FEATURES=cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_attributes;cxx_auto_type;cxx_constexpr;cxx_decltype;cxx_decltype_incomplete_return_types;cxx_default_function_template_args;cxx_defaulted_functions;cxx_defaulted_move_initializers;cxx_delegating_constructors;cxx_deleted_functions;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_func_identifier;cxx_generalized_initializers;cxx_inheriting_constructors;cxx_inline_namespaces;cxx_lambdas;cxx_local_type_template_args;cxx_long_long_type;cxx_noexcept;cxx_nonstatic_member_init;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_reference_qualified_functions;cxx_right_angle_brackets;cxx_rvalue_references;cxx_sizeof_member;cxx_static_assert;cxx_strong_enums;cxx_thread_local;cxx_trailing_return_types;cxx_unicode_literals;cxx_uniform_initialization;cxx_unrestricted_unions;cxx_user_literals;cxx_variadic_macros;cxx_variadic_templates
+-- CMAKE_CXX11_EXTENSION_COMPILE_OPTION=-std=gnu++11
+-- CMAKE_CXX11_STANDARD_COMPILE_OPTION=-std=c++11
+-- CMAKE_CXX14_COMPILE_FEATURES=cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_deprecated;cxx_binary_literals;cxx_contextual_conversions;cxx_decltype_auto;cxx_digit_separators;cxx_generic_lambdas;cxx_lambda_init_captures;cxx_relaxed_constexpr;cxx_return_type_deduction;cxx_variable_templates
+-- CMAKE_CXX14_EXTENSION_COMPILE_OPTION=-std=gnu++14
+-- CMAKE_CXX14_STANDARD_COMPILE_OPTION=-std=c++14
+-- CMAKE_CXX17_COMPILE_FEATURES=cxx_std_17
+-- CMAKE_CXX17_EXTENSION_COMPILE_OPTION=-std=gnu++17
+-- CMAKE_CXX17_STANDARD_COMPILE_OPTION=-std=c++17
+-- CMAKE_CXX20_COMPILE_FEATURES=cxx_std_20
+-- CMAKE_CXX20_EXTENSION_COMPILE_OPTION=-std=gnu++2a
+-- CMAKE_CXX20_STANDARD_COMPILE_OPTION=-std=c++2a
+-- CMAKE_CXX98_COMPILE_FEATURES=cxx_std_98;cxx_template_template_parameters
+-- CMAKE_CXX98_EXTENSION_COMPILE_OPTION=-std=gnu++98
+-- CMAKE_CXX98_STANDARD_COMPILE_OPTION=-std=c++98
+-- CMAKE_CXX_ABI_COMPILED=TRUE
+-- CMAKE_CXX_ARCHIVE_APPEND=<CMAKE_AR> q  <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_CXX_ARCHIVE_APPEND_IPO="C:/MinGW/bin/gcc-ar.exe" r <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_CXX_ARCHIVE_CREATE=<CMAKE_AR> qc <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_CXX_ARCHIVE_CREATE_IPO="C:/MinGW/bin/gcc-ar.exe" cr <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_CXX_ARCHIVE_FINISH=<CMAKE_RANLIB> <TARGET>
+-- CMAKE_CXX_ARCHIVE_FINISH_IPO="C:/MinGW/bin/gcc-ranlib.exe" <TARGET>
+-- CMAKE_CXX_CL_SHOWINCLUDES_PREFIX=
+-- CMAKE_CXX_COMPILER=C:/MinGW/bin/g++.exe
+-- CMAKE_CXX_COMPILER=C:/MinGW/bin/g++.exe
+-- CMAKE_CXX_COMPILER_ABI=
+-- CMAKE_CXX_COMPILER_AR=C:/MinGW/bin/gcc-ar.exe
+-- CMAKE_CXX_COMPILER_AR=C:/MinGW/bin/gcc-ar.exe
+-- CMAKE_CXX_COMPILER_ARCHITECTURE_ID=
+-- CMAKE_CXX_COMPILER_ARG1=
+-- CMAKE_CXX_COMPILER_ENV_VAR=CXX
+-- CMAKE_CXX_COMPILER_EXCLUDE=CC;aCC;xlC
+-- CMAKE_CXX_COMPILER_ID=GNU
+-- CMAKE_CXX_COMPILER_ID_PLATFORM_CONTENT=#define STRINGIFY_HELPER(X) #X
+#define STRINGIFY(X) STRINGIFY_HELPER(X)
+
+/* Identify known platforms by name.  */
+#if defined(__linux) || defined(__linux__) || defined(linux)
+# define PLATFORM_ID "Linux"
+
+#elif defined(__CYGWIN__)
+# define PLATFORM_ID "Cygwin"
+
+#elif defined(__MINGW32__)
+# define PLATFORM_ID "MinGW"
+
+#elif defined(__APPLE__)
+# define PLATFORM_ID "Darwin"
+
+#elif defined(_WIN32) || defined(__WIN32__) || defined(WIN32)
+# define PLATFORM_ID "Windows"
+
+#elif defined(__FreeBSD__) || defined(__FreeBSD)
+# define PLATFORM_ID "FreeBSD"
+
+#elif defined(__NetBSD__) || defined(__NetBSD)
+# define PLATFORM_ID "NetBSD"
+
+#elif defined(__OpenBSD__) || defined(__OPENBSD)
+# define PLATFORM_ID "OpenBSD"
+
+#elif defined(__sun) || defined(sun)
+# define PLATFORM_ID "SunOS"
+
+#elif defined(_AIX) || defined(__AIX) || defined(__AIX__) || defined(__aix) || defined(__aix__)
+# define PLATFORM_ID "AIX"
+
+#elif defined(__sgi) || defined(__sgi__) || defined(_SGI)
+# define PLATFORM_ID "IRIX"
+
+#elif defined(__hpux) || defined(__hpux__)
+# define PLATFORM_ID "HP-UX"
+
+#elif defined(__HAIKU__)
+# define PLATFORM_ID "Haiku"
+
+#elif defined(__BeOS) || defined(__BEOS__) || defined(_BEOS)
+# define PLATFORM_ID "BeOS"
+
+#elif defined(__QNX__) || defined(__QNXNTO__)
+# define PLATFORM_ID "QNX"
+
+#elif defined(__tru64) || defined(_tru64) || defined(__TRU64__)
+# define PLATFORM_ID "Tru64"
+
+#elif defined(__riscos) || defined(__riscos__)
+# define PLATFORM_ID "RISCos"
+
+#elif defined(__sinix) || defined(__sinix__) || defined(__SINIX__)
+# define PLATFORM_ID "SINIX"
+
+#elif defined(__UNIX_SV__)
+# define PLATFORM_ID "UNIX_SV"
+
+#elif defined(__bsdos__)
+# define PLATFORM_ID "BSDOS"
+
+#elif defined(_MPRAS) || defined(MPRAS)
+# define PLATFORM_ID "MP-RAS"
+
+#elif defined(__osf) || defined(__osf__)
+# define PLATFORM_ID "OSF1"
+
+#elif defined(_SCO_SV) || defined(SCO_SV) || defined(sco_sv)
+# define PLATFORM_ID "SCO_SV"
+
+#elif defined(__ultrix) || defined(__ultrix__) || defined(_ULTRIX)
+# define PLATFORM_ID "ULTRIX"
+
+#elif defined(__XENIX__) || defined(_XENIX) || defined(XENIX)
+# define PLATFORM_ID "Xenix"
+
+#elif defined(__WATCOMC__)
+# if defined(__LINUX__)
+#  define PLATFORM_ID "Linux"
+
+# elif defined(__DOS__)
+#  define PLATFORM_ID "DOS"
+
+# elif defined(__OS2__)
+#  define PLATFORM_ID "OS2"
+
+# elif defined(__WINDOWS__)
+#  define PLATFORM_ID "Windows3x"
+
+# else /* unknown platform */
+#  define PLATFORM_ID
+# endif
+
+#else /* unknown platform */
+# define PLATFORM_ID
+
+#endif
+
+/* For windows compilers MSVC and Intel we can determine
+   the architecture of the compiler being used.  This is because
+   the compilers do not have flags that can change the architecture,
+   but rather depend on which compiler is being used
+*/
+#if defined(_WIN32) && defined(_MSC_VER)
+# if defined(_M_IA64)
+#  define ARCHITECTURE_ID "IA64"
+
+# elif defined(_M_X64) || defined(_M_AMD64)
+#  define ARCHITECTURE_ID "x64"
+
+# elif defined(_M_IX86)
+#  define ARCHITECTURE_ID "X86"
+
+# elif defined(_M_ARM64)
+#  define ARCHITECTURE_ID "ARM64"
+
+# elif defined(_M_ARM)
+#  if _M_ARM == 4
+#   define ARCHITECTURE_ID "ARMV4I"
+#  elif _M_ARM == 5
+#   define ARCHITECTURE_ID "ARMV5I"
+#  else
+#   define ARCHITECTURE_ID "ARMV" STRINGIFY(_M_ARM)
+#  endif
+
+# elif defined(_M_MIPS)
+#  define ARCHITECTURE_ID "MIPS"
+
+# elif defined(_M_SH)
+#  define ARCHITECTURE_ID "SHx"
+
+# else /* unknown architecture */
+#  define ARCHITECTURE_ID ""
+# endif
+
+#elif defined(__WATCOMC__)
+# if defined(_M_I86)
+#  define ARCHITECTURE_ID "I86"
+
+# elif defined(_M_IX86)
+#  define ARCHITECTURE_ID "X86"
+
+# else /* unknown architecture */
+#  define ARCHITECTURE_ID ""
+# endif
+
+#elif defined(__IAR_SYSTEMS_ICC__) || defined(__IAR_SYSTEMS_ICC)
+# if defined(__ICCARM__)
+#  define ARCHITECTURE_ID "ARM"
+
+# elif defined(__ICCAVR__)
+#  define ARCHITECTURE_ID "AVR"
+
+# else /* unknown architecture */
+#  define ARCHITECTURE_ID ""
+# endif
+#else
+#  define ARCHITECTURE_ID
+#endif
+
+/* Convert integer to decimal digit literals.  */
+#define DEC(n)                   \
+  ('0' + (((n) / 10000000)%10)), \
+  ('0' + (((n) / 1000000)%10)),  \
+  ('0' + (((n) / 100000)%10)),   \
+  ('0' + (((n) / 10000)%10)),    \
+  ('0' + (((n) / 1000)%10)),     \
+  ('0' + (((n) / 100)%10)),      \
+  ('0' + (((n) / 10)%10)),       \
+  ('0' +  ((n) % 10))
+
+/* Convert integer to hex digit literals.  */
+#define HEX(n)             \
+  ('0' + ((n)>>28 & 0xF)), \
+  ('0' + ((n)>>24 & 0xF)), \
+  ('0' + ((n)>>20 & 0xF)), \
+  ('0' + ((n)>>16 & 0xF)), \
+  ('0' + ((n)>>12 & 0xF)), \
+  ('0' + ((n)>>8  & 0xF)), \
+  ('0' + ((n)>>4  & 0xF)), \
+  ('0' + ((n)     & 0xF))
+
+/* Construct a string literal encoding the version number components. */
+#ifdef COMPILER_VERSION_MAJOR
+char const info_version[] = {
+  'I', 'N', 'F', 'O', ':',
+  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+  COMPILER_VERSION_MAJOR,
+# ifdef COMPILER_VERSION_MINOR
+  '.', COMPILER_VERSION_MINOR,
+#  ifdef COMPILER_VERSION_PATCH
+   '.', COMPILER_VERSION_PATCH,
+#   ifdef COMPILER_VERSION_TWEAK
+    '.', COMPILER_VERSION_TWEAK,
+#   endif
+#  endif
+# endif
+  ']','\0'};
+#endif
+
+/* Construct a string literal encoding the internal version number. */
+#ifdef COMPILER_VERSION_INTERNAL
+char const info_version_internal[] = {
+  'I', 'N', 'F', 'O', ':',
+  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',
+  'i','n','t','e','r','n','a','l','[',
+  COMPILER_VERSION_INTERNAL,']','\0'};
+#endif
+
+/* Construct a string literal encoding the version number components. */
+#ifdef SIMULATE_VERSION_MAJOR
+char const info_simulate_version[] = {
+  'I', 'N', 'F', 'O', ':',
+  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',
+  SIMULATE_VERSION_MAJOR,
+# ifdef SIMULATE_VERSION_MINOR
+  '.', SIMULATE_VERSION_MINOR,
+#  ifdef SIMULATE_VERSION_PATCH
+   '.', SIMULATE_VERSION_PATCH,
+#   ifdef SIMULATE_VERSION_TWEAK
+    '.', SIMULATE_VERSION_TWEAK,
+#   endif
+#  endif
+# endif
+  ']','\0'};
+#endif
+
+/* Construct the string literal in pieces to prevent the source from
+   getting matched.  Store it in a pointer rather than an array
+   because some compilers will just produce instructions to fill the
+   array rather than assigning a pointer to a static array.  */
+char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+
+
+-- CMAKE_CXX_COMPILER_ID_RUN=1
+-- CMAKE_CXX_COMPILER_ID_TEST_FLAGS=-c;--c++;--ec++
+-- CMAKE_CXX_COMPILER_ID_TOOL_MATCH_INDEX=2
+-- CMAKE_CXX_COMPILER_ID_TOOL_MATCH_REGEX=
+Ld[^
+]*(
+[ 	]+[^
+]*)*
+[ 	]+([^ 	
+]+)[^
+]*-o[^
+]*CompilerIdCXX/(\./)?(CompilerIdCXX.xctest/)?CompilerIdCXX[ 	
+\"]
+-- CMAKE_CXX_COMPILER_ID_VENDORS=IAR
+-- CMAKE_CXX_COMPILER_ID_VENDOR_REGEX_IAR=IAR .+ Compiler
+-- CMAKE_CXX_COMPILER_INIT=C:/MinGW/bin/g++.exe
+-- CMAKE_CXX_COMPILER_LIST=C:/MinGW/bin/g++.exe
+-- CMAKE_CXX_COMPILER_LOADED=1
+-- CMAKE_CXX_COMPILER_NAMES=c++
+-- CMAKE_CXX_COMPILER_PREDEFINES_COMMAND=C:/MinGW/bin/g++.exe;-dM;-E;-c;C:/Program Files/JetBrains/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+-- CMAKE_CXX_COMPILER_PRODUCED_FILES=a.exe
+-- CMAKE_CXX_COMPILER_PRODUCED_OUTPUT=
+-- CMAKE_CXX_COMPILER_RANLIB=C:/MinGW/bin/gcc-ranlib.exe
+-- CMAKE_CXX_COMPILER_RANLIB=C:/MinGW/bin/gcc-ranlib.exe
+-- CMAKE_CXX_COMPILER_VERSION=8.2.0
+-- CMAKE_CXX_COMPILER_VERSION_INTERNAL=
+-- CMAKE_CXX_COMPILER_WORKS=TRUE
+-- CMAKE_CXX_COMPILER_WRAPPER=
+-- CMAKE_CXX_COMPILE_FEATURES=cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_attributes;cxx_auto_type;cxx_constexpr;cxx_decltype;cxx_decltype_incomplete_return_types;cxx_default_function_template_args;cxx_defaulted_functions;cxx_defaulted_move_initializers;cxx_delegating_constructors;cxx_deleted_functions;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_func_identifier;cxx_generalized_initializers;cxx_inheriting_constructors;cxx_inline_namespaces;cxx_lambdas;cxx_local_type_template_args;cxx_long_long_type;cxx_noexcept;cxx_nonstatic_member_init;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_reference_qualified_functions;cxx_right_angle_brackets;cxx_rvalue_references;cxx_sizeof_member;cxx_static_assert;cxx_strong_enums;cxx_thread_local;cxx_trailing_return_types;cxx_unicode_literals;cxx_uniform_initialization;cxx_unrestricted_unions;cxx_user_literals;cxx_variadic_macros;cxx_variadic_templates;cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_deprecated;cxx_binary_literals;cxx_contextual_conversions;cxx_decltype_auto;cxx_digit_separators;cxx_generic_lambdas;cxx_lambda_init_captures;cxx_relaxed_constexpr;cxx_return_type_deduction;cxx_variable_templates;cxx_std_17;cxx_std_20
+-- CMAKE_CXX_COMPILE_OBJECT=<CMAKE_CXX_COMPILER>  <DEFINES> <INCLUDES> <FLAGS> -o <OBJECT> -c <SOURCE>
+-- CMAKE_CXX_COMPILE_OPTIONS_IPO=-flto;-fno-fat-lto-objects
+-- CMAKE_CXX_COMPILE_OPTIONS_SYSROOT=--sysroot=
+-- CMAKE_CXX_COMPILE_OPTIONS_VISIBILITY=-fvisibility=
+-- CMAKE_CXX_COMPILE_OPTIONS_VISIBILITY_INLINES_HIDDEN=-fno-keep-inline-dllexport
+-- CMAKE_CXX_CREATE_ASSEMBLY_SOURCE=<CMAKE_CXX_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -S <SOURCE> -o <ASSEMBLY_SOURCE>
+-- CMAKE_CXX_CREATE_PREPROCESSED_SOURCE=<CMAKE_CXX_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -E <SOURCE> > <PREPROCESSED_SOURCE>
+-- CMAKE_CXX_CREATE_SHARED_LIBRARY=<CMAKE_COMMAND> -E remove -f <OBJECT_DIR>/objects.a;<CMAKE_AR> cr <OBJECT_DIR>/objects.a <OBJECTS>;<CMAKE_CXX_COMPILER> <CMAKE_SHARED_LIBRARY_CXX_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_LIBRARY_CREATE_CXX_FLAGS> -o <TARGET> -Wl,--out-implib,<TARGET_IMPLIB> -Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR> -Wl,--whole-archive <OBJECT_DIR>/objects.a -Wl,--no-whole-archive <LINK_LIBRARIES>
+-- CMAKE_CXX_CREATE_SHARED_MODULE=<CMAKE_COMMAND> -E remove -f <OBJECT_DIR>/objects.a;<CMAKE_AR> cr <OBJECT_DIR>/objects.a <OBJECTS>;<CMAKE_CXX_COMPILER> <CMAKE_SHARED_MODULE_CXX_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_MODULE_CREATE_CXX_FLAGS> -o <TARGET> -Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR> -Wl,--whole-archive <OBJECT_DIR>/objects.a -Wl,--no-whole-archive <LINK_LIBRARIES>
+-- CMAKE_CXX_FLAGS=
+-- CMAKE_CXX_FLAGS_DEBUG=-g
+-- CMAKE_CXX_FLAGS_DEBUG_INIT= -g
+-- CMAKE_CXX_FLAGS_INIT=  
+-- CMAKE_CXX_FLAGS_MINSIZEREL=-Os -DNDEBUG
+-- CMAKE_CXX_FLAGS_MINSIZEREL_INIT= -Os -DNDEBUG
+-- CMAKE_CXX_FLAGS_RELEASE=-O3 -DNDEBUG
+-- CMAKE_CXX_FLAGS_RELEASE_INIT= -O3 -DNDEBUG
+-- CMAKE_CXX_FLAGS_RELWITHDEBINFO=-O2 -g -DNDEBUG
+-- CMAKE_CXX_FLAGS_RELWITHDEBINFO_INIT= -O2 -g -DNDEBUG
+-- CMAKE_CXX_IGNORE_EXTENSIONS=inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC
+-- CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES=C:/MinGW/lib/gcc/mingw32/8.2.0;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib
+-- CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES=
+-- CMAKE_CXX_IMPLICIT_LINK_LIBRARIES=stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex
+-- CMAKE_CXX_INFORMATION_LOADED=1
+-- CMAKE_CXX_LIBRARY_ARCHITECTURE=
+-- CMAKE_CXX_LINKER_PREFERENCE=30
+-- CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES=1
+-- CMAKE_CXX_LINKER_WRAPPER_FLAG=-Wl,
+-- CMAKE_CXX_LINKER_WRAPPER_FLAG_SEP=,
+-- CMAKE_CXX_LINK_EXECUTABLE=<CMAKE_COMMAND> -E remove -f <OBJECT_DIR>/objects.a;<CMAKE_AR> cr <OBJECT_DIR>/objects.a <OBJECTS>;<CMAKE_CXX_COMPILER> <FLAGS> <CMAKE_CXX_LINK_FLAGS> <LINK_FLAGS> -Wl,--whole-archive <OBJECT_DIR>/objects.a -Wl,--no-whole-archive  -o <TARGET> -Wl,--out-implib,<TARGET_IMPLIB> -Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR> <LINK_LIBRARIES>
+-- CMAKE_CXX_OUTPUT_EXTENSION=.obj
+-- CMAKE_CXX_PLATFORM_ID=MinGW
+-- CMAKE_CXX_RESPONSE_FILE_LINK_FLAG=@
+-- CMAKE_CXX_SIMULATE_ID=
+-- CMAKE_CXX_SIMULATE_VERSION=
+-- CMAKE_CXX_SIZEOF_DATA_PTR=4
+-- CMAKE_CXX_SOURCE_FILE_EXTENSIONS=C;M;c++;cc;cpp;cxx;mm;CPP
+-- CMAKE_CXX_STANDARD=14
+-- CMAKE_CXX_STANDARD_COMPUTED_DEFAULT=14
+-- CMAKE_CXX_STANDARD_DEFAULT=14
+-- CMAKE_CXX_STANDARD_LIBRARIES=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+-- CMAKE_CXX_STANDARD_LIBRARIES_INIT=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+-- CMAKE_CXX_USE_RESPONSE_FILE_FOR_INCLUDES=1
+-- CMAKE_CXX_USE_RESPONSE_FILE_FOR_LIBRARIES=1
+-- CMAKE_CXX_USE_RESPONSE_FILE_FOR_OBJECTS=1
+-- CMAKE_CXX_VERBOSE_FLAG=-v
+-- CMAKE_CXX_XCODE_ARCHS=
+-- CMAKE_C_ABI_COMPILED=TRUE
+-- CMAKE_C_ARCHIVE_APPEND=<CMAKE_AR> q  <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_C_ARCHIVE_APPEND_IPO="C:/MinGW/bin/gcc-ar.exe" r <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_C_ARCHIVE_CREATE=<CMAKE_AR> qc <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_C_ARCHIVE_CREATE_IPO="C:/MinGW/bin/gcc-ar.exe" cr <TARGET> <LINK_FLAGS> <OBJECTS>
+-- CMAKE_C_ARCHIVE_FINISH=<CMAKE_RANLIB> <TARGET>
+-- CMAKE_C_ARCHIVE_FINISH_IPO="C:/MinGW/bin/gcc-ranlib.exe" <TARGET>
+-- CMAKE_C_CL_SHOWINCLUDES_PREFIX=
+-- CMAKE_C_COMPILER=C:/MinGW/bin/gcc.exe
+-- CMAKE_C_COMPILER=C:/MinGW/bin/gcc.exe
+-- CMAKE_C_COMPILER_ABI=
+-- CMAKE_C_COMPILER_AR=C:/MinGW/bin/gcc-ar.exe
+-- CMAKE_C_COMPILER_AR=C:/MinGW/bin/gcc-ar.exe
+-- CMAKE_C_COMPILER_ARCHITECTURE_ID=
+-- CMAKE_C_COMPILER_ARG1=
+-- CMAKE_C_COMPILER_ENV_VAR=CC
+-- CMAKE_C_COMPILER_ID=GNU
+-- CMAKE_C_COMPILER_ID_PLATFORM_CONTENT=#define STRINGIFY_HELPER(X) #X
+#define STRINGIFY(X) STRINGIFY_HELPER(X)
+
+/* Identify known platforms by name.  */
+#if defined(__linux) || defined(__linux__) || defined(linux)
+# define PLATFORM_ID "Linux"
+
+#elif defined(__CYGWIN__)
+# define PLATFORM_ID "Cygwin"
+
+#elif defined(__MINGW32__)
+# define PLATFORM_ID "MinGW"
+
+#elif defined(__APPLE__)
+# define PLATFORM_ID "Darwin"
+
+#elif defined(_WIN32) || defined(__WIN32__) || defined(WIN32)
+# define PLATFORM_ID "Windows"
+
+#elif defined(__FreeBSD__) || defined(__FreeBSD)
+# define PLATFORM_ID "FreeBSD"
+
+#elif defined(__NetBSD__) || defined(__NetBSD)
+# define PLATFORM_ID "NetBSD"
+
+#elif defined(__OpenBSD__) || defined(__OPENBSD)
+# define PLATFORM_ID "OpenBSD"
+
+#elif defined(__sun) || defined(sun)
+# define PLATFORM_ID "SunOS"
+
+#elif defined(_AIX) || defined(__AIX) || defined(__AIX__) || defined(__aix) || defined(__aix__)
+# define PLATFORM_ID "AIX"
+
+#elif defined(__sgi) || defined(__sgi__) || defined(_SGI)
+# define PLATFORM_ID "IRIX"
+
+#elif defined(__hpux) || defined(__hpux__)
+# define PLATFORM_ID "HP-UX"
+
+#elif defined(__HAIKU__)
+# define PLATFORM_ID "Haiku"
+
+#elif defined(__BeOS) || defined(__BEOS__) || defined(_BEOS)
+# define PLATFORM_ID "BeOS"
+
+#elif defined(__QNX__) || defined(__QNXNTO__)
+# define PLATFORM_ID "QNX"
+
+#elif defined(__tru64) || defined(_tru64) || defined(__TRU64__)
+# define PLATFORM_ID "Tru64"
+
+#elif defined(__riscos) || defined(__riscos__)
+# define PLATFORM_ID "RISCos"
+
+#elif defined(__sinix) || defined(__sinix__) || defined(__SINIX__)
+# define PLATFORM_ID "SINIX"
+
+#elif defined(__UNIX_SV__)
+# define PLATFORM_ID "UNIX_SV"
+
+#elif defined(__bsdos__)
+# define PLATFORM_ID "BSDOS"
+
+#elif defined(_MPRAS) || defined(MPRAS)
+# define PLATFORM_ID "MP-RAS"
+
+#elif defined(__osf) || defined(__osf__)
+# define PLATFORM_ID "OSF1"
+
+#elif defined(_SCO_SV) || defined(SCO_SV) || defined(sco_sv)
+# define PLATFORM_ID "SCO_SV"
+
+#elif defined(__ultrix) || defined(__ultrix__) || defined(_ULTRIX)
+# define PLATFORM_ID "ULTRIX"
+
+#elif defined(__XENIX__) || defined(_XENIX) || defined(XENIX)
+# define PLATFORM_ID "Xenix"
+
+#elif defined(__WATCOMC__)
+# if defined(__LINUX__)
+#  define PLATFORM_ID "Linux"
+
+# elif defined(__DOS__)
+#  define PLATFORM_ID "DOS"
+
+# elif defined(__OS2__)
+#  define PLATFORM_ID "OS2"
+
+# elif defined(__WINDOWS__)
+#  define PLATFORM_ID "Windows3x"
+
+# else /* unknown platform */
+#  define PLATFORM_ID
+# endif
+
+#else /* unknown platform */
+# define PLATFORM_ID
+
+#endif
+
+/* For windows compilers MSVC and Intel we can determine
+   the architecture of the compiler being used.  This is because
+   the compilers do not have flags that can change the architecture,
+   but rather depend on which compiler is being used
+*/
+#if defined(_WIN32) && defined(_MSC_VER)
+# if defined(_M_IA64)
+#  define ARCHITECTURE_ID "IA64"
+
+# elif defined(_M_X64) || defined(_M_AMD64)
+#  define ARCHITECTURE_ID "x64"
+
+# elif defined(_M_IX86)
+#  define ARCHITECTURE_ID "X86"
+
+# elif defined(_M_ARM64)
+#  define ARCHITECTURE_ID "ARM64"
+
+# elif defined(_M_ARM)
+#  if _M_ARM == 4
+#   define ARCHITECTURE_ID "ARMV4I"
+#  elif _M_ARM == 5
+#   define ARCHITECTURE_ID "ARMV5I"
+#  else
+#   define ARCHITECTURE_ID "ARMV" STRINGIFY(_M_ARM)
+#  endif
+
+# elif defined(_M_MIPS)
+#  define ARCHITECTURE_ID "MIPS"
+
+# elif defined(_M_SH)
+#  define ARCHITECTURE_ID "SHx"
+
+# else /* unknown architecture */
+#  define ARCHITECTURE_ID ""
+# endif
+
+#elif defined(__WATCOMC__)
+# if defined(_M_I86)
+#  define ARCHITECTURE_ID "I86"
+
+# elif defined(_M_IX86)
+#  define ARCHITECTURE_ID "X86"
+
+# else /* unknown architecture */
+#  define ARCHITECTURE_ID ""
+# endif
+
+#elif defined(__IAR_SYSTEMS_ICC__) || defined(__IAR_SYSTEMS_ICC)
+# if defined(__ICCARM__)
+#  define ARCHITECTURE_ID "ARM"
+
+# elif defined(__ICCAVR__)
+#  define ARCHITECTURE_ID "AVR"
+
+# else /* unknown architecture */
+#  define ARCHITECTURE_ID ""
+# endif
+#else
+#  define ARCHITECTURE_ID
+#endif
+
+/* Convert integer to decimal digit literals.  */
+#define DEC(n)                   \
+  ('0' + (((n) / 10000000)%10)), \
+  ('0' + (((n) / 1000000)%10)),  \
+  ('0' + (((n) / 100000)%10)),   \
+  ('0' + (((n) / 10000)%10)),    \
+  ('0' + (((n) / 1000)%10)),     \
+  ('0' + (((n) / 100)%10)),      \
+  ('0' + (((n) / 10)%10)),       \
+  ('0' +  ((n) % 10))
+
+/* Convert integer to hex digit literals.  */
+#define HEX(n)             \
+  ('0' + ((n)>>28 & 0xF)), \
+  ('0' + ((n)>>24 & 0xF)), \
+  ('0' + ((n)>>20 & 0xF)), \
+  ('0' + ((n)>>16 & 0xF)), \
+  ('0' + ((n)>>12 & 0xF)), \
+  ('0' + ((n)>>8  & 0xF)), \
+  ('0' + ((n)>>4  & 0xF)), \
+  ('0' + ((n)     & 0xF))
+
+/* Construct a string literal encoding the version number components. */
+#ifdef COMPILER_VERSION_MAJOR
+char const info_version[] = {
+  'I', 'N', 'F', 'O', ':',
+  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+  COMPILER_VERSION_MAJOR,
+# ifdef COMPILER_VERSION_MINOR
+  '.', COMPILER_VERSION_MINOR,
+#  ifdef COMPILER_VERSION_PATCH
+   '.', COMPILER_VERSION_PATCH,
+#   ifdef COMPILER_VERSION_TWEAK
+    '.', COMPILER_VERSION_TWEAK,
+#   endif
+#  endif
+# endif
+  ']','\0'};
+#endif
+
+/* Construct a string literal encoding the internal version number. */
+#ifdef COMPILER_VERSION_INTERNAL
+char const info_version_internal[] = {
+  'I', 'N', 'F', 'O', ':',
+  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',
+  'i','n','t','e','r','n','a','l','[',
+  COMPILER_VERSION_INTERNAL,']','\0'};
+#endif
+
+/* Construct a string literal encoding the version number components. */
+#ifdef SIMULATE_VERSION_MAJOR
+char const info_simulate_version[] = {
+  'I', 'N', 'F', 'O', ':',
+  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',
+  SIMULATE_VERSION_MAJOR,
+# ifdef SIMULATE_VERSION_MINOR
+  '.', SIMULATE_VERSION_MINOR,
+#  ifdef SIMULATE_VERSION_PATCH
+   '.', SIMULATE_VERSION_PATCH,
+#   ifdef SIMULATE_VERSION_TWEAK
+    '.', SIMULATE_VERSION_TWEAK,
+#   endif
+#  endif
+# endif
+  ']','\0'};
+#endif
+
+/* Construct the string literal in pieces to prevent the source from
+   getting matched.  Store it in a pointer rather than an array
+   because some compilers will just produce instructions to fill the
+   array rather than assigning a pointer to a static array.  */
+char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+
+
+-- CMAKE_C_COMPILER_ID_RUN=1
+-- CMAKE_C_COMPILER_ID_TEST_FLAGS=-c;-Aa;-D__CLASSIC_C__
+-- CMAKE_C_COMPILER_ID_TOOL_MATCH_INDEX=2
+-- CMAKE_C_COMPILER_ID_TOOL_MATCH_REGEX=
+Ld[^
+]*(
+[ 	]+[^
+]*)*
+[ 	]+([^ 	
+]+)[^
+]*-o[^
+]*CompilerIdC/(\./)?(CompilerIdC.xctest/)?CompilerIdC[ 	
+\"]
+-- CMAKE_C_COMPILER_ID_VENDORS=IAR
+-- CMAKE_C_COMPILER_ID_VENDOR_REGEX_IAR=IAR .+ Compiler
+-- CMAKE_C_COMPILER_INIT=C:/MinGW/bin/gcc.exe
+-- CMAKE_C_COMPILER_LIST=C:/MinGW/bin/gcc.exe
+-- CMAKE_C_COMPILER_LOADED=1
+-- CMAKE_C_COMPILER_NAMES=cc
+-- CMAKE_C_COMPILER_PREDEFINES_COMMAND=C:/MinGW/bin/gcc.exe;-dM;-E;-c;C:/Program Files/JetBrains/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+-- CMAKE_C_COMPILER_PRODUCED_FILES=a.exe
+-- CMAKE_C_COMPILER_PRODUCED_OUTPUT=
+-- CMAKE_C_COMPILER_RANLIB=C:/MinGW/bin/gcc-ranlib.exe
+-- CMAKE_C_COMPILER_RANLIB=C:/MinGW/bin/gcc-ranlib.exe
+-- CMAKE_C_COMPILER_VERSION=8.2.0
+-- CMAKE_C_COMPILER_VERSION_INTERNAL=
+-- CMAKE_C_COMPILER_WORKS=TRUE
+-- CMAKE_C_COMPILER_WRAPPER=
+-- CMAKE_C_COMPILE_FEATURES=c_std_90;c_function_prototypes;c_std_99;c_restrict;c_variadic_macros;c_std_11;c_static_assert
+-- CMAKE_C_COMPILE_OBJECT=<CMAKE_C_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -o <OBJECT>   -c <SOURCE>
+-- CMAKE_C_COMPILE_OPTIONS_IPO=-flto;-fno-fat-lto-objects
+-- CMAKE_C_COMPILE_OPTIONS_PIC=
+-- CMAKE_C_COMPILE_OPTIONS_PIE=
+-- CMAKE_C_COMPILE_OPTIONS_SYSROOT=--sysroot=
+-- CMAKE_C_COMPILE_OPTIONS_VISIBILITY=-fvisibility=
+-- CMAKE_C_CREATE_ASSEMBLY_SOURCE=<CMAKE_C_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -S <SOURCE> -o <ASSEMBLY_SOURCE>
+-- CMAKE_C_CREATE_PREPROCESSED_SOURCE=<CMAKE_C_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -E <SOURCE> > <PREPROCESSED_SOURCE>
+-- CMAKE_C_CREATE_SHARED_LIBRARY=<CMAKE_COMMAND> -E remove -f <OBJECT_DIR>/objects.a;<CMAKE_AR> cr <OBJECT_DIR>/objects.a <OBJECTS>;<CMAKE_C_COMPILER> <CMAKE_SHARED_LIBRARY_C_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_LIBRARY_CREATE_C_FLAGS> -o <TARGET> -Wl,--out-implib,<TARGET_IMPLIB> -Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR> -Wl,--whole-archive <OBJECT_DIR>/objects.a -Wl,--no-whole-archive <LINK_LIBRARIES>
+-- CMAKE_C_CREATE_SHARED_MODULE=<CMAKE_COMMAND> -E remove -f <OBJECT_DIR>/objects.a;<CMAKE_AR> cr <OBJECT_DIR>/objects.a <OBJECTS>;<CMAKE_C_COMPILER> <CMAKE_SHARED_MODULE_C_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_MODULE_CREATE_C_FLAGS> -o <TARGET> -Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR> -Wl,--whole-archive <OBJECT_DIR>/objects.a -Wl,--no-whole-archive <LINK_LIBRARIES>
+-- CMAKE_C_FLAGS=
+-- CMAKE_C_FLAGS_DEBUG=-g
+-- CMAKE_C_FLAGS_DEBUG_INIT= -g
+-- CMAKE_C_FLAGS_INIT=  
+-- CMAKE_C_FLAGS_MINSIZEREL=-Os -DNDEBUG
+-- CMAKE_C_FLAGS_MINSIZEREL_INIT= -Os -DNDEBUG
+-- CMAKE_C_FLAGS_RELEASE=-O3 -DNDEBUG
+-- CMAKE_C_FLAGS_RELEASE_INIT= -O3 -DNDEBUG
+-- CMAKE_C_FLAGS_RELWITHDEBINFO=-O2 -g -DNDEBUG
+-- CMAKE_C_FLAGS_RELWITHDEBINFO_INIT= -O2 -g -DNDEBUG
+-- CMAKE_C_IGNORE_EXTENSIONS=h;H;o;O;obj;OBJ;def;DEF;rc;RC
+-- CMAKE_C_IMPLICIT_LINK_DIRECTORIES=C:/MinGW/lib/gcc/mingw32/8.2.0;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib
+-- CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES=
+-- CMAKE_C_IMPLICIT_LINK_LIBRARIES=mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex
+-- CMAKE_C_INFORMATION_LOADED=1
+-- CMAKE_C_LIBRARY_ARCHITECTURE=
+-- CMAKE_C_LINKER_PREFERENCE=10
+-- CMAKE_C_LINKER_WRAPPER_FLAG=-Wl,
+-- CMAKE_C_LINKER_WRAPPER_FLAG_SEP=,
+-- CMAKE_C_LINK_EXECUTABLE=<CMAKE_COMMAND> -E remove -f <OBJECT_DIR>/objects.a;<CMAKE_AR> cr <OBJECT_DIR>/objects.a <OBJECTS>;<CMAKE_C_COMPILER> <FLAGS> <CMAKE_C_LINK_FLAGS> <LINK_FLAGS> -Wl,--whole-archive <OBJECT_DIR>/objects.a -Wl,--no-whole-archive  -o <TARGET> -Wl,--out-implib,<TARGET_IMPLIB> -Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR> <LINK_LIBRARIES>
+-- CMAKE_C_OUTPUT_EXTENSION=.obj
+-- CMAKE_C_PLATFORM_ID=MinGW
+-- CMAKE_C_RESPONSE_FILE_LINK_FLAG=@
+-- CMAKE_C_SIMULATE_ID=
+-- CMAKE_C_SIMULATE_VERSION=
+-- CMAKE_C_SIZEOF_DATA_PTR=4
+-- CMAKE_C_SOURCE_FILE_EXTENSIONS=c;m
+-- CMAKE_C_STANDARD_COMPUTED_DEFAULT=11
+-- CMAKE_C_STANDARD_DEFAULT=11
+-- CMAKE_C_STANDARD_LIBRARIES=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+-- CMAKE_C_STANDARD_LIBRARIES_INIT=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+-- CMAKE_C_USE_RESPONSE_FILE_FOR_INCLUDES=1
+-- CMAKE_C_USE_RESPONSE_FILE_FOR_LIBRARIES=1
+-- CMAKE_C_USE_RESPONSE_FILE_FOR_OBJECTS=1
+-- CMAKE_C_VERBOSE_FLAG=-v
+-- CMAKE_C_XCODE_ARCHS=
+-- CMAKE_DEPFILE_FLAGS_C=-MD -MT <OBJECT> -MF <DEPFILE>
+-- CMAKE_DEPFILE_FLAGS_CXX=-MD -MT <OBJECT> -MF <DEPFILE>
+-- CMAKE_DL_LIBS=
+-- CMAKE_EFFECTIVE_SYSTEM_NAME=Windows
+-- CMAKE_EXECUTABLE_FORMAT=Unknown
+-- CMAKE_EXECUTABLE_SUFFIX=.exe
+-- CMAKE_EXE_LINKER_FLAGS=
+-- CMAKE_EXE_LINKER_FLAGS_DEBUG=
+-- CMAKE_EXE_LINKER_FLAGS_INIT=  
+-- CMAKE_EXE_LINKER_FLAGS_MINSIZEREL=
+-- CMAKE_EXE_LINKER_FLAGS_RELEASE=
+-- CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO=
+-- CMAKE_EXE_LINK_DYNAMIC_CXX_FLAGS=-Wl,-Bdynamic
+-- CMAKE_EXE_LINK_DYNAMIC_C_FLAGS=-Wl,-Bdynamic
+-- CMAKE_EXE_LINK_STATIC_CXX_FLAGS=-Wl,-Bstatic
+-- CMAKE_EXE_LINK_STATIC_C_FLAGS=-Wl,-Bstatic
+-- CMAKE_EXTRA_GENERATOR=CodeBlocks
+-- CMAKE_EXTRA_GENERATOR_CXX_SYSTEM_DEFINED_MACROS=__STDC__;1;__STDC_VERSION__;201710L;__STDC_UTF_16__;1;__STDC_UTF_32__;1;__STDC_HOSTED__;1;__GNUC__;8;__GNUC_MINOR__;2;__GNUC_PATCHLEVEL__;0;__VERSION__;"8.2.0";__ATOMIC_RELAXED;0;__ATOMIC_SEQ_CST;5;__ATOMIC_ACQUIRE;2;__ATOMIC_RELEASE;3;__ATOMIC_ACQ_REL;4;__ATOMIC_CONSUME;1;__FINITE_MATH_ONLY__;0;__SIZEOF_INT__;4;__SIZEOF_LONG__;4;__SIZEOF_LONG_LONG__;8;__SIZEOF_SHORT__;2;__SIZEOF_FLOAT__;4;__SIZEOF_DOUBLE__;8;__SIZEOF_LONG_DOUBLE__;12;__SIZEOF_SIZE_T__;4;__CHAR_BIT__;8;__BIGGEST_ALIGNMENT__;16;__ORDER_LITTLE_ENDIAN__;1234;__ORDER_BIG_ENDIAN__;4321;__ORDER_PDP_ENDIAN__;3412;__BYTE_ORDER__;__ORDER_LITTLE_ENDIAN__;__FLOAT_WORD_ORDER__;__ORDER_LITTLE_ENDIAN__;__SIZEOF_POINTER__;4;__SIZE_TYPE__;unsigned int;__PTRDIFF_TYPE__;int;__WCHAR_TYPE__;short unsigned int;__WINT_TYPE__;short unsigned int;__INTMAX_TYPE__;long long int;__UINTMAX_TYPE__;long long unsigned int;__CHAR16_TYPE__;short unsigned int;__CHAR32_TYPE__;unsigned int;__SIG_ATOMIC_TYPE__;int;__INT8_TYPE__;signed char;__INT16_TYPE__;short int;__INT32_TYPE__;int;__INT64_TYPE__;long long int;__UINT8_TYPE__;unsigned char;__UINT16_TYPE__;short unsigned int;__UINT32_TYPE__;unsigned int;__UINT64_TYPE__;long long unsigned int;__INT_LEAST8_TYPE__;signed char;__INT_LEAST16_TYPE__;short int;__INT_LEAST32_TYPE__;int;__INT_LEAST64_TYPE__;long long int;__UINT_LEAST8_TYPE__;unsigned char;__UINT_LEAST16_TYPE__;short unsigned int;__UINT_LEAST32_TYPE__;unsigned int;__UINT_LEAST64_TYPE__;long long unsigned int;__INT_FAST8_TYPE__;signed char;__INT_FAST16_TYPE__;short int;__INT_FAST32_TYPE__;int;__INT_FAST64_TYPE__;long long int;__UINT_FAST8_TYPE__;unsigned char;__UINT_FAST16_TYPE__;short unsigned int;__UINT_FAST32_TYPE__;unsigned int;__UINT_FAST64_TYPE__;long long unsigned int;__INTPTR_TYPE__;int;__UINTPTR_TYPE__;unsigned int;__has_include(STR);__has_include__(STR);__has_include_next(STR);__has_include_next__(STR);__GXX_ABI_VERSION;1013;__SCHAR_MAX__;0x7f;__SHRT_MAX__;0x7fff;__INT_MAX__;0x7fffffff;__LONG_MAX__;0x7fffffffL;__LONG_LONG_MAX__;0x7fffffffffffffffLL;__WCHAR_MAX__;0xffff;__WCHAR_MIN__;0;__WINT_MAX__;0xffff;__WINT_MIN__;0;__PTRDIFF_MAX__;0x7fffffff;__SIZE_MAX__;0xffffffffU;__SCHAR_WIDTH__;8;__SHRT_WIDTH__;16;__INT_WIDTH__;32;__LONG_WIDTH__;32;__LONG_LONG_WIDTH__;64;__WCHAR_WIDTH__;16;__WINT_WIDTH__;16;__PTRDIFF_WIDTH__;32;__SIZE_WIDTH__;32;__INTMAX_MAX__;0x7fffffffffffffffLL;__INTMAX_C(c);c ## LL;__UINTMAX_MAX__;0xffffffffffffffffULL;__UINTMAX_C(c);c ## ULL;__INTMAX_WIDTH__;64;__SIG_ATOMIC_MAX__;0x7fffffff;__SIG_ATOMIC_MIN__;(-__SIG_ATOMIC_MAX__ - 1);__SIG_ATOMIC_WIDTH__;32;__INT8_MAX__;0x7f;__INT16_MAX__;0x7fff;__INT32_MAX__;0x7fffffff;__INT64_MAX__;0x7fffffffffffffffLL;__UINT8_MAX__;0xff;__UINT16_MAX__;0xffff;__UINT32_MAX__;0xffffffffU;__UINT64_MAX__;0xffffffffffffffffULL;__INT_LEAST8_MAX__;0x7f;__INT8_C(c);c;__INT_LEAST8_WIDTH__;8;__INT_LEAST16_MAX__;0x7fff;__INT16_C(c);c;__INT_LEAST16_WIDTH__;16;__INT_LEAST32_MAX__;0x7fffffff;__INT32_C(c);c;__INT_LEAST32_WIDTH__;32;__INT_LEAST64_MAX__;0x7fffffffffffffffLL;__INT64_C(c);c ## LL;__INT_LEAST64_WIDTH__;64;__UINT_LEAST8_MAX__;0xff;__UINT8_C(c);c;__UINT_LEAST16_MAX__;0xffff;__UINT16_C(c);c;__UINT_LEAST32_MAX__;0xffffffffU;__UINT32_C(c);c ## U;__UINT_LEAST64_MAX__;0xffffffffffffffffULL;__UINT64_C(c);c ## ULL;__INT_FAST8_MAX__;0x7f;__INT_FAST8_WIDTH__;8;__INT_FAST16_MAX__;0x7fff;__INT_FAST16_WIDTH__;16;__INT_FAST32_MAX__;0x7fffffff;__INT_FAST32_WIDTH__;32;__INT_FAST64_MAX__;0x7fffffffffffffffLL;__INT_FAST64_WIDTH__;64;__UINT_FAST8_MAX__;0xff;__UINT_FAST16_MAX__;0xffff;__UINT_FAST32_MAX__;0xffffffffU;__UINT_FAST64_MAX__;0xffffffffffffffffULL;__INTPTR_MAX__;0x7fffffff;__INTPTR_WIDTH__;32;__UINTPTR_MAX__;0xffffffffU;__GCC_IEC_559;2;__GCC_IEC_559_COMPLEX;2;__FLT_EVAL_METHOD__;2;__FLT_EVAL_METHOD_TS_18661_3__;2;__DEC_EVAL_METHOD__;2;__FLT_RADIX__;2;__FLT_MANT_DIG__;24;__FLT_DIG__;6;__FLT_MIN_EXP__;(-125);__FLT_MIN_10_EXP__;(-37);__FLT_MAX_EXP__;128;__FLT_MAX_10_EXP__;38;__FLT_DECIMAL_DIG__;9;__FLT_MAX__;3.40282346638528859811704183484516925e+38F;__FLT_MIN__;1.17549435082228750796873653722224568e-38F;__FLT_EPSILON__;1.19209289550781250000000000000000000e-7F;__FLT_DENORM_MIN__;1.40129846432481707092372958328991613e-45F;__FLT_HAS_DENORM__;1;__FLT_HAS_INFINITY__;1;__FLT_HAS_QUIET_NAN__;1;__DBL_MANT_DIG__;53;__DBL_DIG__;15;__DBL_MIN_EXP__;(-1021);__DBL_MIN_10_EXP__;(-307);__DBL_MAX_EXP__;1024;__DBL_MAX_10_EXP__;308;__DBL_DECIMAL_DIG__;17;__DBL_MAX__;((double)1.79769313486231570814527423731704357e+308L);__DBL_MIN__;((double)2.22507385850720138309023271733240406e-308L);__DBL_EPSILON__;((double)2.22044604925031308084726333618164062e-16L);__DBL_DENORM_MIN__;((double)4.94065645841246544176568792868221372e-324L);__DBL_HAS_DENORM__;1;__DBL_HAS_INFINITY__;1;__DBL_HAS_QUIET_NAN__;1;__LDBL_MANT_DIG__;64;__LDBL_DIG__;18;__LDBL_MIN_EXP__;(-16381);__LDBL_MIN_10_EXP__;(-4931);__LDBL_MAX_EXP__;16384;__LDBL_MAX_10_EXP__;4932;__DECIMAL_DIG__;21;__LDBL_DECIMAL_DIG__;21;__LDBL_MAX__;1.18973149535723176502126385303097021e+4932L;__LDBL_MIN__;3.36210314311209350626267781732175260e-4932L;__LDBL_EPSILON__;1.08420217248550443400745280086994171e-19L;__LDBL_DENORM_MIN__;3.64519953188247460252840593361941982e-4951L;__LDBL_HAS_DENORM__;1;__LDBL_HAS_INFINITY__;1;__LDBL_HAS_QUIET_NAN__;1;__FLT32_MANT_DIG__;24;__FLT32_DIG__;6;__FLT32_MIN_EXP__;(-125);__FLT32_MIN_10_EXP__;(-37);__FLT32_MAX_EXP__;128;__FLT32_MAX_10_EXP__;38;__FLT32_DECIMAL_DIG__;9;__FLT32_MAX__;3.40282346638528859811704183484516925e+38F32;__FLT32_MIN__;1.17549435082228750796873653722224568e-38F32;__FLT32_EPSILON__;1.19209289550781250000000000000000000e-7F32;__FLT32_DENORM_MIN__;1.40129846432481707092372958328991613e-45F32;__FLT32_HAS_DENORM__;1;__FLT32_HAS_INFINITY__;1;__FLT32_HAS_QUIET_NAN__;1;__FLT64_MANT_DIG__;53;__FLT64_DIG__;15;__FLT64_MIN_EXP__;(-1021);__FLT64_MIN_10_EXP__;(-307);__FLT64_MAX_EXP__;1024;__FLT64_MAX_10_EXP__;308;__FLT64_DECIMAL_DIG__;17;__FLT64_MAX__;1.79769313486231570814527423731704357e+308F64;__FLT64_MIN__;2.22507385850720138309023271733240406e-308F64;__FLT64_EPSILON__;2.22044604925031308084726333618164062e-16F64;__FLT64_DENORM_MIN__;4.94065645841246544176568792868221372e-324F64;__FLT64_HAS_DENORM__;1;__FLT64_HAS_INFINITY__;1;__FLT64_HAS_QUIET_NAN__;1;__FLT128_MANT_DIG__;113;__FLT128_DIG__;33;__FLT128_MIN_EXP__;(-16381);__FLT128_MIN_10_EXP__;(-4931);__FLT128_MAX_EXP__;16384;__FLT128_MAX_10_EXP__;4932;__FLT128_DECIMAL_DIG__;36;__FLT128_MAX__;1.18973149535723176508575932662800702e+4932F128;__FLT128_MIN__;3.36210314311209350626267781732175260e-4932F128;__FLT128_EPSILON__;1.92592994438723585305597794258492732e-34F128;__FLT128_DENORM_MIN__;6.47517511943802511092443895822764655e-4966F128;__FLT128_HAS_DENORM__;1;__FLT128_HAS_INFINITY__;1;__FLT128_HAS_QUIET_NAN__;1;__FLT32X_MANT_DIG__;53;__FLT32X_DIG__;15;__FLT32X_MIN_EXP__;(-1021);__FLT32X_MIN_10_EXP__;(-307);__FLT32X_MAX_EXP__;1024;__FLT32X_MAX_10_EXP__;308;__FLT32X_DECIMAL_DIG__;17;__FLT32X_MAX__;1.79769313486231570814527423731704357e+308F32x;__FLT32X_MIN__;2.22507385850720138309023271733240406e-308F32x;__FLT32X_EPSILON__;2.22044604925031308084726333618164062e-16F32x;__FLT32X_DENORM_MIN__;4.94065645841246544176568792868221372e-324F32x;__FLT32X_HAS_DENORM__;1;__FLT32X_HAS_INFINITY__;1;__FLT32X_HAS_QUIET_NAN__;1;__FLT64X_MANT_DIG__;64;__FLT64X_DIG__;18;__FLT64X_MIN_EXP__;(-16381);__FLT64X_MIN_10_EXP__;(-4931);__FLT64X_MAX_EXP__;16384;__FLT64X_MAX_10_EXP__;4932;__FLT64X_DECIMAL_DIG__;21;__FLT64X_MAX__;1.18973149535723176502126385303097021e+4932F64x;__FLT64X_MIN__;3.36210314311209350626267781732175260e-4932F64x;__FLT64X_EPSILON__;1.08420217248550443400745280086994171e-19F64x;__FLT64X_DENORM_MIN__;3.64519953188247460252840593361941982e-4951F64x;__FLT64X_HAS_DENORM__;1;__FLT64X_HAS_INFINITY__;1;__FLT64X_HAS_QUIET_NAN__;1;__DEC32_MANT_DIG__;7;__DEC32_MIN_EXP__;(-94);__DEC32_MAX_EXP__;97;__DEC32_MIN__;1E-95DF;__DEC32_MAX__;9.999999E96DF;__DEC32_EPSILON__;1E-6DF;__DEC32_SUBNORMAL_MIN__;0.000001E-95DF;__DEC64_MANT_DIG__;16;__DEC64_MIN_EXP__;(-382);__DEC64_MAX_EXP__;385;__DEC64_MIN__;1E-383DD;__DEC64_MAX__;9.999999999999999E384DD;__DEC64_EPSILON__;1E-15DD;__DEC64_SUBNORMAL_MIN__;0.000000000000001E-383DD;__DEC128_MANT_DIG__;34;__DEC128_MIN_EXP__;(-6142);__DEC128_MAX_EXP__;6145;__DEC128_MIN__;1E-6143DL;__DEC128_MAX__;9.999999999999999999999999999999999E6144DL;__DEC128_EPSILON__;1E-33DL;__DEC128_SUBNORMAL_MIN__;0.000000000000000000000000000000001E-6143DL;__REGISTER_PREFIX__; ;__USER_LABEL_PREFIX__;_;__GNUC_STDC_INLINE__;1;__NO_INLINE__;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8;1;__GCC_ATOMIC_BOOL_LOCK_FREE;2;__GCC_ATOMIC_CHAR_LOCK_FREE;2;__GCC_ATOMIC_CHAR16_T_LOCK_FREE;2;__GCC_ATOMIC_CHAR32_T_LOCK_FREE;2;__GCC_ATOMIC_WCHAR_T_LOCK_FREE;2;__GCC_ATOMIC_SHORT_LOCK_FREE;2;__GCC_ATOMIC_INT_LOCK_FREE;2;__GCC_ATOMIC_LONG_LOCK_FREE;2;__GCC_ATOMIC_LLONG_LOCK_FREE;2;__GCC_ATOMIC_TEST_AND_SET_TRUEVAL;1;__GCC_ATOMIC_POINTER_LOCK_FREE;2;__GCC_HAVE_DWARF2_CFI_ASM;1;__PRAGMA_REDEFINE_EXTNAME;1;__SIZEOF_WCHAR_T__;2;__SIZEOF_WINT_T__;2;__SIZEOF_PTRDIFF_T__;4;__i386;1;__i386__;1;i386;1;__SIZEOF_FLOAT80__;12;__SIZEOF_FLOAT128__;16;__ATOMIC_HLE_ACQUIRE;65536;__ATOMIC_HLE_RELEASE;131072;__GCC_ASM_FLAG_OUTPUTS__;1;__i586;1;__i586__;1;__pentium;1;__pentium__;1;__code_model_32__;1;__SEG_FS;1;__SEG_GS;1;_X86_;1;__stdcall;__attribute__((__stdcall__));__fastcall;__attribute__((__fastcall__));__thiscall;__attribute__((__thiscall__));__cdecl;__attribute__((__cdecl__));_stdcall;__attribute__((__stdcall__));_fastcall;__attribute__((__fastcall__));_thiscall;__attribute__((__thiscall__));_cdecl;__attribute__((__cdecl__));__GXX_MERGED_TYPEINFO_NAMES;0;__GXX_TYPEINFO_EQUALITY_INLINE;0;__MSVCRT__;1;__MINGW32__;1;_WIN32;1;__WIN32;1;__WIN32__;1;WIN32;1;__WINNT;1;__WINNT__;1;WINNT;1;_INTEGRAL_MAX_BITS;64;__declspec(x);__attribute__((x));__DECIMAL_BID_FORMAT__;1;__STDC__;1;__cplusplus;201402L;__STDC_UTF_16__;1;__STDC_UTF_32__;1;__STDC_HOSTED__;1;__GNUC__;8;__GNUC_MINOR__;2;__GNUC_PATCHLEVEL__;0;__VERSION__;"8.2.0";__ATOMIC_RELAXED;0;__ATOMIC_SEQ_CST;5;__ATOMIC_ACQUIRE;2;__ATOMIC_RELEASE;3;__ATOMIC_ACQ_REL;4;__ATOMIC_CONSUME;1;__FINITE_MATH_ONLY__;0;__SIZEOF_INT__;4;__SIZEOF_LONG__;4;__SIZEOF_LONG_LONG__;8;__SIZEOF_SHORT__;2;__SIZEOF_FLOAT__;4;__SIZEOF_DOUBLE__;8;__SIZEOF_LONG_DOUBLE__;12;__SIZEOF_SIZE_T__;4;__CHAR_BIT__;8;__BIGGEST_ALIGNMENT__;16;__ORDER_LITTLE_ENDIAN__;1234;__ORDER_BIG_ENDIAN__;4321;__ORDER_PDP_ENDIAN__;3412;__BYTE_ORDER__;__ORDER_LITTLE_ENDIAN__;__FLOAT_WORD_ORDER__;__ORDER_LITTLE_ENDIAN__;__SIZEOF_POINTER__;4;__GNUG__;8;__SIZE_TYPE__;unsigned int;__PTRDIFF_TYPE__;int;__WCHAR_TYPE__;short unsigned int;__WINT_TYPE__;short unsigned int;__INTMAX_TYPE__;long long int;__UINTMAX_TYPE__;long long unsigned int;__CHAR16_TYPE__;short unsigned int;__CHAR32_TYPE__;unsigned int;__SIG_ATOMIC_TYPE__;int;__INT8_TYPE__;signed char;__INT16_TYPE__;short int;__INT32_TYPE__;int;__INT64_TYPE__;long long int;__UINT8_TYPE__;unsigned char;__UINT16_TYPE__;short unsigned int;__UINT32_TYPE__;unsigned int;__UINT64_TYPE__;long long unsigned int;__INT_LEAST8_TYPE__;signed char;__INT_LEAST16_TYPE__;short int;__INT_LEAST32_TYPE__;int;__INT_LEAST64_TYPE__;long long int;__UINT_LEAST8_TYPE__;unsigned char;__UINT_LEAST16_TYPE__;short unsigned int;__UINT_LEAST32_TYPE__;unsigned int;__UINT_LEAST64_TYPE__;long long unsigned int;__INT_FAST8_TYPE__;signed char;__INT_FAST16_TYPE__;short int;__INT_FAST32_TYPE__;int;__INT_FAST64_TYPE__;long long int;__UINT_FAST8_TYPE__;unsigned char;__UINT_FAST16_TYPE__;short unsigned int;__UINT_FAST32_TYPE__;unsigned int;__UINT_FAST64_TYPE__;long long unsigned int;__INTPTR_TYPE__;int;__UINTPTR_TYPE__;unsigned int;__has_include(STR);__has_include__(STR);__has_include_next(STR);__has_include_next__(STR);__GXX_WEAK__;1;__DEPRECATED;1;__GXX_RTTI;1;__cpp_rtti;199711;__GXX_EXPERIMENTAL_CXX0X__;1;__cpp_binary_literals;201304;__cpp_hex_float;201603;__cpp_runtime_arrays;198712;__cpp_unicode_characters;200704;__cpp_raw_strings;200710;__cpp_unicode_literals;200710;__cpp_user_defined_literals;200809;__cpp_lambdas;200907;__cpp_range_based_for;200907;__cpp_static_assert;200410;__cpp_decltype;200707;__cpp_attributes;200809;__cpp_rvalue_reference;200610;__cpp_rvalue_references;200610;__cpp_variadic_templates;200704;__cpp_initializer_lists;200806;__cpp_delegating_constructors;200604;__cpp_nsdmi;200809;__cpp_inheriting_constructors;201511;__cpp_ref_qualifiers;200710;__cpp_alias_templates;200704;__cpp_return_type_deduction;201304;__cpp_init_captures;201304;__cpp_generic_lambdas;201304;__cpp_constexpr;201304;__cpp_decltype_auto;201304;__cpp_aggregate_nsdmi;201304;__cpp_variable_templates;201304;__cpp_digit_separators;201309;__cpp_sized_deallocation;201309;__cpp_threadsafe_static_init;200806;__EXCEPTIONS;1;__cpp_exceptions;199711;__GXX_ABI_VERSION;1013;__SCHAR_MAX__;0x7f;__SHRT_MAX__;0x7fff;__INT_MAX__;0x7fffffff;__LONG_MAX__;0x7fffffffL;__LONG_LONG_MAX__;0x7fffffffffffffffLL;__WCHAR_MAX__;0xffff;__WCHAR_MIN__;0;__WINT_MAX__;0xffff;__WINT_MIN__;0;__PTRDIFF_MAX__;0x7fffffff;__SIZE_MAX__;0xffffffffU;__SCHAR_WIDTH__;8;__SHRT_WIDTH__;16;__INT_WIDTH__;32;__LONG_WIDTH__;32;__LONG_LONG_WIDTH__;64;__WCHAR_WIDTH__;16;__WINT_WIDTH__;16;__PTRDIFF_WIDTH__;32;__SIZE_WIDTH__;32;__INTMAX_MAX__;0x7fffffffffffffffLL;__INTMAX_C(c);c ## LL;__UINTMAX_MAX__;0xffffffffffffffffULL;__UINTMAX_C(c);c ## ULL;__INTMAX_WIDTH__;64;__SIG_ATOMIC_MAX__;0x7fffffff;__SIG_ATOMIC_MIN__;(-__SIG_ATOMIC_MAX__ - 1);__SIG_ATOMIC_WIDTH__;32;__INT8_MAX__;0x7f;__INT16_MAX__;0x7fff;__INT32_MAX__;0x7fffffff;__INT64_MAX__;0x7fffffffffffffffLL;__UINT8_MAX__;0xff;__UINT16_MAX__;0xffff;__UINT32_MAX__;0xffffffffU;__UINT64_MAX__;0xffffffffffffffffULL;__INT_LEAST8_MAX__;0x7f;__INT8_C(c);c;__INT_LEAST8_WIDTH__;8;__INT_LEAST16_MAX__;0x7fff;__INT16_C(c);c;__INT_LEAST16_WIDTH__;16;__INT_LEAST32_MAX__;0x7fffffff;__INT32_C(c);c;__INT_LEAST32_WIDTH__;32;__INT_LEAST64_MAX__;0x7fffffffffffffffLL;__INT64_C(c);c ## LL;__INT_LEAST64_WIDTH__;64;__UINT_LEAST8_MAX__;0xff;__UINT8_C(c);c;__UINT_LEAST16_MAX__;0xffff;__UINT16_C(c);c;__UINT_LEAST32_MAX__;0xffffffffU;__UINT32_C(c);c ## U;__UINT_LEAST64_MAX__;0xffffffffffffffffULL;__UINT64_C(c);c ## ULL;__INT_FAST8_MAX__;0x7f;__INT_FAST8_WIDTH__;8;__INT_FAST16_MAX__;0x7fff;__INT_FAST16_WIDTH__;16;__INT_FAST32_MAX__;0x7fffffff;__INT_FAST32_WIDTH__;32;__INT_FAST64_MAX__;0x7fffffffffffffffLL;__INT_FAST64_WIDTH__;64;__UINT_FAST8_MAX__;0xff;__UINT_FAST16_MAX__;0xffff;__UINT_FAST32_MAX__;0xffffffffU;__UINT_FAST64_MAX__;0xffffffffffffffffULL;__INTPTR_MAX__;0x7fffffff;__INTPTR_WIDTH__;32;__UINTPTR_MAX__;0xffffffffU;__GCC_IEC_559;2;__GCC_IEC_559_COMPLEX;2;__FLT_EVAL_METHOD__;2;__FLT_EVAL_METHOD_TS_18661_3__;2;__DEC_EVAL_METHOD__;2;__FLT_RADIX__;2;__FLT_MANT_DIG__;24;__FLT_DIG__;6;__FLT_MIN_EXP__;(-125);__FLT_MIN_10_EXP__;(-37);__FLT_MAX_EXP__;128;__FLT_MAX_10_EXP__;38;__FLT_DECIMAL_DIG__;9;__FLT_MAX__;3.40282346638528859811704183484516925e+38F;__FLT_MIN__;1.17549435082228750796873653722224568e-38F;__FLT_EPSILON__;1.19209289550781250000000000000000000e-7F;__FLT_DENORM_MIN__;1.40129846432481707092372958328991613e-45F;__FLT_HAS_DENORM__;1;__FLT_HAS_INFINITY__;1;__FLT_HAS_QUIET_NAN__;1;__DBL_MANT_DIG__;53;__DBL_DIG__;15;__DBL_MIN_EXP__;(-1021);__DBL_MIN_10_EXP__;(-307);__DBL_MAX_EXP__;1024;__DBL_MAX_10_EXP__;308;__DBL_DECIMAL_DIG__;17;__DBL_MAX__;double(1.79769313486231570814527423731704357e+308L);__DBL_MIN__;double(2.22507385850720138309023271733240406e-308L);__DBL_EPSILON__;double(2.22044604925031308084726333618164062e-16L);__DBL_DENORM_MIN__;double(4.94065645841246544176568792868221372e-324L);__DBL_HAS_DENORM__;1;__DBL_HAS_INFINITY__;1;__DBL_HAS_QUIET_NAN__;1;__LDBL_MANT_DIG__;64;__LDBL_DIG__;18;__LDBL_MIN_EXP__;(-16381);__LDBL_MIN_10_EXP__;(-4931);__LDBL_MAX_EXP__;16384;__LDBL_MAX_10_EXP__;4932;__DECIMAL_DIG__;21;__LDBL_DECIMAL_DIG__;21;__LDBL_MAX__;1.18973149535723176502126385303097021e+4932L;__LDBL_MIN__;3.36210314311209350626267781732175260e-4932L;__LDBL_EPSILON__;1.08420217248550443400745280086994171e-19L;__LDBL_DENORM_MIN__;3.64519953188247460252840593361941982e-4951L;__LDBL_HAS_DENORM__;1;__LDBL_HAS_INFINITY__;1;__LDBL_HAS_QUIET_NAN__;1;__FLT32_MANT_DIG__;24;__FLT32_DIG__;6;__FLT32_MIN_EXP__;(-125);__FLT32_MIN_10_EXP__;(-37);__FLT32_MAX_EXP__;128;__FLT32_MAX_10_EXP__;38;__FLT32_DECIMAL_DIG__;9;__FLT32_MAX__;3.40282346638528859811704183484516925e+38F32;__FLT32_MIN__;1.17549435082228750796873653722224568e-38F32;__FLT32_EPSILON__;1.19209289550781250000000000000000000e-7F32;__FLT32_DENORM_MIN__;1.40129846432481707092372958328991613e-45F32;__FLT32_HAS_DENORM__;1;__FLT32_HAS_INFINITY__;1;__FLT32_HAS_QUIET_NAN__;1;__FLT64_MANT_DIG__;53;__FLT64_DIG__;15;__FLT64_MIN_EXP__;(-1021);__FLT64_MIN_10_EXP__;(-307);__FLT64_MAX_EXP__;1024;__FLT64_MAX_10_EXP__;308;__FLT64_DECIMAL_DIG__;17;__FLT64_MAX__;1.79769313486231570814527423731704357e+308F64;__FLT64_MIN__;2.22507385850720138309023271733240406e-308F64;__FLT64_EPSILON__;2.22044604925031308084726333618164062e-16F64;__FLT64_DENORM_MIN__;4.94065645841246544176568792868221372e-324F64;__FLT64_HAS_DENORM__;1;__FLT64_HAS_INFINITY__;1;__FLT64_HAS_QUIET_NAN__;1;__FLT128_MANT_DIG__;113;__FLT128_DIG__;33;__FLT128_MIN_EXP__;(-16381);__FLT128_MIN_10_EXP__;(-4931);__FLT128_MAX_EXP__;16384;__FLT128_MAX_10_EXP__;4932;__FLT128_DECIMAL_DIG__;36;__FLT128_MAX__;1.18973149535723176508575932662800702e+4932F128;__FLT128_MIN__;3.36210314311209350626267781732175260e-4932F128;__FLT128_EPSILON__;1.92592994438723585305597794258492732e-34F128;__FLT128_DENORM_MIN__;6.47517511943802511092443895822764655e-4966F128;__FLT128_HAS_DENORM__;1;__FLT128_HAS_INFINITY__;1;__FLT128_HAS_QUIET_NAN__;1;__FLT32X_MANT_DIG__;53;__FLT32X_DIG__;15;__FLT32X_MIN_EXP__;(-1021);__FLT32X_MIN_10_EXP__;(-307);__FLT32X_MAX_EXP__;1024;__FLT32X_MAX_10_EXP__;308;__FLT32X_DECIMAL_DIG__;17;__FLT32X_MAX__;1.79769313486231570814527423731704357e+308F32x;__FLT32X_MIN__;2.22507385850720138309023271733240406e-308F32x;__FLT32X_EPSILON__;2.22044604925031308084726333618164062e-16F32x;__FLT32X_DENORM_MIN__;4.94065645841246544176568792868221372e-324F32x;__FLT32X_HAS_DENORM__;1;__FLT32X_HAS_INFINITY__;1;__FLT32X_HAS_QUIET_NAN__;1;__FLT64X_MANT_DIG__;64;__FLT64X_DIG__;18;__FLT64X_MIN_EXP__;(-16381);__FLT64X_MIN_10_EXP__;(-4931);__FLT64X_MAX_EXP__;16384;__FLT64X_MAX_10_EXP__;4932;__FLT64X_DECIMAL_DIG__;21;__FLT64X_MAX__;1.18973149535723176502126385303097021e+4932F64x;__FLT64X_MIN__;3.36210314311209350626267781732175260e-4932F64x;__FLT64X_EPSILON__;1.08420217248550443400745280086994171e-19F64x;__FLT64X_DENORM_MIN__;3.64519953188247460252840593361941982e-4951F64x;__FLT64X_HAS_DENORM__;1;__FLT64X_HAS_INFINITY__;1;__FLT64X_HAS_QUIET_NAN__;1;__DEC32_MANT_DIG__;7;__DEC32_MIN_EXP__;(-94);__DEC32_MAX_EXP__;97;__DEC32_MIN__;1E-95DF;__DEC32_MAX__;9.999999E96DF;__DEC32_EPSILON__;1E-6DF;__DEC32_SUBNORMAL_MIN__;0.000001E-95DF;__DEC64_MANT_DIG__;16;__DEC64_MIN_EXP__;(-382);__DEC64_MAX_EXP__;385;__DEC64_MIN__;1E-383DD;__DEC64_MAX__;9.999999999999999E384DD;__DEC64_EPSILON__;1E-15DD;__DEC64_SUBNORMAL_MIN__;0.000000000000001E-383DD;__DEC128_MANT_DIG__;34;__DEC128_MIN_EXP__;(-6142);__DEC128_MAX_EXP__;6145;__DEC128_MIN__;1E-6143DL;__DEC128_MAX__;9.999999999999999999999999999999999E6144DL;__DEC128_EPSILON__;1E-33DL;__DEC128_SUBNORMAL_MIN__;0.000000000000000000000000000000001E-6143DL;__REGISTER_PREFIX__; ;__USER_LABEL_PREFIX__;_;__GNUC_STDC_INLINE__;1;__NO_INLINE__;1;__WCHAR_UNSIGNED__;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8;1;__GCC_ATOMIC_BOOL_LOCK_FREE;2;__GCC_ATOMIC_CHAR_LOCK_FREE;2;__GCC_ATOMIC_CHAR16_T_LOCK_FREE;2;__GCC_ATOMIC_CHAR32_T_LOCK_FREE;2;__GCC_ATOMIC_WCHAR_T_LOCK_FREE;2;__GCC_ATOMIC_SHORT_LOCK_FREE;2;__GCC_ATOMIC_INT_LOCK_FREE;2;__GCC_ATOMIC_LONG_LOCK_FREE;2;__GCC_ATOMIC_LLONG_LOCK_FREE;2;__GCC_ATOMIC_TEST_AND_SET_TRUEVAL;1;__GCC_ATOMIC_POINTER_LOCK_FREE;2;__GCC_HAVE_DWARF2_CFI_ASM;1;__PRAGMA_REDEFINE_EXTNAME;1;__SIZEOF_WCHAR_T__;2;__SIZEOF_WINT_T__;2;__SIZEOF_PTRDIFF_T__;4;__i386;1;__i386__;1;i386;1;__SIZEOF_FLOAT80__;12;__SIZEOF_FLOAT128__;16;__ATOMIC_HLE_ACQUIRE;65536;__ATOMIC_HLE_RELEASE;131072;__GCC_ASM_FLAG_OUTPUTS__;1;__i586;1;__i586__;1;__pentium;1;__pentium__;1;__code_model_32__;1;__SEG_FS;1;__SEG_GS;1;_X86_;1;__stdcall;__attribute__((__stdcall__));__fastcall;__attribute__((__fastcall__));__thiscall;__attribute__((__thiscall__));__cdecl;__attribute__((__cdecl__));_stdcall;__attribute__((__stdcall__));_fastcall;__attribute__((__fastcall__));_thiscall;__attribute__((__thiscall__));_cdecl;__attribute__((__cdecl__));__GXX_MERGED_TYPEINFO_NAMES;0;__GXX_TYPEINFO_EQUALITY_INLINE;0;__MSVCRT__;1;__MINGW32__;1;_WIN32;1;__WIN32;1;__WIN32__;1;WIN32;1;__WINNT;1;__WINNT__;1;WINNT;1;_INTEGRAL_MAX_BITS;64;__declspec(x);__attribute__((x));__DECIMAL_BID_FORMAT__;1
+-- CMAKE_EXTRA_GENERATOR_CXX_SYSTEM_INCLUDE_DIRS=c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++;c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32;c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward;c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include;c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include;c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed
+-- CMAKE_EXTRA_GENERATOR_C_SYSTEM_DEFINED_MACROS=__STDC__;1;__STDC_VERSION__;201710L;__STDC_UTF_16__;1;__STDC_UTF_32__;1;__STDC_HOSTED__;1;__GNUC__;8;__GNUC_MINOR__;2;__GNUC_PATCHLEVEL__;0;__VERSION__;"8.2.0";__ATOMIC_RELAXED;0;__ATOMIC_SEQ_CST;5;__ATOMIC_ACQUIRE;2;__ATOMIC_RELEASE;3;__ATOMIC_ACQ_REL;4;__ATOMIC_CONSUME;1;__FINITE_MATH_ONLY__;0;__SIZEOF_INT__;4;__SIZEOF_LONG__;4;__SIZEOF_LONG_LONG__;8;__SIZEOF_SHORT__;2;__SIZEOF_FLOAT__;4;__SIZEOF_DOUBLE__;8;__SIZEOF_LONG_DOUBLE__;12;__SIZEOF_SIZE_T__;4;__CHAR_BIT__;8;__BIGGEST_ALIGNMENT__;16;__ORDER_LITTLE_ENDIAN__;1234;__ORDER_BIG_ENDIAN__;4321;__ORDER_PDP_ENDIAN__;3412;__BYTE_ORDER__;__ORDER_LITTLE_ENDIAN__;__FLOAT_WORD_ORDER__;__ORDER_LITTLE_ENDIAN__;__SIZEOF_POINTER__;4;__SIZE_TYPE__;unsigned int;__PTRDIFF_TYPE__;int;__WCHAR_TYPE__;short unsigned int;__WINT_TYPE__;short unsigned int;__INTMAX_TYPE__;long long int;__UINTMAX_TYPE__;long long unsigned int;__CHAR16_TYPE__;short unsigned int;__CHAR32_TYPE__;unsigned int;__SIG_ATOMIC_TYPE__;int;__INT8_TYPE__;signed char;__INT16_TYPE__;short int;__INT32_TYPE__;int;__INT64_TYPE__;long long int;__UINT8_TYPE__;unsigned char;__UINT16_TYPE__;short unsigned int;__UINT32_TYPE__;unsigned int;__UINT64_TYPE__;long long unsigned int;__INT_LEAST8_TYPE__;signed char;__INT_LEAST16_TYPE__;short int;__INT_LEAST32_TYPE__;int;__INT_LEAST64_TYPE__;long long int;__UINT_LEAST8_TYPE__;unsigned char;__UINT_LEAST16_TYPE__;short unsigned int;__UINT_LEAST32_TYPE__;unsigned int;__UINT_LEAST64_TYPE__;long long unsigned int;__INT_FAST8_TYPE__;signed char;__INT_FAST16_TYPE__;short int;__INT_FAST32_TYPE__;int;__INT_FAST64_TYPE__;long long int;__UINT_FAST8_TYPE__;unsigned char;__UINT_FAST16_TYPE__;short unsigned int;__UINT_FAST32_TYPE__;unsigned int;__UINT_FAST64_TYPE__;long long unsigned int;__INTPTR_TYPE__;int;__UINTPTR_TYPE__;unsigned int;__has_include(STR);__has_include__(STR);__has_include_next(STR);__has_include_next__(STR);__GXX_ABI_VERSION;1013;__SCHAR_MAX__;0x7f;__SHRT_MAX__;0x7fff;__INT_MAX__;0x7fffffff;__LONG_MAX__;0x7fffffffL;__LONG_LONG_MAX__;0x7fffffffffffffffLL;__WCHAR_MAX__;0xffff;__WCHAR_MIN__;0;__WINT_MAX__;0xffff;__WINT_MIN__;0;__PTRDIFF_MAX__;0x7fffffff;__SIZE_MAX__;0xffffffffU;__SCHAR_WIDTH__;8;__SHRT_WIDTH__;16;__INT_WIDTH__;32;__LONG_WIDTH__;32;__LONG_LONG_WIDTH__;64;__WCHAR_WIDTH__;16;__WINT_WIDTH__;16;__PTRDIFF_WIDTH__;32;__SIZE_WIDTH__;32;__INTMAX_MAX__;0x7fffffffffffffffLL;__INTMAX_C(c);c ## LL;__UINTMAX_MAX__;0xffffffffffffffffULL;__UINTMAX_C(c);c ## ULL;__INTMAX_WIDTH__;64;__SIG_ATOMIC_MAX__;0x7fffffff;__SIG_ATOMIC_MIN__;(-__SIG_ATOMIC_MAX__ - 1);__SIG_ATOMIC_WIDTH__;32;__INT8_MAX__;0x7f;__INT16_MAX__;0x7fff;__INT32_MAX__;0x7fffffff;__INT64_MAX__;0x7fffffffffffffffLL;__UINT8_MAX__;0xff;__UINT16_MAX__;0xffff;__UINT32_MAX__;0xffffffffU;__UINT64_MAX__;0xffffffffffffffffULL;__INT_LEAST8_MAX__;0x7f;__INT8_C(c);c;__INT_LEAST8_WIDTH__;8;__INT_LEAST16_MAX__;0x7fff;__INT16_C(c);c;__INT_LEAST16_WIDTH__;16;__INT_LEAST32_MAX__;0x7fffffff;__INT32_C(c);c;__INT_LEAST32_WIDTH__;32;__INT_LEAST64_MAX__;0x7fffffffffffffffLL;__INT64_C(c);c ## LL;__INT_LEAST64_WIDTH__;64;__UINT_LEAST8_MAX__;0xff;__UINT8_C(c);c;__UINT_LEAST16_MAX__;0xffff;__UINT16_C(c);c;__UINT_LEAST32_MAX__;0xffffffffU;__UINT32_C(c);c ## U;__UINT_LEAST64_MAX__;0xffffffffffffffffULL;__UINT64_C(c);c ## ULL;__INT_FAST8_MAX__;0x7f;__INT_FAST8_WIDTH__;8;__INT_FAST16_MAX__;0x7fff;__INT_FAST16_WIDTH__;16;__INT_FAST32_MAX__;0x7fffffff;__INT_FAST32_WIDTH__;32;__INT_FAST64_MAX__;0x7fffffffffffffffLL;__INT_FAST64_WIDTH__;64;__UINT_FAST8_MAX__;0xff;__UINT_FAST16_MAX__;0xffff;__UINT_FAST32_MAX__;0xffffffffU;__UINT_FAST64_MAX__;0xffffffffffffffffULL;__INTPTR_MAX__;0x7fffffff;__INTPTR_WIDTH__;32;__UINTPTR_MAX__;0xffffffffU;__GCC_IEC_559;2;__GCC_IEC_559_COMPLEX;2;__FLT_EVAL_METHOD__;2;__FLT_EVAL_METHOD_TS_18661_3__;2;__DEC_EVAL_METHOD__;2;__FLT_RADIX__;2;__FLT_MANT_DIG__;24;__FLT_DIG__;6;__FLT_MIN_EXP__;(-125);__FLT_MIN_10_EXP__;(-37);__FLT_MAX_EXP__;128;__FLT_MAX_10_EXP__;38;__FLT_DECIMAL_DIG__;9;__FLT_MAX__;3.40282346638528859811704183484516925e+38F;__FLT_MIN__;1.17549435082228750796873653722224568e-38F;__FLT_EPSILON__;1.19209289550781250000000000000000000e-7F;__FLT_DENORM_MIN__;1.40129846432481707092372958328991613e-45F;__FLT_HAS_DENORM__;1;__FLT_HAS_INFINITY__;1;__FLT_HAS_QUIET_NAN__;1;__DBL_MANT_DIG__;53;__DBL_DIG__;15;__DBL_MIN_EXP__;(-1021);__DBL_MIN_10_EXP__;(-307);__DBL_MAX_EXP__;1024;__DBL_MAX_10_EXP__;308;__DBL_DECIMAL_DIG__;17;__DBL_MAX__;((double)1.79769313486231570814527423731704357e+308L);__DBL_MIN__;((double)2.22507385850720138309023271733240406e-308L);__DBL_EPSILON__;((double)2.22044604925031308084726333618164062e-16L);__DBL_DENORM_MIN__;((double)4.94065645841246544176568792868221372e-324L);__DBL_HAS_DENORM__;1;__DBL_HAS_INFINITY__;1;__DBL_HAS_QUIET_NAN__;1;__LDBL_MANT_DIG__;64;__LDBL_DIG__;18;__LDBL_MIN_EXP__;(-16381);__LDBL_MIN_10_EXP__;(-4931);__LDBL_MAX_EXP__;16384;__LDBL_MAX_10_EXP__;4932;__DECIMAL_DIG__;21;__LDBL_DECIMAL_DIG__;21;__LDBL_MAX__;1.18973149535723176502126385303097021e+4932L;__LDBL_MIN__;3.36210314311209350626267781732175260e-4932L;__LDBL_EPSILON__;1.08420217248550443400745280086994171e-19L;__LDBL_DENORM_MIN__;3.64519953188247460252840593361941982e-4951L;__LDBL_HAS_DENORM__;1;__LDBL_HAS_INFINITY__;1;__LDBL_HAS_QUIET_NAN__;1;__FLT32_MANT_DIG__;24;__FLT32_DIG__;6;__FLT32_MIN_EXP__;(-125);__FLT32_MIN_10_EXP__;(-37);__FLT32_MAX_EXP__;128;__FLT32_MAX_10_EXP__;38;__FLT32_DECIMAL_DIG__;9;__FLT32_MAX__;3.40282346638528859811704183484516925e+38F32;__FLT32_MIN__;1.17549435082228750796873653722224568e-38F32;__FLT32_EPSILON__;1.19209289550781250000000000000000000e-7F32;__FLT32_DENORM_MIN__;1.40129846432481707092372958328991613e-45F32;__FLT32_HAS_DENORM__;1;__FLT32_HAS_INFINITY__;1;__FLT32_HAS_QUIET_NAN__;1;__FLT64_MANT_DIG__;53;__FLT64_DIG__;15;__FLT64_MIN_EXP__;(-1021);__FLT64_MIN_10_EXP__;(-307);__FLT64_MAX_EXP__;1024;__FLT64_MAX_10_EXP__;308;__FLT64_DECIMAL_DIG__;17;__FLT64_MAX__;1.79769313486231570814527423731704357e+308F64;__FLT64_MIN__;2.22507385850720138309023271733240406e-308F64;__FLT64_EPSILON__;2.22044604925031308084726333618164062e-16F64;__FLT64_DENORM_MIN__;4.94065645841246544176568792868221372e-324F64;__FLT64_HAS_DENORM__;1;__FLT64_HAS_INFINITY__;1;__FLT64_HAS_QUIET_NAN__;1;__FLT128_MANT_DIG__;113;__FLT128_DIG__;33;__FLT128_MIN_EXP__;(-16381);__FLT128_MIN_10_EXP__;(-4931);__FLT128_MAX_EXP__;16384;__FLT128_MAX_10_EXP__;4932;__FLT128_DECIMAL_DIG__;36;__FLT128_MAX__;1.18973149535723176508575932662800702e+4932F128;__FLT128_MIN__;3.36210314311209350626267781732175260e-4932F128;__FLT128_EPSILON__;1.92592994438723585305597794258492732e-34F128;__FLT128_DENORM_MIN__;6.47517511943802511092443895822764655e-4966F128;__FLT128_HAS_DENORM__;1;__FLT128_HAS_INFINITY__;1;__FLT128_HAS_QUIET_NAN__;1;__FLT32X_MANT_DIG__;53;__FLT32X_DIG__;15;__FLT32X_MIN_EXP__;(-1021);__FLT32X_MIN_10_EXP__;(-307);__FLT32X_MAX_EXP__;1024;__FLT32X_MAX_10_EXP__;308;__FLT32X_DECIMAL_DIG__;17;__FLT32X_MAX__;1.79769313486231570814527423731704357e+308F32x;__FLT32X_MIN__;2.22507385850720138309023271733240406e-308F32x;__FLT32X_EPSILON__;2.22044604925031308084726333618164062e-16F32x;__FLT32X_DENORM_MIN__;4.94065645841246544176568792868221372e-324F32x;__FLT32X_HAS_DENORM__;1;__FLT32X_HAS_INFINITY__;1;__FLT32X_HAS_QUIET_NAN__;1;__FLT64X_MANT_DIG__;64;__FLT64X_DIG__;18;__FLT64X_MIN_EXP__;(-16381);__FLT64X_MIN_10_EXP__;(-4931);__FLT64X_MAX_EXP__;16384;__FLT64X_MAX_10_EXP__;4932;__FLT64X_DECIMAL_DIG__;21;__FLT64X_MAX__;1.18973149535723176502126385303097021e+4932F64x;__FLT64X_MIN__;3.36210314311209350626267781732175260e-4932F64x;__FLT64X_EPSILON__;1.08420217248550443400745280086994171e-19F64x;__FLT64X_DENORM_MIN__;3.64519953188247460252840593361941982e-4951F64x;__FLT64X_HAS_DENORM__;1;__FLT64X_HAS_INFINITY__;1;__FLT64X_HAS_QUIET_NAN__;1;__DEC32_MANT_DIG__;7;__DEC32_MIN_EXP__;(-94);__DEC32_MAX_EXP__;97;__DEC32_MIN__;1E-95DF;__DEC32_MAX__;9.999999E96DF;__DEC32_EPSILON__;1E-6DF;__DEC32_SUBNORMAL_MIN__;0.000001E-95DF;__DEC64_MANT_DIG__;16;__DEC64_MIN_EXP__;(-382);__DEC64_MAX_EXP__;385;__DEC64_MIN__;1E-383DD;__DEC64_MAX__;9.999999999999999E384DD;__DEC64_EPSILON__;1E-15DD;__DEC64_SUBNORMAL_MIN__;0.000000000000001E-383DD;__DEC128_MANT_DIG__;34;__DEC128_MIN_EXP__;(-6142);__DEC128_MAX_EXP__;6145;__DEC128_MIN__;1E-6143DL;__DEC128_MAX__;9.999999999999999999999999999999999E6144DL;__DEC128_EPSILON__;1E-33DL;__DEC128_SUBNORMAL_MIN__;0.000000000000000000000000000000001E-6143DL;__REGISTER_PREFIX__; ;__USER_LABEL_PREFIX__;_;__GNUC_STDC_INLINE__;1;__NO_INLINE__;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8;1;__GCC_ATOMIC_BOOL_LOCK_FREE;2;__GCC_ATOMIC_CHAR_LOCK_FREE;2;__GCC_ATOMIC_CHAR16_T_LOCK_FREE;2;__GCC_ATOMIC_CHAR32_T_LOCK_FREE;2;__GCC_ATOMIC_WCHAR_T_LOCK_FREE;2;__GCC_ATOMIC_SHORT_LOCK_FREE;2;__GCC_ATOMIC_INT_LOCK_FREE;2;__GCC_ATOMIC_LONG_LOCK_FREE;2;__GCC_ATOMIC_LLONG_LOCK_FREE;2;__GCC_ATOMIC_TEST_AND_SET_TRUEVAL;1;__GCC_ATOMIC_POINTER_LOCK_FREE;2;__GCC_HAVE_DWARF2_CFI_ASM;1;__PRAGMA_REDEFINE_EXTNAME;1;__SIZEOF_WCHAR_T__;2;__SIZEOF_WINT_T__;2;__SIZEOF_PTRDIFF_T__;4;__i386;1;__i386__;1;i386;1;__SIZEOF_FLOAT80__;12;__SIZEOF_FLOAT128__;16;__ATOMIC_HLE_ACQUIRE;65536;__ATOMIC_HLE_RELEASE;131072;__GCC_ASM_FLAG_OUTPUTS__;1;__i586;1;__i586__;1;__pentium;1;__pentium__;1;__code_model_32__;1;__SEG_FS;1;__SEG_GS;1;_X86_;1;__stdcall;__attribute__((__stdcall__));__fastcall;__attribute__((__fastcall__));__thiscall;__attribute__((__thiscall__));__cdecl;__attribute__((__cdecl__));_stdcall;__attribute__((__stdcall__));_fastcall;__attribute__((__fastcall__));_thiscall;__attribute__((__thiscall__));_cdecl;__attribute__((__cdecl__));__GXX_MERGED_TYPEINFO_NAMES;0;__GXX_TYPEINFO_EQUALITY_INLINE;0;__MSVCRT__;1;__MINGW32__;1;_WIN32;1;__WIN32;1;__WIN32__;1;WIN32;1;__WINNT;1;__WINNT__;1;WINNT;1;_INTEGRAL_MAX_BITS;64;__declspec(x);__attribute__((x));__DECIMAL_BID_FORMAT__;1
+-- CMAKE_EXTRA_GENERATOR_C_SYSTEM_INCLUDE_DIRS=c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include;c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include;c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed
+-- CMAKE_EXTRA_LINK_EXTENSIONS=.lib
+-- CMAKE_FILES_DIRECTORY=/CMakeFiles
+-- CMAKE_FIND_LIBRARY_PREFIXES=lib;
+-- CMAKE_FIND_LIBRARY_SUFFIXES=.dll;.dll.a;.a;.lib
+-- CMAKE_GENERATOR=MinGW Makefiles
+-- CMAKE_GENERATOR_CC=C:/MinGW/bin/gcc.exe
+-- CMAKE_GENERATOR_CXX=C:/MinGW/bin/g++.exe
+-- CMAKE_GENERATOR_INSTANCE=
+-- CMAKE_GENERATOR_PLATFORM=
+-- CMAKE_GENERATOR_RC=C:/MinGW/bin/windres.exe
+-- CMAKE_GENERATOR_TOOLSET=
+-- CMAKE_GNULD_IMAGE_VERSION=-Wl,--major-image-version,<TARGET_VERSION_MAJOR>,--minor-image-version,<TARGET_VERSION_MINOR>
+-- CMAKE_GNUtoMS=OFF
+-- CMAKE_HAVE_PTHREAD_H=
+-- CMAKE_HOME_DIRECTORY=C:/GREENFOX/Boritse/week-02/day-05/triangles
+-- CMAKE_HOST_SYSTEM=Windows-10.0.10586
+-- CMAKE_HOST_SYSTEM_NAME=Windows
+-- CMAKE_HOST_SYSTEM_PROCESSOR=AMD64
+-- CMAKE_HOST_SYSTEM_VERSION=10.0.10586
+-- CMAKE_HOST_WIN32=1
+-- CMAKE_IMPORT_LIBRARY_PREFIX=lib
+-- CMAKE_IMPORT_LIBRARY_SUFFIX=.dll.a
+-- CMAKE_INCLUDE_FLAG_C=-I
+-- CMAKE_INCLUDE_FLAG_CXX=-I
+-- CMAKE_INCLUDE_FLAG_RC=-I
+-- CMAKE_INCLUDE_SYSTEM_FLAG_C=-isystem 
+-- CMAKE_INCLUDE_SYSTEM_FLAG_CXX=-isystem 
+-- CMAKE_INSTALL_DEFAULT_COMPONENT_NAME=Unspecified
+-- CMAKE_INSTALL_PREFIX=C:/Program Files (x86)/triangles
+-- CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT=1
+-- CMAKE_LIBRARY_PATH_FLAG=-L
+-- CMAKE_LIBRARY_PATH_TERMINATOR=
+-- CMAKE_LINKER=C:/MinGW/bin/ld.exe
+-- CMAKE_LINKER=C:/MinGW/bin/ld.exe
+-- CMAKE_LINK_DEF_FILE_FLAG=
+-- CMAKE_LINK_LIBRARY_FLAG=-l
+-- CMAKE_LINK_LIBRARY_SUFFIX=
+-- CMAKE_MAJOR_VERSION=3
+-- CMAKE_MAKE_PROGRAM=C:/MinGW/bin/mingw32-make.exe
+-- CMAKE_MATCH_0=#define SDL_TTF_PATCHLEVEL      14
+-- CMAKE_MATCH_1=14
+-- CMAKE_MATCH_2=
+-- CMAKE_MATCH_3=
+-- CMAKE_MATCH_COUNT=1
+-- CMAKE_MINIMUM_REQUIRED_VERSION=3.12
+-- CMAKE_MINOR_VERSION=13
+-- CMAKE_MODULE_LINKER_FLAGS=
+-- CMAKE_MODULE_LINKER_FLAGS_DEBUG=
+-- CMAKE_MODULE_LINKER_FLAGS_INIT=  
+-- CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL=
+-- CMAKE_MODULE_LINKER_FLAGS_RELEASE=
+-- CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO=
+-- CMAKE_MODULE_PATH=C:/GREENFOX/Boritse/week-02/day-05/triangles/cmake
+-- CMAKE_NM=C:/MinGW/bin/nm.exe
+-- CMAKE_OBJCOPY=C:/MinGW/bin/objcopy.exe
+-- CMAKE_OBJDUMP=C:/MinGW/bin/objdump.exe
+-- CMAKE_PARENT_LIST_FILE=C:/GREENFOX/Boritse/week-02/day-05/triangles/CMakeLists.txt
+-- CMAKE_PATCH_VERSION=2
+-- CMAKE_PLATFORM_INFO_DIR=C:/GREENFOX/Boritse/week-02/day-05/triangles/cmake-build-debug/CMakeFiles/3.13.2
+-- CMAKE_PLATFORM_INFO_INITIALIZED=1
+-- CMAKE_PROJECT_DESCRIPTION=
+-- CMAKE_PROJECT_HOMEPAGE_URL=
+-- CMAKE_PROJECT_NAME=triangles
+-- CMAKE_RANLIB=C:/MinGW/bin/ranlib.exe
+-- CMAKE_RANLIB=C:/MinGW/bin/ranlib.exe
+-- CMAKE_RC_COMPILER=C:/MinGW/bin/windres.exe
+-- CMAKE_RC_COMPILER=C:/MinGW/bin/windres.exe
+-- CMAKE_RC_COMPILER_ARG1=
+-- CMAKE_RC_COMPILER_ENV_VAR=RC
+-- CMAKE_RC_COMPILER_INIT=C:/MinGW/bin/windres.exe
+-- CMAKE_RC_COMPILER_LIST=C:/MinGW/bin/windres.exe
+-- CMAKE_RC_COMPILER_LOADED=1
+-- CMAKE_RC_COMPILER_WORKS=1
+-- CMAKE_RC_COMPILE_OBJECT=<CMAKE_RC_COMPILER> -O coff <DEFINES> <INCLUDES> <FLAGS> <SOURCE> <OBJECT>
+-- CMAKE_RC_FLAGS=
+-- CMAKE_RC_FLAGS_DEBUG=
+-- CMAKE_RC_FLAGS_INIT= 
+-- CMAKE_RC_FLAGS_MINSIZEREL=
+-- CMAKE_RC_FLAGS_RELEASE=
+-- CMAKE_RC_FLAGS_RELWITHDEBINFO=
+-- CMAKE_RC_FLAG_REGEX=^[-/](D|I)
+-- CMAKE_RC_INFORMATION_LOADED=1
+-- CMAKE_RC_OUTPUT_EXTENSION=.obj
+-- CMAKE_RC_SOURCE_FILE_EXTENSIONS=rc;RC
+-- CMAKE_ROOT=C:/Program Files/JetBrains/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13
+-- CMAKE_SH=CMAKE_SH-NOTFOUND
+-- CMAKE_SHARED_LIBRARY_CREATE_CXX_FLAGS=-shared
+-- CMAKE_SHARED_LIBRARY_CREATE_C_FLAGS=-shared
+-- CMAKE_SHARED_LIBRARY_C_FLAGS=
+-- CMAKE_SHARED_LIBRARY_LINK_C_FLAGS=
+-- CMAKE_SHARED_LIBRARY_LINK_DYNAMIC_CXX_FLAGS=-Wl,-Bdynamic
+-- CMAKE_SHARED_LIBRARY_LINK_DYNAMIC_C_FLAGS=-Wl,-Bdynamic
+-- CMAKE_SHARED_LIBRARY_LINK_STATIC_CXX_FLAGS=-Wl,-Bstatic
+-- CMAKE_SHARED_LIBRARY_LINK_STATIC_C_FLAGS=-Wl,-Bstatic
+-- CMAKE_SHARED_LIBRARY_PREFIX=lib
+-- CMAKE_SHARED_LIBRARY_RUNTIME_C_FLAG=
+-- CMAKE_SHARED_LIBRARY_RUNTIME_C_FLAG_SEP=
+-- CMAKE_SHARED_LIBRARY_SUFFIX=.dll
+-- CMAKE_SHARED_LINKER_FLAGS=
+-- CMAKE_SHARED_LINKER_FLAGS_DEBUG=
+-- CMAKE_SHARED_LINKER_FLAGS_INIT=  
+-- CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL=
+-- CMAKE_SHARED_LINKER_FLAGS_RELEASE=
+-- CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO=
+-- CMAKE_SHARED_MODULE_CREATE_CXX_FLAGS=-shared
+-- CMAKE_SHARED_MODULE_CREATE_C_FLAGS=-shared
+-- CMAKE_SHARED_MODULE_LINK_DYNAMIC_CXX_FLAGS=-Wl,-Bdynamic
+-- CMAKE_SHARED_MODULE_LINK_DYNAMIC_C_FLAGS=-Wl,-Bdynamic
+-- CMAKE_SHARED_MODULE_LINK_STATIC_CXX_FLAGS=-Wl,-Bstatic
+-- CMAKE_SHARED_MODULE_LINK_STATIC_C_FLAGS=-Wl,-Bstatic
+-- CMAKE_SHARED_MODULE_PREFIX=lib
+-- CMAKE_SHARED_MODULE_SUFFIX=.dll
+-- CMAKE_SIZEOF_VOID_P=4
+-- CMAKE_SKIP_INSTALL_RPATH=NO
+-- CMAKE_SKIP_RPATH=NO
+-- CMAKE_SOURCE_DIR=C:/GREENFOX/Boritse/week-02/day-05/triangles
+-- CMAKE_STATIC_LIBRARY_PREFIX=lib
+-- CMAKE_STATIC_LIBRARY_SUFFIX=.a
+-- CMAKE_STATIC_LINKER_FLAGS=
+-- CMAKE_STATIC_LINKER_FLAGS_DEBUG=
+-- CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL=
+-- CMAKE_STATIC_LINKER_FLAGS_RELEASE=
+-- CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO=
+-- CMAKE_STRIP=C:/MinGW/bin/strip.exe
+-- CMAKE_SYSTEM=Windows-10.0.10586
+-- CMAKE_SYSTEM_AND_RC_COMPILER_INFO_FILE=C:/Program Files/JetBrains/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/Platform/Windows-windres.cmake
+-- CMAKE_SYSTEM_INFO_FILE=Platform/Windows
+-- CMAKE_SYSTEM_LIBRARY_PATH=C:/Program Files (x86)/triangles/bin;C:/Program Files/JetBrains/CLion 2018.3.3/bin/cmake/win/bin;/bin
+-- CMAKE_SYSTEM_LOADED=1
+-- CMAKE_SYSTEM_NAME=Windows
+-- CMAKE_SYSTEM_PREFIX_PATH=C:/Program Files;C:/Program Files (x86);C:/Program Files/JetBrains/CLion 2018.3.3/bin/cmake/win;C:/Program Files (x86)/triangles
+-- CMAKE_SYSTEM_PROCESSOR=AMD64
+-- CMAKE_SYSTEM_SPECIFIC_INFORMATION_LOADED=1
+-- CMAKE_SYSTEM_SPECIFIC_INITIALIZE_LOADED=1
+-- CMAKE_SYSTEM_VERSION=10.0.10586
+-- CMAKE_TWEAK_VERSION=0
+-- CMAKE_USE_WIN32_THREADS_INIT=1
+-- CMAKE_VERBOSE_MAKEFILE=FALSE
+-- CMAKE_VERSION=3.13.2
+-- CXX_TEST_WAS_RUN=1
+-- C_TEST_WAS_RUN=1
+-- FIND_PACKAGE_MESSAGE_DETAILS_SDL2=[mingw32;-mwindows;C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2main.a;C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2.dll.a][C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32/include/SDL2][v()]
+-- FIND_PACKAGE_MESSAGE_DETAILS_SDL2_image=[C:/GREENFOX/SDL2_windows/SDL2_image-2.0.3/i686-w64-mingw32/lib/libSDL2_image.dll.a][C:/GREENFOX/SDL2_windows/SDL2_image-2.0.3/i686-w64-mingw32/include/SDL2][v2.0.3()]
+-- FIND_PACKAGE_MESSAGE_DETAILS_SDL2_ttf=[C:/GREENFOX/SDL2_windows/SDL2_ttf-2.0.14/i686-w64-mingw32/lib/libSDL2_ttf.dll.a][C:/GREENFOX/SDL2_windows/SDL2_ttf-2.0.14/i686-w64-mingw32/include/SDL2][v2.0.14()]
+-- FIND_PACKAGE_MESSAGE_DETAILS_Threads=[TRUE][v()]
+-- MINGW=1
+-- MINGW32_LIBRARY=mingw32;-mwindows
+-- MSVC_CXX_ARCHITECTURE_ID=
+-- MSVC_C_ARCHITECTURE_ID=
+-- OUTPUT=Change Dir: C:/GREENFOX/Boritse/week-02/day-05/triangles/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_930ce/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_930ce.dir\build.make CMakeFiles/cmTC_930ce.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/GREENFOX/Boritse/week-02/day-05/triangles/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_930ce.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_930ce.dir\CheckIncludeFile.c.obj   -c C:\GREENFOX\Boritse\week-02\day-05\triangles\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\GREENFOX\Boritse\week-02\day-05\triangles\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: pthread.h: No such file or directory
+ #include <pthread.h>
+          ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles\cmTC_930ce.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_930ce.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_930ce.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/GREENFOX/Boritse/week-02/day-05/triangles/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_930ce/fast' failed
+mingw32-make.exe: *** [cmTC_930ce/fast] Error 2
+
+-- PATH_SUFFIXES=lib/x86;lib
+-- PRESET_CMAKE_SYSTEM_NAME=FALSE
+-- PROJECT_BINARY_DIR=C:/GREENFOX/Boritse/week-02/day-05/triangles/cmake-build-debug
+-- PROJECT_DESCRIPTION=
+-- PROJECT_HOMEPAGE_URL=
+-- PROJECT_NAME=triangles
+-- PROJECT_SOURCE_DIR=C:/GREENFOX/Boritse/week-02/day-05/triangles
+-- RUN_CONFIGURE=ON
+-- SDL2MAIN_LIBRARY=C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2main.a
+-- SDL2_FOUND=TRUE
+-- SDL2_GFX=C:/GREENFOX/SDL2_windows/SDL2_plugins/gfx
+-- SDL2_IMAGE_FOUND=TRUE
+-- SDL2_IMAGE_INCLUDE_DIR=C:/GREENFOX/SDL2_windows/SDL2_image-2.0.3/i686-w64-mingw32/include/SDL2
+-- SDL2_IMAGE_INCLUDE_DIRS=C:/GREENFOX/SDL2_windows/SDL2_image-2.0.3/i686-w64-mingw32/include/SDL2
+-- SDL2_IMAGE_LIBRARIES=C:/GREENFOX/SDL2_windows/SDL2_image-2.0.3/i686-w64-mingw32/lib/libSDL2_image.dll.a
+-- SDL2_IMAGE_LIBRARY=C:/GREENFOX/SDL2_windows/SDL2_image-2.0.3/i686-w64-mingw32/lib/libSDL2_image.dll.a
+-- SDL2_IMAGE_PATH=C:/GREENFOX/SDL2_windows/SDL2_image-2.0.3/i686-w64-mingw32
+-- SDL2_IMAGE_VERSION_STRING=2.0.3
+-- SDL2_INCLUDE_DIR=C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32/include/SDL2
+-- SDL2_LIBRARY=mingw32;-mwindows;C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2main.a;C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2.dll.a
+-- SDL2_LIBRARY_TEMP=mingw32;-mwindows;C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2main.a;C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32/lib/libSDL2.dll.a
+-- SDL2_PATH=C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32
+-- SDL2_SEARCH_PATHS=~/Library/Frameworks;/Library/Frameworks;/usr/local;/usr;/sw;/opt/local;/opt/csw;/opt;C:/GREENFOX/SDL2_windows/SDL2-2.0.8/i686-w64-mingw32
+-- SDL2_TTF_FOUND=TRUE
+-- SDL2_TTF_INCLUDE_DIR=C:/GREENFOX/SDL2_windows/SDL2_ttf-2.0.14/i686-w64-mingw32/include/SDL2
+-- SDL2_TTF_INCLUDE_DIRS=C:/GREENFOX/SDL2_windows/SDL2_ttf-2.0.14/i686-w64-mingw32/include/SDL2
+-- SDL2_TTF_LIBRARIES=C:/GREENFOX/SDL2_windows/SDL2_ttf-2.0.14/i686-w64-mingw32/lib/libSDL2_ttf.dll.a
+-- SDL2_TTF_LIBRARY=C:/GREENFOX/SDL2_windows/SDL2_ttf-2.0.14/i686-w64-mingw32/lib/libSDL2_ttf.dll.a
+-- SDL2_TTF_PATH=C:/GREENFOX/SDL2_windows/SDL2_ttf-2.0.14/i686-w64-mingw32
+-- SDL2_TTF_VERSION_STRING=2.0.14
+-- SDL2_image_FOUND=TRUE
+-- SDL2_ttf_FOUND=TRUE
+-- SDLIMAGE_FOUND=TRUE
+-- SDLIMAGE_INCLUDE_DIR=C:/GREENFOX/SDL2_windows/SDL2_image-2.0.3/i686-w64-mingw32/include/SDL2
+-- SDLIMAGE_LIBRARY=C:/GREENFOX/SDL2_windows/SDL2_image-2.0.3/i686-w64-mingw32/lib/libSDL2_image.dll.a
+-- SDLTTF_FOUND=TRUE
+-- SDLTTF_INCLUDE_DIR=C:/GREENFOX/SDL2_windows/SDL2_ttf-2.0.14/i686-w64-mingw32/include/SDL2
+-- SDLTTF_LIBRARY=C:/GREENFOX/SDL2_windows/SDL2_ttf-2.0.14/i686-w64-mingw32/lib/libSDL2_ttf.dll.a
+-- THREADS_FOUND=TRUE
+-- Threads_FOUND=TRUE
+-- VC_LIB_PATH_SUFFIX=lib/x86
+-- WIN32=1
+-- _CMAKE_CODEBLOCKS_INITIAL_MAKE_ARGS=
+-- _CMAKE_CODEBLOCKS_PROCESSOR_COUNT=4
+-- _CMAKE_CXX_IPO_MAY_BE_SUPPORTED_BY_COMPILER=YES
+-- _CMAKE_CXX_IPO_SUPPORTED_BY_CMAKE=YES
+-- _CMAKE_C_IPO_MAY_BE_SUPPORTED_BY_COMPILER=YES
+-- _CMAKE_C_IPO_SUPPORTED_BY_CMAKE=YES
+-- _CMAKE_EXTRA_GENERATOR_NO_SPACES=CodeBlocks
+-- _CMAKE_INSTALL_DIR=C:/Program Files/JetBrains/CLion 2018.3.3/bin/cmake/win
+-- _CMAKE_RC_COMPILER_NAME_WE=windres
+-- _CMAKE_TOOLCHAIN_LOCATION=C:/MinGW/bin
+-- _CMAKE_USER_LINKER_PATH=C:/MinGW/bin
+-- _INCLUDED_FILE=C:/Program Files/JetBrains/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/Platform/Windows-GNU-CXX.cmake
+-- _INCLUDED_SYSTEM_INFO_FILE=C:/Program Files/JetBrains/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/Platform/Windows.cmake
+-- _IN_TC=0
+-- _SET_CMAKE_CXX_COMPILER_ARCHITECTURE_ID=
+-- _SET_CMAKE_C_COMPILER_ARCHITECTURE_ID=
+-- __COMPILER_CMAKE_COMMON_COMPILER_MACROS=1
+-- __COMPILER_GNU=1
+-- __WINDOWS_GNU=1
+-- __WINDOWS_GNU_LD_RESPONSE=1
+-- __WINDOWS_PATHS_INCLUDED=1
+-- __gcc_hints=C:/MinGW/bin
+-- __lto_flags=-flto;-fno-fat-lto-objects
+-- __version_x=8
+-- __version_x_y=8.2
+-- _arg1=
+-- _compilerExecutable=C:/MinGW/bin/g++.exe
+-- _defineLines=#define __STDC__ 1
+;#define __cplusplus 201402L
+;#define __STDC_UTF_16__ 1
+;#define __STDC_UTF_32__ 1
+;#define __STDC_HOSTED__ 1
+;#define __GNUC__ 8
+;#define __GNUC_MINOR__ 2
+;#define __GNUC_PATCHLEVEL__ 0
+;#define __VERSION__ "8.2.0"
+;#define __ATOMIC_RELAXED 0
+;#define __ATOMIC_SEQ_CST 5
+;#define __ATOMIC_ACQUIRE 2
+;#define __ATOMIC_RELEASE 3
+;#define __ATOMIC_ACQ_REL 4
+;#define __ATOMIC_CONSUME 1
+;#define __FINITE_MATH_ONLY__ 0
+;#define __SIZEOF_INT__ 4
+;#define __SIZEOF_LONG__ 4
+;#define __SIZEOF_LONG_LONG__ 8
+;#define __SIZEOF_SHORT__ 2
+;#define __SIZEOF_FLOAT__ 4
+;#define __SIZEOF_DOUBLE__ 8
+;#define __SIZEOF_LONG_DOUBLE__ 12
+;#define __SIZEOF_SIZE_T__ 4
+;#define __CHAR_BIT__ 8
+;#define __BIGGEST_ALIGNMENT__ 16
+;#define __ORDER_LITTLE_ENDIAN__ 1234
+;#define __ORDER_BIG_ENDIAN__ 4321
+;#define __ORDER_PDP_ENDIAN__ 3412
+;#define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
+;#define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
+;#define __SIZEOF_POINTER__ 4
+;#define __GNUG__ 8
+;#define __SIZE_TYPE__ unsigned int
+;#define __PTRDIFF_TYPE__ int
+;#define __WCHAR_TYPE__ short unsigned int
+;#define __WINT_TYPE__ short unsigned int
+;#define __INTMAX_TYPE__ long long int
+;#define __UINTMAX_TYPE__ long long unsigned int
+;#define __CHAR16_TYPE__ short unsigned int
+;#define __CHAR32_TYPE__ unsigned int
+;#define __SIG_ATOMIC_TYPE__ int
+;#define __INT8_TYPE__ signed char
+;#define __INT16_TYPE__ short int
+;#define __INT32_TYPE__ int
+;#define __INT64_TYPE__ long long int
+;#define __UINT8_TYPE__ unsigned char
+;#define __UINT16_TYPE__ short unsigned int
+;#define __UINT32_TYPE__ unsigned int
+;#define __UINT64_TYPE__ long long unsigned int
+;#define __INT_LEAST8_TYPE__ signed char
+;#define __INT_LEAST16_TYPE__ short int
+;#define __INT_LEAST32_TYPE__ int
+;#define __INT_LEAST64_TYPE__ long long int
+;#define __UINT_LEAST8_TYPE__ unsigned char
+;#define __UINT_LEAST16_TYPE__ short unsigned int
+;#define __UINT_LEAST32_TYPE__ unsigned int
+;#define __UINT_LEAST64_TYPE__ long long unsigned int
+;#define __INT_FAST8_TYPE__ signed char
+;#define __INT_FAST16_TYPE__ short int
+;#define __INT_FAST32_TYPE__ int
+;#define __INT_FAST64_TYPE__ long long int
+;#define __UINT_FAST8_TYPE__ unsigned char
+;#define __UINT_FAST16_TYPE__ short unsigned int
+;#define __UINT_FAST32_TYPE__ unsigned int
+;#define __UINT_FAST64_TYPE__ long long unsigned int
+;#define __INTPTR_TYPE__ int
+;#define __UINTPTR_TYPE__ unsigned int
+;#define __has_include(STR) __has_include__(STR)
+;#define __has_include_next(STR) __has_include_next__(STR)
+;#define __GXX_WEAK__ 1
+;#define __DEPRECATED 1
+;#define __GXX_RTTI 1
+;#define __cpp_rtti 199711
+;#define __GXX_EXPERIMENTAL_CXX0X__ 1
+;#define __cpp_binary_literals 201304
+;#define __cpp_hex_float 201603
+;#define __cpp_runtime_arrays 198712
+;#define __cpp_unicode_characters 200704
+;#define __cpp_raw_strings 200710
+;#define __cpp_unicode_literals 200710
+;#define __cpp_user_defined_literals 200809
+;#define __cpp_lambdas 200907
+;#define __cpp_range_based_for 200907
+;#define __cpp_static_assert 200410
+;#define __cpp_decltype 200707
+;#define __cpp_attributes 200809
+;#define __cpp_rvalue_reference 200610
+;#define __cpp_rvalue_references 200610
+;#define __cpp_variadic_templates 200704
+;#define __cpp_initializer_lists 200806
+;#define __cpp_delegating_constructors 200604
+;#define __cpp_nsdmi 200809
+;#define __cpp_inheriting_constructors 201511
+;#define __cpp_ref_qualifiers 200710
+;#define __cpp_alias_templates 200704
+;#define __cpp_return_type_deduction 201304
+;#define __cpp_init_captures 201304
+;#define __cpp_generic_lambdas 201304
+;#define __cpp_constexpr 201304
+;#define __cpp_decltype_auto 201304
+;#define __cpp_aggregate_nsdmi 201304
+;#define __cpp_variable_templates 201304
+;#define __cpp_digit_separators 201309
+;#define __cpp_sized_deallocation 201309
+;#define __cpp_threadsafe_static_init 200806
+;#define __EXCEPTIONS 1
+;#define __cpp_exceptions 199711
+;#define __GXX_ABI_VERSION 1013
+;#define __SCHAR_MAX__ 0x7f
+;#define __SHRT_MAX__ 0x7fff
+;#define __INT_MAX__ 0x7fffffff
+;#define __LONG_MAX__ 0x7fffffffL
+;#define __LONG_LONG_MAX__ 0x7fffffffffffffffLL
+;#define __WCHAR_MAX__ 0xffff
+;#define __WCHAR_MIN__ 0
+;#define __WINT_MAX__ 0xffff
+;#define __WINT_MIN__ 0
+;#define __PTRDIFF_MAX__ 0x7fffffff
+;#define __SIZE_MAX__ 0xffffffffU
+;#define __SCHAR_WIDTH__ 8
+;#define __SHRT_WIDTH__ 16
+;#define __INT_WIDTH__ 32
+;#define __LONG_WIDTH__ 32
+;#define __LONG_LONG_WIDTH__ 64
+;#define __WCHAR_WIDTH__ 16
+;#define __WINT_WIDTH__ 16
+;#define __PTRDIFF_WIDTH__ 32
+;#define __SIZE_WIDTH__ 32
+;#define __INTMAX_MAX__ 0x7fffffffffffffffLL
+;#define __INTMAX_C(c) c ## LL
+;#define __UINTMAX_MAX__ 0xffffffffffffffffULL
+;#define __UINTMAX_C(c) c ## ULL
+;#define __INTMAX_WIDTH__ 64
+;#define __SIG_ATOMIC_MAX__ 0x7fffffff
+;#define __SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)
+;#define __SIG_ATOMIC_WIDTH__ 32
+;#define __INT8_MAX__ 0x7f
+;#define __INT16_MAX__ 0x7fff
+;#define __INT32_MAX__ 0x7fffffff
+;#define __INT64_MAX__ 0x7fffffffffffffffLL
+;#define __UINT8_MAX__ 0xff
+;#define __UINT16_MAX__ 0xffff
+;#define __UINT32_MAX__ 0xffffffffU
+;#define __UINT64_MAX__ 0xffffffffffffffffULL
+;#define __INT_LEAST8_MAX__ 0x7f
+;#define __INT8_C(c) c
+;#define __INT_LEAST8_WIDTH__ 8
+;#define __INT_LEAST16_MAX__ 0x7fff
+;#define __INT16_C(c) c
+;#define __INT_LEAST16_WIDTH__ 16
+;#define __INT_LEAST32_MAX__ 0x7fffffff
+;#define __INT32_C(c) c
+;#define __INT_LEAST32_WIDTH__ 32
+;#define __INT_LEAST64_MAX__ 0x7fffffffffffffffLL
+;#define __INT64_C(c) c ## LL
+;#define __INT_LEAST64_WIDTH__ 64
+;#define __UINT_LEAST8_MAX__ 0xff
+;#define __UINT8_C(c) c
+;#define __UINT_LEAST16_MAX__ 0xffff
+;#define __UINT16_C(c) c
+;#define __UINT_LEAST32_MAX__ 0xffffffffU
+;#define __UINT32_C(c) c ## U
+;#define __UINT_LEAST64_MAX__ 0xffffffffffffffffULL
+;#define __UINT64_C(c) c ## ULL
+;#define __INT_FAST8_MAX__ 0x7f
+;#define __INT_FAST8_WIDTH__ 8
+;#define __INT_FAST16_MAX__ 0x7fff
+;#define __INT_FAST16_WIDTH__ 16
+;#define __INT_FAST32_MAX__ 0x7fffffff
+;#define __INT_FAST32_WIDTH__ 32
+;#define __INT_FAST64_MAX__ 0x7fffffffffffffffLL
+;#define __INT_FAST64_WIDTH__ 64
+;#define __UINT_FAST8_MAX__ 0xff
+;#define __UINT_FAST16_MAX__ 0xffff
+;#define __UINT_FAST32_MAX__ 0xffffffffU
+;#define __UINT_FAST64_MAX__ 0xffffffffffffffffULL
+;#define __INTPTR_MAX__ 0x7fffffff
+;#define __INTPTR_WIDTH__ 32
+;#define __UINTPTR_MAX__ 0xffffffffU
+;#define __GCC_IEC_559 2
+;#define __GCC_IEC_559_COMPLEX 2
+;#define __FLT_EVAL_METHOD__ 2
+;#define __FLT_EVAL_METHOD_TS_18661_3__ 2
+;#define __DEC_EVAL_METHOD__ 2
+;#define __FLT_RADIX__ 2
+;#define __FLT_MANT_DIG__ 24
+;#define __FLT_DIG__ 6
+;#define __FLT_MIN_EXP__ (-125)
+;#define __FLT_MIN_10_EXP__ (-37)
+;#define __FLT_MAX_EXP__ 128
+;#define __FLT_MAX_10_EXP__ 38
+;#define __FLT_DECIMAL_DIG__ 9
+;#define __FLT_MAX__ 3.40282346638528859811704183484516925e+38F
+;#define __FLT_MIN__ 1.17549435082228750796873653722224568e-38F
+;#define __FLT_EPSILON__ 1.19209289550781250000000000000000000e-7F
+;#define __FLT_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F
+;#define __FLT_HAS_DENORM__ 1
+;#define __FLT_HAS_INFINITY__ 1
+;#define __FLT_HAS_QUIET_NAN__ 1
+;#define __DBL_MANT_DIG__ 53
+;#define __DBL_DIG__ 15
+;#define __DBL_MIN_EXP__ (-1021)
+;#define __DBL_MIN_10_EXP__ (-307)
+;#define __DBL_MAX_EXP__ 1024
+;#define __DBL_MAX_10_EXP__ 308
+;#define __DBL_DECIMAL_DIG__ 17
+;#define __DBL_MAX__ double(1.79769313486231570814527423731704357e+308L)
+;#define __DBL_MIN__ double(2.22507385850720138309023271733240406e-308L)
+;#define __DBL_EPSILON__ double(2.22044604925031308084726333618164062e-16L)
+;#define __DBL_DENORM_MIN__ double(4.94065645841246544176568792868221372e-324L)
+;#define __DBL_HAS_DENORM__ 1
+;#define __DBL_HAS_INFINITY__ 1
+;#define __DBL_HAS_QUIET_NAN__ 1
+;#define __LDBL_MANT_DIG__ 64
+;#define __LDBL_DIG__ 18
+;#define __LDBL_MIN_EXP__ (-16381)
+;#define __LDBL_MIN_10_EXP__ (-4931)
+;#define __LDBL_MAX_EXP__ 16384
+;#define __LDBL_MAX_10_EXP__ 4932
+;#define __DECIMAL_DIG__ 21
+;#define __LDBL_DECIMAL_DIG__ 21
+;#define __LDBL_MAX__ 1.18973149535723176502126385303097021e+4932L
+;#define __LDBL_MIN__ 3.36210314311209350626267781732175260e-4932L
+;#define __LDBL_EPSILON__ 1.08420217248550443400745280086994171e-19L
+;#define __LDBL_DENORM_MIN__ 3.64519953188247460252840593361941982e-4951L
+;#define __LDBL_HAS_DENORM__ 1
+;#define __LDBL_HAS_INFINITY__ 1
+;#define __LDBL_HAS_QUIET_NAN__ 1
+;#define __FLT32_MANT_DIG__ 24
+;#define __FLT32_DIG__ 6
+;#define __FLT32_MIN_EXP__ (-125)
+;#define __FLT32_MIN_10_EXP__ (-37)
+;#define __FLT32_MAX_EXP__ 128
+;#define __FLT32_MAX_10_EXP__ 38
+;#define __FLT32_DECIMAL_DIG__ 9
+;#define __FLT32_MAX__ 3.40282346638528859811704183484516925e+38F32
+;#define __FLT32_MIN__ 1.17549435082228750796873653722224568e-38F32
+;#define __FLT32_EPSILON__ 1.19209289550781250000000000000000000e-7F32
+;#define __FLT32_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F32
+;#define __FLT32_HAS_DENORM__ 1
+;#define __FLT32_HAS_INFINITY__ 1
+;#define __FLT32_HAS_QUIET_NAN__ 1
+;#define __FLT64_MANT_DIG__ 53
+;#define __FLT64_DIG__ 15
+;#define __FLT64_MIN_EXP__ (-1021)
+;#define __FLT64_MIN_10_EXP__ (-307)
+;#define __FLT64_MAX_EXP__ 1024
+;#define __FLT64_MAX_10_EXP__ 308
+;#define __FLT64_DECIMAL_DIG__ 17
+;#define __FLT64_MAX__ 1.79769313486231570814527423731704357e+308F64
+;#define __FLT64_MIN__ 2.22507385850720138309023271733240406e-308F64
+;#define __FLT64_EPSILON__ 2.22044604925031308084726333618164062e-16F64
+;#define __FLT64_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F64
+;#define __FLT64_HAS_DENORM__ 1
+;#define __FLT64_HAS_INFINITY__ 1
+;#define __FLT64_HAS_QUIET_NAN__ 1
+;#define __FLT128_MANT_DIG__ 113
+;#define __FLT128_DIG__ 33
+;#define __FLT128_MIN_EXP__ (-16381)
+;#define __FLT128_MIN_10_EXP__ (-4931)
+;#define __FLT128_MAX_EXP__ 16384
+;#define __FLT128_MAX_10_EXP__ 4932
+;#define __FLT128_DECIMAL_DIG__ 36
+;#define __FLT128_MAX__ 1.18973149535723176508575932662800702e+4932F128
+;#define __FLT128_MIN__ 3.36210314311209350626267781732175260e-4932F128
+;#define __FLT128_EPSILON__ 1.92592994438723585305597794258492732e-34F128
+;#define __FLT128_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966F128
+;#define __FLT128_HAS_DENORM__ 1
+;#define __FLT128_HAS_INFINITY__ 1
+;#define __FLT128_HAS_QUIET_NAN__ 1
+;#define __FLT32X_MANT_DIG__ 53
+;#define __FLT32X_DIG__ 15
+;#define __FLT32X_MIN_EXP__ (-1021)
+;#define __FLT32X_MIN_10_EXP__ (-307)
+;#define __FLT32X_MAX_EXP__ 1024
+;#define __FLT32X_MAX_10_EXP__ 308
+;#define __FLT32X_DECIMAL_DIG__ 17
+;#define __FLT32X_MAX__ 1.79769313486231570814527423731704357e+308F32x
+;#define __FLT32X_MIN__ 2.22507385850720138309023271733240406e-308F32x
+;#define __FLT32X_EPSILON__ 2.22044604925031308084726333618164062e-16F32x
+;#define __FLT32X_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F32x
+;#define __FLT32X_HAS_DENORM__ 1
+;#define __FLT32X_HAS_INFINITY__ 1
+;#define __FLT32X_HAS_QUIET_NAN__ 1
+;#define __FLT64X_MANT_DIG__ 64
+;#define __FLT64X_DIG__ 18
+;#define __FLT64X_MIN_EXP__ (-16381)
+;#define __FLT64X_MIN_10_EXP__ (-4931)
+;#define __FLT64X_MAX_EXP__ 16384
+;#define __FLT64X_MAX_10_EXP__ 4932
+;#define __FLT64X_DECIMAL_DIG__ 21
+;#define __FLT64X_MAX__ 1.18973149535723176502126385303097021e+4932F64x
+;#define __FLT64X_MIN__ 3.36210314311209350626267781732175260e-4932F64x
+;#define __FLT64X_EPSILON__ 1.08420217248550443400745280086994171e-19F64x
+;#define __FLT64X_DENORM_MIN__ 3.64519953188247460252840593361941982e-4951F64x
+;#define __FLT64X_HAS_DENORM__ 1
+;#define __FLT64X_HAS_INFINITY__ 1
+;#define __FLT64X_HAS_QUIET_NAN__ 1
+;#define __DEC32_MANT_DIG__ 7
+;#define __DEC32_MIN_EXP__ (-94)
+;#define __DEC32_MAX_EXP__ 97
+;#define __DEC32_MIN__ 1E-95DF
+;#define __DEC32_MAX__ 9.999999E96DF
+;#define __DEC32_EPSILON__ 1E-6DF
+;#define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
+;#define __DEC64_MANT_DIG__ 16
+;#define __DEC64_MIN_EXP__ (-382)
+;#define __DEC64_MAX_EXP__ 385
+;#define __DEC64_MIN__ 1E-383DD
+;#define __DEC64_MAX__ 9.999999999999999E384DD
+;#define __DEC64_EPSILON__ 1E-15DD
+;#define __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
+;#define __DEC128_MANT_DIG__ 34
+;#define __DEC128_MIN_EXP__ (-6142)
+;#define __DEC128_MAX_EXP__ 6145
+;#define __DEC128_MIN__ 1E-6143DL
+;#define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
+;#define __DEC128_EPSILON__ 1E-33DL
+;#define __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
+;#define __REGISTER_PREFIX__ 
+;#define __USER_LABEL_PREFIX__ _
+;#define __GNUC_STDC_INLINE__ 1
+;#define __NO_INLINE__ 1
+;#define __WCHAR_UNSIGNED__ 1
+;#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1
+;#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1
+;#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1
+;#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_8 1
+;#define __GCC_ATOMIC_BOOL_LOCK_FREE 2
+;#define __GCC_ATOMIC_CHAR_LOCK_FREE 2
+;#define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 2
+;#define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
+;#define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2
+;#define __GCC_ATOMIC_SHORT_LOCK_FREE 2
+;#define __GCC_ATOMIC_INT_LOCK_FREE 2
+;#define __GCC_ATOMIC_LONG_LOCK_FREE 2
+;#define __GCC_ATOMIC_LLONG_LOCK_FREE 2
+;#define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
+;#define __GCC_ATOMIC_POINTER_LOCK_FREE 2
+;#define __GCC_HAVE_DWARF2_CFI_ASM 1
+;#define __PRAGMA_REDEFINE_EXTNAME 1
+;#define __SIZEOF_WCHAR_T__ 2
+;#define __SIZEOF_WINT_T__ 2
+;#define __SIZEOF_PTRDIFF_T__ 4
+;#define __i386 1
+;#define __i386__ 1
+;#define i386 1
+;#define __SIZEOF_FLOAT80__ 12
+;#define __SIZEOF_FLOAT128__ 16
+;#define __ATOMIC_HLE_ACQUIRE 65536
+;#define __ATOMIC_HLE_RELEASE 131072
+;#define __GCC_ASM_FLAG_OUTPUTS__ 1
+;#define __i586 1
+;#define __i586__ 1
+;#define __pentium 1
+;#define __pentium__ 1
+;#define __code_model_32__ 1
+;#define __SEG_FS 1
+;#define __SEG_GS 1
+;#define _X86_ 1
+;#define __stdcall __attribute__((__stdcall__))
+;#define __fastcall __attribute__((__fastcall__))
+;#define __thiscall __attribute__((__thiscall__))
+;#define __cdecl __attribute__((__cdecl__))
+;#define _stdcall __attribute__((__stdcall__))
+;#define _fastcall __attribute__((__fastcall__))
+;#define _thiscall __attribute__((__thiscall__))
+;#define _cdecl __attribute__((__cdecl__))
+;#define __GXX_MERGED_TYPEINFO_NAMES 0
+;#define __GXX_TYPEINFO_EQUALITY_INLINE 0
+;#define __MSVCRT__ 1
+;#define __MINGW32__ 1
+;#define _WIN32 1
+;#define __WIN32 1
+;#define __WIN32__ 1
+;#define WIN32 1
+;#define __WINNT 1
+;#define __WINNT__ 1
+;#define WINNT 1
+;#define _INTEGRAL_MAX_BITS 64
+;#define __declspec(x) __attribute__((x))
+;#define __DECIMAL_BID_FORMAT__ 1
+
+-- _defines=__STDC__;1;__STDC_VERSION__;201710L;__STDC_UTF_16__;1;__STDC_UTF_32__;1;__STDC_HOSTED__;1;__GNUC__;8;__GNUC_MINOR__;2;__GNUC_PATCHLEVEL__;0;__VERSION__;"8.2.0";__ATOMIC_RELAXED;0;__ATOMIC_SEQ_CST;5;__ATOMIC_ACQUIRE;2;__ATOMIC_RELEASE;3;__ATOMIC_ACQ_REL;4;__ATOMIC_CONSUME;1;__FINITE_MATH_ONLY__;0;__SIZEOF_INT__;4;__SIZEOF_LONG__;4;__SIZEOF_LONG_LONG__;8;__SIZEOF_SHORT__;2;__SIZEOF_FLOAT__;4;__SIZEOF_DOUBLE__;8;__SIZEOF_LONG_DOUBLE__;12;__SIZEOF_SIZE_T__;4;__CHAR_BIT__;8;__BIGGEST_ALIGNMENT__;16;__ORDER_LITTLE_ENDIAN__;1234;__ORDER_BIG_ENDIAN__;4321;__ORDER_PDP_ENDIAN__;3412;__BYTE_ORDER__;__ORDER_LITTLE_ENDIAN__;__FLOAT_WORD_ORDER__;__ORDER_LITTLE_ENDIAN__;__SIZEOF_POINTER__;4;__SIZE_TYPE__;unsigned int;__PTRDIFF_TYPE__;int;__WCHAR_TYPE__;short unsigned int;__WINT_TYPE__;short unsigned int;__INTMAX_TYPE__;long long int;__UINTMAX_TYPE__;long long unsigned int;__CHAR16_TYPE__;short unsigned int;__CHAR32_TYPE__;unsigned int;__SIG_ATOMIC_TYPE__;int;__INT8_TYPE__;signed char;__INT16_TYPE__;short int;__INT32_TYPE__;int;__INT64_TYPE__;long long int;__UINT8_TYPE__;unsigned char;__UINT16_TYPE__;short unsigned int;__UINT32_TYPE__;unsigned int;__UINT64_TYPE__;long long unsigned int;__INT_LEAST8_TYPE__;signed char;__INT_LEAST16_TYPE__;short int;__INT_LEAST32_TYPE__;int;__INT_LEAST64_TYPE__;long long int;__UINT_LEAST8_TYPE__;unsigned char;__UINT_LEAST16_TYPE__;short unsigned int;__UINT_LEAST32_TYPE__;unsigned int;__UINT_LEAST64_TYPE__;long long unsigned int;__INT_FAST8_TYPE__;signed char;__INT_FAST16_TYPE__;short int;__INT_FAST32_TYPE__;int;__INT_FAST64_TYPE__;long long int;__UINT_FAST8_TYPE__;unsigned char;__UINT_FAST16_TYPE__;short unsigned int;__UINT_FAST32_TYPE__;unsigned int;__UINT_FAST64_TYPE__;long long unsigned int;__INTPTR_TYPE__;int;__UINTPTR_TYPE__;unsigned int;__has_include(STR);__has_include__(STR);__has_include_next(STR);__has_include_next__(STR);__GXX_ABI_VERSION;1013;__SCHAR_MAX__;0x7f;__SHRT_MAX__;0x7fff;__INT_MAX__;0x7fffffff;__LONG_MAX__;0x7fffffffL;__LONG_LONG_MAX__;0x7fffffffffffffffLL;__WCHAR_MAX__;0xffff;__WCHAR_MIN__;0;__WINT_MAX__;0xffff;__WINT_MIN__;0;__PTRDIFF_MAX__;0x7fffffff;__SIZE_MAX__;0xffffffffU;__SCHAR_WIDTH__;8;__SHRT_WIDTH__;16;__INT_WIDTH__;32;__LONG_WIDTH__;32;__LONG_LONG_WIDTH__;64;__WCHAR_WIDTH__;16;__WINT_WIDTH__;16;__PTRDIFF_WIDTH__;32;__SIZE_WIDTH__;32;__INTMAX_MAX__;0x7fffffffffffffffLL;__INTMAX_C(c);c ## LL;__UINTMAX_MAX__;0xffffffffffffffffULL;__UINTMAX_C(c);c ## ULL;__INTMAX_WIDTH__;64;__SIG_ATOMIC_MAX__;0x7fffffff;__SIG_ATOMIC_MIN__;(-__SIG_ATOMIC_MAX__ - 1);__SIG_ATOMIC_WIDTH__;32;__INT8_MAX__;0x7f;__INT16_MAX__;0x7fff;__INT32_MAX__;0x7fffffff;__INT64_MAX__;0x7fffffffffffffffLL;__UINT8_MAX__;0xff;__UINT16_MAX__;0xffff;__UINT32_MAX__;0xffffffffU;__UINT64_MAX__;0xffffffffffffffffULL;__INT_LEAST8_MAX__;0x7f;__INT8_C(c);c;__INT_LEAST8_WIDTH__;8;__INT_LEAST16_MAX__;0x7fff;__INT16_C(c);c;__INT_LEAST16_WIDTH__;16;__INT_LEAST32_MAX__;0x7fffffff;__INT32_C(c);c;__INT_LEAST32_WIDTH__;32;__INT_LEAST64_MAX__;0x7fffffffffffffffLL;__INT64_C(c);c ## LL;__INT_LEAST64_WIDTH__;64;__UINT_LEAST8_MAX__;0xff;__UINT8_C(c);c;__UINT_LEAST16_MAX__;0xffff;__UINT16_C(c);c;__UINT_LEAST32_MAX__;0xffffffffU;__UINT32_C(c);c ## U;__UINT_LEAST64_MAX__;0xffffffffffffffffULL;__UINT64_C(c);c ## ULL;__INT_FAST8_MAX__;0x7f;__INT_FAST8_WIDTH__;8;__INT_FAST16_MAX__;0x7fff;__INT_FAST16_WIDTH__;16;__INT_FAST32_MAX__;0x7fffffff;__INT_FAST32_WIDTH__;32;__INT_FAST64_MAX__;0x7fffffffffffffffLL;__INT_FAST64_WIDTH__;64;__UINT_FAST8_MAX__;0xff;__UINT_FAST16_MAX__;0xffff;__UINT_FAST32_MAX__;0xffffffffU;__UINT_FAST64_MAX__;0xffffffffffffffffULL;__INTPTR_MAX__;0x7fffffff;__INTPTR_WIDTH__;32;__UINTPTR_MAX__;0xffffffffU;__GCC_IEC_559;2;__GCC_IEC_559_COMPLEX;2;__FLT_EVAL_METHOD__;2;__FLT_EVAL_METHOD_TS_18661_3__;2;__DEC_EVAL_METHOD__;2;__FLT_RADIX__;2;__FLT_MANT_DIG__;24;__FLT_DIG__;6;__FLT_MIN_EXP__;(-125);__FLT_MIN_10_EXP__;(-37);__FLT_MAX_EXP__;128;__FLT_MAX_10_EXP__;38;__FLT_DECIMAL_DIG__;9;__FLT_MAX__;3.40282346638528859811704183484516925e+38F;__FLT_MIN__;1.17549435082228750796873653722224568e-38F;__FLT_EPSILON__;1.19209289550781250000000000000000000e-7F;__FLT_DENORM_MIN__;1.40129846432481707092372958328991613e-45F;__FLT_HAS_DENORM__;1;__FLT_HAS_INFINITY__;1;__FLT_HAS_QUIET_NAN__;1;__DBL_MANT_DIG__;53;__DBL_DIG__;15;__DBL_MIN_EXP__;(-1021);__DBL_MIN_10_EXP__;(-307);__DBL_MAX_EXP__;1024;__DBL_MAX_10_EXP__;308;__DBL_DECIMAL_DIG__;17;__DBL_MAX__;((double)1.79769313486231570814527423731704357e+308L);__DBL_MIN__;((double)2.22507385850720138309023271733240406e-308L);__DBL_EPSILON__;((double)2.22044604925031308084726333618164062e-16L);__DBL_DENORM_MIN__;((double)4.94065645841246544176568792868221372e-324L);__DBL_HAS_DENORM__;1;__DBL_HAS_INFINITY__;1;__DBL_HAS_QUIET_NAN__;1;__LDBL_MANT_DIG__;64;__LDBL_DIG__;18;__LDBL_MIN_EXP__;(-16381);__LDBL_MIN_10_EXP__;(-4931);__LDBL_MAX_EXP__;16384;__LDBL_MAX_10_EXP__;4932;__DECIMAL_DIG__;21;__LDBL_DECIMAL_DIG__;21;__LDBL_MAX__;1.18973149535723176502126385303097021e+4932L;__LDBL_MIN__;3.36210314311209350626267781732175260e-4932L;__LDBL_EPSILON__;1.08420217248550443400745280086994171e-19L;__LDBL_DENORM_MIN__;3.64519953188247460252840593361941982e-4951L;__LDBL_HAS_DENORM__;1;__LDBL_HAS_INFINITY__;1;__LDBL_HAS_QUIET_NAN__;1;__FLT32_MANT_DIG__;24;__FLT32_DIG__;6;__FLT32_MIN_EXP__;(-125);__FLT32_MIN_10_EXP__;(-37);__FLT32_MAX_EXP__;128;__FLT32_MAX_10_EXP__;38;__FLT32_DECIMAL_DIG__;9;__FLT32_MAX__;3.40282346638528859811704183484516925e+38F32;__FLT32_MIN__;1.17549435082228750796873653722224568e-38F32;__FLT32_EPSILON__;1.19209289550781250000000000000000000e-7F32;__FLT32_DENORM_MIN__;1.40129846432481707092372958328991613e-45F32;__FLT32_HAS_DENORM__;1;__FLT32_HAS_INFINITY__;1;__FLT32_HAS_QUIET_NAN__;1;__FLT64_MANT_DIG__;53;__FLT64_DIG__;15;__FLT64_MIN_EXP__;(-1021);__FLT64_MIN_10_EXP__;(-307);__FLT64_MAX_EXP__;1024;__FLT64_MAX_10_EXP__;308;__FLT64_DECIMAL_DIG__;17;__FLT64_MAX__;1.79769313486231570814527423731704357e+308F64;__FLT64_MIN__;2.22507385850720138309023271733240406e-308F64;__FLT64_EPSILON__;2.22044604925031308084726333618164062e-16F64;__FLT64_DENORM_MIN__;4.94065645841246544176568792868221372e-324F64;__FLT64_HAS_DENORM__;1;__FLT64_HAS_INFINITY__;1;__FLT64_HAS_QUIET_NAN__;1;__FLT128_MANT_DIG__;113;__FLT128_DIG__;33;__FLT128_MIN_EXP__;(-16381);__FLT128_MIN_10_EXP__;(-4931);__FLT128_MAX_EXP__;16384;__FLT128_MAX_10_EXP__;4932;__FLT128_DECIMAL_DIG__;36;__FLT128_MAX__;1.18973149535723176508575932662800702e+4932F128;__FLT128_MIN__;3.36210314311209350626267781732175260e-4932F128;__FLT128_EPSILON__;1.92592994438723585305597794258492732e-34F128;__FLT128_DENORM_MIN__;6.47517511943802511092443895822764655e-4966F128;__FLT128_HAS_DENORM__;1;__FLT128_HAS_INFINITY__;1;__FLT128_HAS_QUIET_NAN__;1;__FLT32X_MANT_DIG__;53;__FLT32X_DIG__;15;__FLT32X_MIN_EXP__;(-1021);__FLT32X_MIN_10_EXP__;(-307);__FLT32X_MAX_EXP__;1024;__FLT32X_MAX_10_EXP__;308;__FLT32X_DECIMAL_DIG__;17;__FLT32X_MAX__;1.79769313486231570814527423731704357e+308F32x;__FLT32X_MIN__;2.22507385850720138309023271733240406e-308F32x;__FLT32X_EPSILON__;2.22044604925031308084726333618164062e-16F32x;__FLT32X_DENORM_MIN__;4.94065645841246544176568792868221372e-324F32x;__FLT32X_HAS_DENORM__;1;__FLT32X_HAS_INFINITY__;1;__FLT32X_HAS_QUIET_NAN__;1;__FLT64X_MANT_DIG__;64;__FLT64X_DIG__;18;__FLT64X_MIN_EXP__;(-16381);__FLT64X_MIN_10_EXP__;(-4931);__FLT64X_MAX_EXP__;16384;__FLT64X_MAX_10_EXP__;4932;__FLT64X_DECIMAL_DIG__;21;__FLT64X_MAX__;1.18973149535723176502126385303097021e+4932F64x;__FLT64X_MIN__;3.36210314311209350626267781732175260e-4932F64x;__FLT64X_EPSILON__;1.08420217248550443400745280086994171e-19F64x;__FLT64X_DENORM_MIN__;3.64519953188247460252840593361941982e-4951F64x;__FLT64X_HAS_DENORM__;1;__FLT64X_HAS_INFINITY__;1;__FLT64X_HAS_QUIET_NAN__;1;__DEC32_MANT_DIG__;7;__DEC32_MIN_EXP__;(-94);__DEC32_MAX_EXP__;97;__DEC32_MIN__;1E-95DF;__DEC32_MAX__;9.999999E96DF;__DEC32_EPSILON__;1E-6DF;__DEC32_SUBNORMAL_MIN__;0.000001E-95DF;__DEC64_MANT_DIG__;16;__DEC64_MIN_EXP__;(-382);__DEC64_MAX_EXP__;385;__DEC64_MIN__;1E-383DD;__DEC64_MAX__;9.999999999999999E384DD;__DEC64_EPSILON__;1E-15DD;__DEC64_SUBNORMAL_MIN__;0.000000000000001E-383DD;__DEC128_MANT_DIG__;34;__DEC128_MIN_EXP__;(-6142);__DEC128_MAX_EXP__;6145;__DEC128_MIN__;1E-6143DL;__DEC128_MAX__;9.999999999999999999999999999999999E6144DL;__DEC128_EPSILON__;1E-33DL;__DEC128_SUBNORMAL_MIN__;0.000000000000000000000000000000001E-6143DL;__REGISTER_PREFIX__; ;__USER_LABEL_PREFIX__;_;__GNUC_STDC_INLINE__;1;__NO_INLINE__;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8;1;__GCC_ATOMIC_BOOL_LOCK_FREE;2;__GCC_ATOMIC_CHAR_LOCK_FREE;2;__GCC_ATOMIC_CHAR16_T_LOCK_FREE;2;__GCC_ATOMIC_CHAR32_T_LOCK_FREE;2;__GCC_ATOMIC_WCHAR_T_LOCK_FREE;2;__GCC_ATOMIC_SHORT_LOCK_FREE;2;__GCC_ATOMIC_INT_LOCK_FREE;2;__GCC_ATOMIC_LONG_LOCK_FREE;2;__GCC_ATOMIC_LLONG_LOCK_FREE;2;__GCC_ATOMIC_TEST_AND_SET_TRUEVAL;1;__GCC_ATOMIC_POINTER_LOCK_FREE;2;__GCC_HAVE_DWARF2_CFI_ASM;1;__PRAGMA_REDEFINE_EXTNAME;1;__SIZEOF_WCHAR_T__;2;__SIZEOF_WINT_T__;2;__SIZEOF_PTRDIFF_T__;4;__i386;1;__i386__;1;i386;1;__SIZEOF_FLOAT80__;12;__SIZEOF_FLOAT128__;16;__ATOMIC_HLE_ACQUIRE;65536;__ATOMIC_HLE_RELEASE;131072;__GCC_ASM_FLAG_OUTPUTS__;1;__i586;1;__i586__;1;__pentium;1;__pentium__;1;__code_model_32__;1;__SEG_FS;1;__SEG_GS;1;_X86_;1;__stdcall;__attribute__((__stdcall__));__fastcall;__attribute__((__fastcall__));__thiscall;__attribute__((__thiscall__));__cdecl;__attribute__((__cdecl__));_stdcall;__attribute__((__stdcall__));_fastcall;__attribute__((__fastcall__));_thiscall;__attribute__((__thiscall__));_cdecl;__attribute__((__cdecl__));__GXX_MERGED_TYPEINFO_NAMES;0;__GXX_TYPEINFO_EQUALITY_INLINE;0;__MSVCRT__;1;__MINGW32__;1;_WIN32;1;__WIN32;1;__WIN32__;1;WIN32;1;__WINNT;1;__WINNT__;1;WINNT;1;_INTEGRAL_MAX_BITS;64;__declspec(x);__attribute__((x));__DECIMAL_BID_FORMAT__;1;__STDC__;1;__cplusplus;201402L;__STDC_UTF_16__;1;__STDC_UTF_32__;1;__STDC_HOSTED__;1;__GNUC__;8;__GNUC_MINOR__;2;__GNUC_PATCHLEVEL__;0;__VERSION__;"8.2.0";__ATOMIC_RELAXED;0;__ATOMIC_SEQ_CST;5;__ATOMIC_ACQUIRE;2;__ATOMIC_RELEASE;3;__ATOMIC_ACQ_REL;4;__ATOMIC_CONSUME;1;__FINITE_MATH_ONLY__;0;__SIZEOF_INT__;4;__SIZEOF_LONG__;4;__SIZEOF_LONG_LONG__;8;__SIZEOF_SHORT__;2;__SIZEOF_FLOAT__;4;__SIZEOF_DOUBLE__;8;__SIZEOF_LONG_DOUBLE__;12;__SIZEOF_SIZE_T__;4;__CHAR_BIT__;8;__BIGGEST_ALIGNMENT__;16;__ORDER_LITTLE_ENDIAN__;1234;__ORDER_BIG_ENDIAN__;4321;__ORDER_PDP_ENDIAN__;3412;__BYTE_ORDER__;__ORDER_LITTLE_ENDIAN__;__FLOAT_WORD_ORDER__;__ORDER_LITTLE_ENDIAN__;__SIZEOF_POINTER__;4;__GNUG__;8;__SIZE_TYPE__;unsigned int;__PTRDIFF_TYPE__;int;__WCHAR_TYPE__;short unsigned int;__WINT_TYPE__;short unsigned int;__INTMAX_TYPE__;long long int;__UINTMAX_TYPE__;long long unsigned int;__CHAR16_TYPE__;short unsigned int;__CHAR32_TYPE__;unsigned int;__SIG_ATOMIC_TYPE__;int;__INT8_TYPE__;signed char;__INT16_TYPE__;short int;__INT32_TYPE__;int;__INT64_TYPE__;long long int;__UINT8_TYPE__;unsigned char;__UINT16_TYPE__;short unsigned int;__UINT32_TYPE__;unsigned int;__UINT64_TYPE__;long long unsigned int;__INT_LEAST8_TYPE__;signed char;__INT_LEAST16_TYPE__;short int;__INT_LEAST32_TYPE__;int;__INT_LEAST64_TYPE__;long long int;__UINT_LEAST8_TYPE__;unsigned char;__UINT_LEAST16_TYPE__;short unsigned int;__UINT_LEAST32_TYPE__;unsigned int;__UINT_LEAST64_TYPE__;long long unsigned int;__INT_FAST8_TYPE__;signed char;__INT_FAST16_TYPE__;short int;__INT_FAST32_TYPE__;int;__INT_FAST64_TYPE__;long long int;__UINT_FAST8_TYPE__;unsigned char;__UINT_FAST16_TYPE__;short unsigned int;__UINT_FAST32_TYPE__;unsigned int;__UINT_FAST64_TYPE__;long long unsigned int;__INTPTR_TYPE__;int;__UINTPTR_TYPE__;unsigned int;__has_include(STR);__has_include__(STR);__has_include_next(STR);__has_include_next__(STR);__GXX_WEAK__;1;__DEPRECATED;1;__GXX_RTTI;1;__cpp_rtti;199711;__GXX_EXPERIMENTAL_CXX0X__;1;__cpp_binary_literals;201304;__cpp_hex_float;201603;__cpp_runtime_arrays;198712;__cpp_unicode_characters;200704;__cpp_raw_strings;200710;__cpp_unicode_literals;200710;__cpp_user_defined_literals;200809;__cpp_lambdas;200907;__cpp_range_based_for;200907;__cpp_static_assert;200410;__cpp_decltype;200707;__cpp_attributes;200809;__cpp_rvalue_reference;200610;__cpp_rvalue_references;200610;__cpp_variadic_templates;200704;__cpp_initializer_lists;200806;__cpp_delegating_constructors;200604;__cpp_nsdmi;200809;__cpp_inheriting_constructors;201511;__cpp_ref_qualifiers;200710;__cpp_alias_templates;200704;__cpp_return_type_deduction;201304;__cpp_init_captures;201304;__cpp_generic_lambdas;201304;__cpp_constexpr;201304;__cpp_decltype_auto;201304;__cpp_aggregate_nsdmi;201304;__cpp_variable_templates;201304;__cpp_digit_separators;201309;__cpp_sized_deallocation;201309;__cpp_threadsafe_static_init;200806;__EXCEPTIONS;1;__cpp_exceptions;199711;__GXX_ABI_VERSION;1013;__SCHAR_MAX__;0x7f;__SHRT_MAX__;0x7fff;__INT_MAX__;0x7fffffff;__LONG_MAX__;0x7fffffffL;__LONG_LONG_MAX__;0x7fffffffffffffffLL;__WCHAR_MAX__;0xffff;__WCHAR_MIN__;0;__WINT_MAX__;0xffff;__WINT_MIN__;0;__PTRDIFF_MAX__;0x7fffffff;__SIZE_MAX__;0xffffffffU;__SCHAR_WIDTH__;8;__SHRT_WIDTH__;16;__INT_WIDTH__;32;__LONG_WIDTH__;32;__LONG_LONG_WIDTH__;64;__WCHAR_WIDTH__;16;__WINT_WIDTH__;16;__PTRDIFF_WIDTH__;32;__SIZE_WIDTH__;32;__INTMAX_MAX__;0x7fffffffffffffffLL;__INTMAX_C(c);c ## LL;__UINTMAX_MAX__;0xffffffffffffffffULL;__UINTMAX_C(c);c ## ULL;__INTMAX_WIDTH__;64;__SIG_ATOMIC_MAX__;0x7fffffff;__SIG_ATOMIC_MIN__;(-__SIG_ATOMIC_MAX__ - 1);__SIG_ATOMIC_WIDTH__;32;__INT8_MAX__;0x7f;__INT16_MAX__;0x7fff;__INT32_MAX__;0x7fffffff;__INT64_MAX__;0x7fffffffffffffffLL;__UINT8_MAX__;0xff;__UINT16_MAX__;0xffff;__UINT32_MAX__;0xffffffffU;__UINT64_MAX__;0xffffffffffffffffULL;__INT_LEAST8_MAX__;0x7f;__INT8_C(c);c;__INT_LEAST8_WIDTH__;8;__INT_LEAST16_MAX__;0x7fff;__INT16_C(c);c;__INT_LEAST16_WIDTH__;16;__INT_LEAST32_MAX__;0x7fffffff;__INT32_C(c);c;__INT_LEAST32_WIDTH__;32;__INT_LEAST64_MAX__;0x7fffffffffffffffLL;__INT64_C(c);c ## LL;__INT_LEAST64_WIDTH__;64;__UINT_LEAST8_MAX__;0xff;__UINT8_C(c);c;__UINT_LEAST16_MAX__;0xffff;__UINT16_C(c);c;__UINT_LEAST32_MAX__;0xffffffffU;__UINT32_C(c);c ## U;__UINT_LEAST64_MAX__;0xffffffffffffffffULL;__UINT64_C(c);c ## ULL;__INT_FAST8_MAX__;0x7f;__INT_FAST8_WIDTH__;8;__INT_FAST16_MAX__;0x7fff;__INT_FAST16_WIDTH__;16;__INT_FAST32_MAX__;0x7fffffff;__INT_FAST32_WIDTH__;32;__INT_FAST64_MAX__;0x7fffffffffffffffLL;__INT_FAST64_WIDTH__;64;__UINT_FAST8_MAX__;0xff;__UINT_FAST16_MAX__;0xffff;__UINT_FAST32_MAX__;0xffffffffU;__UINT_FAST64_MAX__;0xffffffffffffffffULL;__INTPTR_MAX__;0x7fffffff;__INTPTR_WIDTH__;32;__UINTPTR_MAX__;0xffffffffU;__GCC_IEC_559;2;__GCC_IEC_559_COMPLEX;2;__FLT_EVAL_METHOD__;2;__FLT_EVAL_METHOD_TS_18661_3__;2;__DEC_EVAL_METHOD__;2;__FLT_RADIX__;2;__FLT_MANT_DIG__;24;__FLT_DIG__;6;__FLT_MIN_EXP__;(-125);__FLT_MIN_10_EXP__;(-37);__FLT_MAX_EXP__;128;__FLT_MAX_10_EXP__;38;__FLT_DECIMAL_DIG__;9;__FLT_MAX__;3.40282346638528859811704183484516925e+38F;__FLT_MIN__;1.17549435082228750796873653722224568e-38F;__FLT_EPSILON__;1.19209289550781250000000000000000000e-7F;__FLT_DENORM_MIN__;1.40129846432481707092372958328991613e-45F;__FLT_HAS_DENORM__;1;__FLT_HAS_INFINITY__;1;__FLT_HAS_QUIET_NAN__;1;__DBL_MANT_DIG__;53;__DBL_DIG__;15;__DBL_MIN_EXP__;(-1021);__DBL_MIN_10_EXP__;(-307);__DBL_MAX_EXP__;1024;__DBL_MAX_10_EXP__;308;__DBL_DECIMAL_DIG__;17;__DBL_MAX__;double(1.79769313486231570814527423731704357e+308L);__DBL_MIN__;double(2.22507385850720138309023271733240406e-308L);__DBL_EPSILON__;double(2.22044604925031308084726333618164062e-16L);__DBL_DENORM_MIN__;double(4.94065645841246544176568792868221372e-324L);__DBL_HAS_DENORM__;1;__DBL_HAS_INFINITY__;1;__DBL_HAS_QUIET_NAN__;1;__LDBL_MANT_DIG__;64;__LDBL_DIG__;18;__LDBL_MIN_EXP__;(-16381);__LDBL_MIN_10_EXP__;(-4931);__LDBL_MAX_EXP__;16384;__LDBL_MAX_10_EXP__;4932;__DECIMAL_DIG__;21;__LDBL_DECIMAL_DIG__;21;__LDBL_MAX__;1.18973149535723176502126385303097021e+4932L;__LDBL_MIN__;3.36210314311209350626267781732175260e-4932L;__LDBL_EPSILON__;1.08420217248550443400745280086994171e-19L;__LDBL_DENORM_MIN__;3.64519953188247460252840593361941982e-4951L;__LDBL_HAS_DENORM__;1;__LDBL_HAS_INFINITY__;1;__LDBL_HAS_QUIET_NAN__;1;__FLT32_MANT_DIG__;24;__FLT32_DIG__;6;__FLT32_MIN_EXP__;(-125);__FLT32_MIN_10_EXP__;(-37);__FLT32_MAX_EXP__;128;__FLT32_MAX_10_EXP__;38;__FLT32_DECIMAL_DIG__;9;__FLT32_MAX__;3.40282346638528859811704183484516925e+38F32;__FLT32_MIN__;1.17549435082228750796873653722224568e-38F32;__FLT32_EPSILON__;1.19209289550781250000000000000000000e-7F32;__FLT32_DENORM_MIN__;1.40129846432481707092372958328991613e-45F32;__FLT32_HAS_DENORM__;1;__FLT32_HAS_INFINITY__;1;__FLT32_HAS_QUIET_NAN__;1;__FLT64_MANT_DIG__;53;__FLT64_DIG__;15;__FLT64_MIN_EXP__;(-1021);__FLT64_MIN_10_EXP__;(-307);__FLT64_MAX_EXP__;1024;__FLT64_MAX_10_EXP__;308;__FLT64_DECIMAL_DIG__;17;__FLT64_MAX__;1.79769313486231570814527423731704357e+308F64;__FLT64_MIN__;2.22507385850720138309023271733240406e-308F64;__FLT64_EPSILON__;2.22044604925031308084726333618164062e-16F64;__FLT64_DENORM_MIN__;4.94065645841246544176568792868221372e-324F64;__FLT64_HAS_DENORM__;1;__FLT64_HAS_INFINITY__;1;__FLT64_HAS_QUIET_NAN__;1;__FLT128_MANT_DIG__;113;__FLT128_DIG__;33;__FLT128_MIN_EXP__;(-16381);__FLT128_MIN_10_EXP__;(-4931);__FLT128_MAX_EXP__;16384;__FLT128_MAX_10_EXP__;4932;__FLT128_DECIMAL_DIG__;36;__FLT128_MAX__;1.18973149535723176508575932662800702e+4932F128;__FLT128_MIN__;3.36210314311209350626267781732175260e-4932F128;__FLT128_EPSILON__;1.92592994438723585305597794258492732e-34F128;__FLT128_DENORM_MIN__;6.47517511943802511092443895822764655e-4966F128;__FLT128_HAS_DENORM__;1;__FLT128_HAS_INFINITY__;1;__FLT128_HAS_QUIET_NAN__;1;__FLT32X_MANT_DIG__;53;__FLT32X_DIG__;15;__FLT32X_MIN_EXP__;(-1021);__FLT32X_MIN_10_EXP__;(-307);__FLT32X_MAX_EXP__;1024;__FLT32X_MAX_10_EXP__;308;__FLT32X_DECIMAL_DIG__;17;__FLT32X_MAX__;1.79769313486231570814527423731704357e+308F32x;__FLT32X_MIN__;2.22507385850720138309023271733240406e-308F32x;__FLT32X_EPSILON__;2.22044604925031308084726333618164062e-16F32x;__FLT32X_DENORM_MIN__;4.94065645841246544176568792868221372e-324F32x;__FLT32X_HAS_DENORM__;1;__FLT32X_HAS_INFINITY__;1;__FLT32X_HAS_QUIET_NAN__;1;__FLT64X_MANT_DIG__;64;__FLT64X_DIG__;18;__FLT64X_MIN_EXP__;(-16381);__FLT64X_MIN_10_EXP__;(-4931);__FLT64X_MAX_EXP__;16384;__FLT64X_MAX_10_EXP__;4932;__FLT64X_DECIMAL_DIG__;21;__FLT64X_MAX__;1.18973149535723176502126385303097021e+4932F64x;__FLT64X_MIN__;3.36210314311209350626267781732175260e-4932F64x;__FLT64X_EPSILON__;1.08420217248550443400745280086994171e-19F64x;__FLT64X_DENORM_MIN__;3.64519953188247460252840593361941982e-4951F64x;__FLT64X_HAS_DENORM__;1;__FLT64X_HAS_INFINITY__;1;__FLT64X_HAS_QUIET_NAN__;1;__DEC32_MANT_DIG__;7;__DEC32_MIN_EXP__;(-94);__DEC32_MAX_EXP__;97;__DEC32_MIN__;1E-95DF;__DEC32_MAX__;9.999999E96DF;__DEC32_EPSILON__;1E-6DF;__DEC32_SUBNORMAL_MIN__;0.000001E-95DF;__DEC64_MANT_DIG__;16;__DEC64_MIN_EXP__;(-382);__DEC64_MAX_EXP__;385;__DEC64_MIN__;1E-383DD;__DEC64_MAX__;9.999999999999999E384DD;__DEC64_EPSILON__;1E-15DD;__DEC64_SUBNORMAL_MIN__;0.000000000000001E-383DD;__DEC128_MANT_DIG__;34;__DEC128_MIN_EXP__;(-6142);__DEC128_MAX_EXP__;6145;__DEC128_MIN__;1E-6143DL;__DEC128_MAX__;9.999999999999999999999999999999999E6144DL;__DEC128_EPSILON__;1E-33DL;__DEC128_SUBNORMAL_MIN__;0.000000000000000000000000000000001E-6143DL;__REGISTER_PREFIX__; ;__USER_LABEL_PREFIX__;_;__GNUC_STDC_INLINE__;1;__NO_INLINE__;1;__WCHAR_UNSIGNED__;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8;1;__GCC_ATOMIC_BOOL_LOCK_FREE;2;__GCC_ATOMIC_CHAR_LOCK_FREE;2;__GCC_ATOMIC_CHAR16_T_LOCK_FREE;2;__GCC_ATOMIC_CHAR32_T_LOCK_FREE;2;__GCC_ATOMIC_WCHAR_T_LOCK_FREE;2;__GCC_ATOMIC_SHORT_LOCK_FREE;2;__GCC_ATOMIC_INT_LOCK_FREE;2;__GCC_ATOMIC_LONG_LOCK_FREE;2;__GCC_ATOMIC_LLONG_LOCK_FREE;2;__GCC_ATOMIC_TEST_AND_SET_TRUEVAL;1;__GCC_ATOMIC_POINTER_LOCK_FREE;2;__GCC_HAVE_DWARF2_CFI_ASM;1;__PRAGMA_REDEFINE_EXTNAME;1;__SIZEOF_WCHAR_T__;2;__SIZEOF_WINT_T__;2;__SIZEOF_PTRDIFF_T__;4;__i386;1;__i386__;1;i386;1;__SIZEOF_FLOAT80__;12;__SIZEOF_FLOAT128__;16;__ATOMIC_HLE_ACQUIRE;65536;__ATOMIC_HLE_RELEASE;131072;__GCC_ASM_FLAG_OUTPUTS__;1;__i586;1;__i586__;1;__pentium;1;__pentium__;1;__code_model_32__;1;__SEG_FS;1;__SEG_GS;1;_X86_;1;__stdcall;__attribute__((__stdcall__));__fastcall;__attribute__((__fastcall__));__thiscall;__attribute__((__thiscall__));__cdecl;__attribute__((__cdecl__));_stdcall;__attribute__((__stdcall__));_fastcall;__attribute__((__fastcall__));_thiscall;__attribute__((__thiscall__));_cdecl;__attribute__((__cdecl__));__GXX_MERGED_TYPEINFO_NAMES;0;__GXX_TYPEINFO_EQUALITY_INLINE;0;__MSVCRT__;1;__MINGW32__;1;_WIN32;1;__WIN32;1;__WIN32__;1;WIN32;1;__WINNT;1;__WINNT__;1;WINNT;1;_INTEGRAL_MAX_BITS;64;__declspec(x);__attribute__((x));__DECIMAL_BID_FORMAT__;1
+-- _dirs=c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++;c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32;c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward;c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include;c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include;c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed
+-- _dummy=#define __DECIMAL_BID_FORMAT__ 1
+
+-- _gccOutput=Using built-in specs.
+COLLECT_GCC=C:/MinGW/bin/g++.exe
+Target: mingw32
+Configured with: ../src/gcc-8.2.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-8.2.0-3' --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-isl=/mingw --enable-libgomp --disable-libvtv --enable-nls --disable-build-format-warnings
+Thread model: win32
+gcc version 8.2.0 (MinGW.org GCC-8.2.0-3) 
+COLLECT_GCC_OPTIONS='-v' '-E' '-dD' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/cc1plus.exe -E -quiet -v -iprefix c:\mingw\bin\../lib/gcc/mingw32/8.2.0/ dummy -mtune=generic -march=i586 -dD
+ignoring nonexistent directory "c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../mingw32/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/8.2.0/include/c++"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/8.2.0/include/c++/mingw32"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/8.2.0/include/c++/backward"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/8.2.0/include"
+ignoring duplicate directory "/mingw/lib/gcc/mingw32/8.2.0/../../../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/8.2.0/include-fixed"
+ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/8.2.0/../../../../mingw32/include"
+ignoring duplicate directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++
+ c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32
+ c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward
+ c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include
+ c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include
+ c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed
+End of search list.
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/8.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-E' '-dD' '-shared-libgcc' '-mtune=generic' '-march=i586'
+
+-- _gccStdout=# 1 "dummy"
+# 1 "<built-in>"
+#define __STDC__ 1
+#define __cplusplus 201402L
+#define __STDC_UTF_16__ 1
+#define __STDC_UTF_32__ 1
+#define __STDC_HOSTED__ 1
+#define __GNUC__ 8
+#define __GNUC_MINOR__ 2
+#define __GNUC_PATCHLEVEL__ 0
+#define __VERSION__ "8.2.0"
+#define __ATOMIC_RELAXED 0
+#define __ATOMIC_SEQ_CST 5
+#define __ATOMIC_ACQUIRE 2
+#define __ATOMIC_RELEASE 3
+#define __ATOMIC_ACQ_REL 4
+#define __ATOMIC_CONSUME 1
+#define __FINITE_MATH_ONLY__ 0
+#define __SIZEOF_INT__ 4
+#define __SIZEOF_LONG__ 4
+#define __SIZEOF_LONG_LONG__ 8
+#define __SIZEOF_SHORT__ 2
+#define __SIZEOF_FLOAT__ 4
+#define __SIZEOF_DOUBLE__ 8
+#define __SIZEOF_LONG_DOUBLE__ 12
+#define __SIZEOF_SIZE_T__ 4
+#define __CHAR_BIT__ 8
+#define __BIGGEST_ALIGNMENT__ 16
+#define __ORDER_LITTLE_ENDIAN__ 1234
+#define __ORDER_BIG_ENDIAN__ 4321
+#define __ORDER_PDP_ENDIAN__ 3412
+#define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define __SIZEOF_POINTER__ 4
+#define __GNUG__ 8
+#define __SIZE_TYPE__ unsigned int
+#define __PTRDIFF_TYPE__ int
+#define __WCHAR_TYPE__ short unsigned int
+#define __WINT_TYPE__ short unsigned int
+#define __INTMAX_TYPE__ long long int
+#define __UINTMAX_TYPE__ long long unsigned int
+#define __CHAR16_TYPE__ short unsigned int
+#define __CHAR32_TYPE__ unsigned int
+#define __SIG_ATOMIC_TYPE__ int
+#define __INT8_TYPE__ signed char
+#define __INT16_TYPE__ short int
+#define __INT32_TYPE__ int
+#define __INT64_TYPE__ long long int
+#define __UINT8_TYPE__ unsigned char
+#define __UINT16_TYPE__ short unsigned int
+#define __UINT32_TYPE__ unsigned int
+#define __UINT64_TYPE__ long long unsigned int
+#define __INT_LEAST8_TYPE__ signed char
+#define __INT_LEAST16_TYPE__ short int
+#define __INT_LEAST32_TYPE__ int
+#define __INT_LEAST64_TYPE__ long long int
+#define __UINT_LEAST8_TYPE__ unsigned char
+#define __UINT_LEAST16_TYPE__ short unsigned int
+#define __UINT_LEAST32_TYPE__ unsigned int
+#define __UINT_LEAST64_TYPE__ long long unsigned int
+#define __INT_FAST8_TYPE__ signed char
+#define __INT_FAST16_TYPE__ short int
+#define __INT_FAST32_TYPE__ int
+#define __INT_FAST64_TYPE__ long long int
+#define __UINT_FAST8_TYPE__ unsigned char
+#define __UINT_FAST16_TYPE__ short unsigned int
+#define __UINT_FAST32_TYPE__ unsigned int
+#define __UINT_FAST64_TYPE__ long long unsigned int
+#define __INTPTR_TYPE__ int
+#define __UINTPTR_TYPE__ unsigned int
+#define __has_include(STR) __has_include__(STR)
+#define __has_include_next(STR) __has_include_next__(STR)
+#define __GXX_WEAK__ 1
+#define __DEPRECATED 1
+#define __GXX_RTTI 1
+#define __cpp_rtti 199711
+#define __GXX_EXPERIMENTAL_CXX0X__ 1
+#define __cpp_binary_literals 201304
+#define __cpp_hex_float 201603
+#define __cpp_runtime_arrays 198712
+#define __cpp_unicode_characters 200704
+#define __cpp_raw_strings 200710
+#define __cpp_unicode_literals 200710
+#define __cpp_user_defined_literals 200809
+#define __cpp_lambdas 200907
+#define __cpp_range_based_for 200907
+#define __cpp_static_assert 200410
+#define __cpp_decltype 200707
+#define __cpp_attributes 200809
+#define __cpp_rvalue_reference 200610
+#define __cpp_rvalue_references 200610
+#define __cpp_variadic_templates 200704
+#define __cpp_initializer_lists 200806
+#define __cpp_delegating_constructors 200604
+#define __cpp_nsdmi 200809
+#define __cpp_inheriting_constructors 201511
+#define __cpp_ref_qualifiers 200710
+#define __cpp_alias_templates 200704
+#define __cpp_return_type_deduction 201304
+#define __cpp_init_captures 201304
+#define __cpp_generic_lambdas 201304
+#define __cpp_constexpr 201304
+#define __cpp_decltype_auto 201304
+#define __cpp_aggregate_nsdmi 201304
+#define __cpp_variable_templates 201304
+#define __cpp_digit_separators 201309
+#define __cpp_sized_deallocation 201309
+#define __cpp_threadsafe_static_init 200806
+#define __EXCEPTIONS 1
+#define __cpp_exceptions 199711
+#define __GXX_ABI_VERSION 1013
+#define __SCHAR_MAX__ 0x7f
+#define __SHRT_MAX__ 0x7fff
+#define __INT_MAX__ 0x7fffffff
+#define __LONG_MAX__ 0x7fffffffL
+#define __LONG_LONG_MAX__ 0x7fffffffffffffffLL
+#define __WCHAR_MAX__ 0xffff
+#define __WCHAR_MIN__ 0
+#define __WINT_MAX__ 0xffff
+#define __WINT_MIN__ 0
+#define __PTRDIFF_MAX__ 0x7fffffff
+#define __SIZE_MAX__ 0xffffffffU
+#define __SCHAR_WIDTH__ 8
+#define __SHRT_WIDTH__ 16
+#define __INT_WIDTH__ 32
+#define __LONG_WIDTH__ 32
+#define __LONG_LONG_WIDTH__ 64
+#define __WCHAR_WIDTH__ 16
+#define __WINT_WIDTH__ 16
+#define __PTRDIFF_WIDTH__ 32
+#define __SIZE_WIDTH__ 32
+#define __INTMAX_MAX__ 0x7fffffffffffffffLL
+#define __INTMAX_C(c) c ## LL
+#define __UINTMAX_MAX__ 0xffffffffffffffffULL
+#define __UINTMAX_C(c) c ## ULL
+#define __INTMAX_WIDTH__ 64
+#define __SIG_ATOMIC_MAX__ 0x7fffffff
+#define __SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)
+#define __SIG_ATOMIC_WIDTH__ 32
+#define __INT8_MAX__ 0x7f
+#define __INT16_MAX__ 0x7fff
+#define __INT32_MAX__ 0x7fffffff
+#define __INT64_MAX__ 0x7fffffffffffffffLL
+#define __UINT8_MAX__ 0xff
+#define __UINT16_MAX__ 0xffff
+#define __UINT32_MAX__ 0xffffffffU
+#define __UINT64_MAX__ 0xffffffffffffffffULL
+#define __INT_LEAST8_MAX__ 0x7f
+#define __INT8_C(c) c
+#define __INT_LEAST8_WIDTH__ 8
+#define __INT_LEAST16_MAX__ 0x7fff
+#define __INT16_C(c) c
+#define __INT_LEAST16_WIDTH__ 16
+#define __INT_LEAST32_MAX__ 0x7fffffff
+#define __INT32_C(c) c
+#define __INT_LEAST32_WIDTH__ 32
+#define __INT_LEAST64_MAX__ 0x7fffffffffffffffLL
+#define __INT64_C(c) c ## LL
+#define __INT_LEAST64_WIDTH__ 64
+#define __UINT_LEAST8_MAX__ 0xff
+#define __UINT8_C(c) c
+#define __UINT_LEAST16_MAX__ 0xffff
+#define __UINT16_C(c) c
+#define __UINT_LEAST32_MAX__ 0xffffffffU
+#define __UINT32_C(c) c ## U
+#define __UINT_LEAST64_MAX__ 0xffffffffffffffffULL
+#define __UINT64_C(c) c ## ULL
+#define __INT_FAST8_MAX__ 0x7f
+#define __INT_FAST8_WIDTH__ 8
+#define __INT_FAST16_MAX__ 0x7fff
+#define __INT_FAST16_WIDTH__ 16
+#define __INT_FAST32_MAX__ 0x7fffffff
+#define __INT_FAST32_WIDTH__ 32
+#define __INT_FAST64_MAX__ 0x7fffffffffffffffLL
+#define __INT_FAST64_WIDTH__ 64
+#define __UINT_FAST8_MAX__ 0xff
+#define __UINT_FAST16_MAX__ 0xffff
+#define __UINT_FAST32_MAX__ 0xffffffffU
+#define __UINT_FAST64_MAX__ 0xffffffffffffffffULL
+#define __INTPTR_MAX__ 0x7fffffff
+#define __INTPTR_WIDTH__ 32
+#define __UINTPTR_MAX__ 0xffffffffU
+#define __GCC_IEC_559 2
+#define __GCC_IEC_559_COMPLEX 2
+#define __FLT_EVAL_METHOD__ 2
+#define __FLT_EVAL_METHOD_TS_18661_3__ 2
+#define __DEC_EVAL_METHOD__ 2
+#define __FLT_RADIX__ 2
+#define __FLT_MANT_DIG__ 24
+#define __FLT_DIG__ 6
+#define __FLT_MIN_EXP__ (-125)
+#define __FLT_MIN_10_EXP__ (-37)
+#define __FLT_MAX_EXP__ 128
+#define __FLT_MAX_10_EXP__ 38
+#define __FLT_DECIMAL_DIG__ 9
+#define __FLT_MAX__ 3.40282346638528859811704183484516925e+38F
+#define __FLT_MIN__ 1.17549435082228750796873653722224568e-38F
+#define __FLT_EPSILON__ 1.19209289550781250000000000000000000e-7F
+#define __FLT_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F
+#define __FLT_HAS_DENORM__ 1
+#define __FLT_HAS_INFINITY__ 1
+#define __FLT_HAS_QUIET_NAN__ 1
+#define __DBL_MANT_DIG__ 53
+#define __DBL_DIG__ 15
+#define __DBL_MIN_EXP__ (-1021)
+#define __DBL_MIN_10_EXP__ (-307)
+#define __DBL_MAX_EXP__ 1024
+#define __DBL_MAX_10_EXP__ 308
+#define __DBL_DECIMAL_DIG__ 17
+#define __DBL_MAX__ double(1.79769313486231570814527423731704357e+308L)
+#define __DBL_MIN__ double(2.22507385850720138309023271733240406e-308L)
+#define __DBL_EPSILON__ double(2.22044604925031308084726333618164062e-16L)
+#define __DBL_DENORM_MIN__ double(4.94065645841246544176568792868221372e-324L)
+#define __DBL_HAS_DENORM__ 1
+#define __DBL_HAS_INFINITY__ 1
+#define __DBL_HAS_QUIET_NAN__ 1
+#define __LDBL_MANT_DIG__ 64
+#define __LDBL_DIG__ 18
+#define __LDBL_MIN_EXP__ (-16381)
+#define __LDBL_MIN_10_EXP__ (-4931)
+#define __LDBL_MAX_EXP__ 16384
+#define __LDBL_MAX_10_EXP__ 4932
+#define __DECIMAL_DIG__ 21
+#define __LDBL_DECIMAL_DIG__ 21
+#define __LDBL_MAX__ 1.18973149535723176502126385303097021e+4932L
+#define __LDBL_MIN__ 3.36210314311209350626267781732175260e-4932L
+#define __LDBL_EPSILON__ 1.08420217248550443400745280086994171e-19L
+#define __LDBL_DENORM_MIN__ 3.64519953188247460252840593361941982e-4951L
+#define __LDBL_HAS_DENORM__ 1
+#define __LDBL_HAS_INFINITY__ 1
+#define __LDBL_HAS_QUIET_NAN__ 1
+#define __FLT32_MANT_DIG__ 24
+#define __FLT32_DIG__ 6
+#define __FLT32_MIN_EXP__ (-125)
+#define __FLT32_MIN_10_EXP__ (-37)
+#define __FLT32_MAX_EXP__ 128
+#define __FLT32_MAX_10_EXP__ 38
+#define __FLT32_DECIMAL_DIG__ 9
+#define __FLT32_MAX__ 3.40282346638528859811704183484516925e+38F32
+#define __FLT32_MIN__ 1.17549435082228750796873653722224568e-38F32
+#define __FLT32_EPSILON__ 1.19209289550781250000000000000000000e-7F32
+#define __FLT32_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F32
+#define __FLT32_HAS_DENORM__ 1
+#define __FLT32_HAS_INFINITY__ 1
+#define __FLT32_HAS_QUIET_NAN__ 1
+#define __FLT64_MANT_DIG__ 53
+#define __FLT64_DIG__ 15
+#define __FLT64_MIN_EXP__ (-1021)
+#define __FLT64_MIN_10_EXP__ (-307)
+#define __FLT64_MAX_EXP__ 1024
+#define __FLT64_MAX_10_EXP__ 308
+#define __FLT64_DECIMAL_DIG__ 17
+#define __FLT64_MAX__ 1.79769313486231570814527423731704357e+308F64
+#define __FLT64_MIN__ 2.22507385850720138309023271733240406e-308F64
+#define __FLT64_EPSILON__ 2.22044604925031308084726333618164062e-16F64
+#define __FLT64_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F64
+#define __FLT64_HAS_DENORM__ 1
+#define __FLT64_HAS_INFINITY__ 1
+#define __FLT64_HAS_QUIET_NAN__ 1
+#define __FLT128_MANT_DIG__ 113
+#define __FLT128_DIG__ 33
+#define __FLT128_MIN_EXP__ (-16381)
+#define __FLT128_MIN_10_EXP__ (-4931)
+#define __FLT128_MAX_EXP__ 16384
+#define __FLT128_MAX_10_EXP__ 4932
+#define __FLT128_DECIMAL_DIG__ 36
+#define __FLT128_MAX__ 1.18973149535723176508575932662800702e+4932F128
+#define __FLT128_MIN__ 3.36210314311209350626267781732175260e-4932F128
+#define __FLT128_EPSILON__ 1.92592994438723585305597794258492732e-34F128
+#define __FLT128_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966F128
+#define __FLT128_HAS_DENORM__ 1
+#define __FLT128_HAS_INFINITY__ 1
+#define __FLT128_HAS_QUIET_NAN__ 1
+#define __FLT32X_MANT_DIG__ 53
+#define __FLT32X_DIG__ 15
+#define __FLT32X_MIN_EXP__ (-1021)
+#define __FLT32X_MIN_10_EXP__ (-307)
+#define __FLT32X_MAX_EXP__ 1024
+#define __FLT32X_MAX_10_EXP__ 308
+#define __FLT32X_DECIMAL_DIG__ 17
+#define __FLT32X_MAX__ 1.79769313486231570814527423731704357e+308F32x
+#define __FLT32X_MIN__ 2.22507385850720138309023271733240406e-308F32x
+#define __FLT32X_EPSILON__ 2.22044604925031308084726333618164062e-16F32x
+#define __FLT32X_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F32x
+#define __FLT32X_HAS_DENORM__ 1
+#define __FLT32X_HAS_INFINITY__ 1
+#define __FLT32X_HAS_QUIET_NAN__ 1
+#define __FLT64X_MANT_DIG__ 64
+#define __FLT64X_DIG__ 18
+#define __FLT64X_MIN_EXP__ (-16381)
+#define __FLT64X_MIN_10_EXP__ (-4931)
+#define __FLT64X_MAX_EXP__ 16384
+#define __FLT64X_MAX_10_EXP__ 4932
+#define __FLT64X_DECIMAL_DIG__ 21
+#define __FLT64X_MAX__ 1.18973149535723176502126385303097021e+4932F64x
+#define __FLT64X_MIN__ 3.36210314311209350626267781732175260e-4932F64x
+#define __FLT64X_EPSILON__ 1.08420217248550443400745280086994171e-19F64x
+#define __FLT64X_DENORM_MIN__ 3.64519953188247460252840593361941982e-4951F64x
+#define __FLT64X_HAS_DENORM__ 1
+#define __FLT64X_HAS_INFINITY__ 1
+#define __FLT64X_HAS_QUIET_NAN__ 1
+#define __DEC32_MANT_DIG__ 7
+#define __DEC32_MIN_EXP__ (-94)
+#define __DEC32_MAX_EXP__ 97
+#define __DEC32_MIN__ 1E-95DF
+#define __DEC32_MAX__ 9.999999E96DF
+#define __DEC32_EPSILON__ 1E-6DF
+#define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
+#define __DEC64_MANT_DIG__ 16
+#define __DEC64_MIN_EXP__ (-382)
+#define __DEC64_MAX_EXP__ 385
+#define __DEC64_MIN__ 1E-383DD
+#define __DEC64_MAX__ 9.999999999999999E384DD
+#define __DEC64_EPSILON__ 1E-15DD
+#define __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
+#define __DEC128_MANT_DIG__ 34
+#define __DEC128_MIN_EXP__ (-6142)
+#define __DEC128_MAX_EXP__ 6145
+#define __DEC128_MIN__ 1E-6143DL
+#define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
+#define __DEC128_EPSILON__ 1E-33DL
+#define __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
+#define __REGISTER_PREFIX__ 
+#define __USER_LABEL_PREFIX__ _
+#define __GNUC_STDC_INLINE__ 1
+#define __NO_INLINE__ 1
+#define __WCHAR_UNSIGNED__ 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_8 1
+#define __GCC_ATOMIC_BOOL_LOCK_FREE 2
+#define __GCC_ATOMIC_CHAR_LOCK_FREE 2
+#define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 2
+#define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
+#define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2
+#define __GCC_ATOMIC_SHORT_LOCK_FREE 2
+#define __GCC_ATOMIC_INT_LOCK_FREE 2
+#define __GCC_ATOMIC_LONG_LOCK_FREE 2
+#define __GCC_ATOMIC_LLONG_LOCK_FREE 2
+#define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
+#define __GCC_ATOMIC_POINTER_LOCK_FREE 2
+#define __GCC_HAVE_DWARF2_CFI_ASM 1
+#define __PRAGMA_REDEFINE_EXTNAME 1
+#define __SIZEOF_WCHAR_T__ 2
+#define __SIZEOF_WINT_T__ 2
+#define __SIZEOF_PTRDIFF_T__ 4
+#define __i386 1
+#define __i386__ 1
+#define i386 1
+#define __SIZEOF_FLOAT80__ 12
+#define __SIZEOF_FLOAT128__ 16
+#define __ATOMIC_HLE_ACQUIRE 65536
+#define __ATOMIC_HLE_RELEASE 131072
+#define __GCC_ASM_FLAG_OUTPUTS__ 1
+#define __i586 1
+#define __i586__ 1
+#define __pentium 1
+#define __pentium__ 1
+#define __code_model_32__ 1
+#define __SEG_FS 1
+#define __SEG_GS 1
+#define _X86_ 1
+#define __stdcall __attribute__((__stdcall__))
+#define __fastcall __attribute__((__fastcall__))
+#define __thiscall __attribute__((__thiscall__))
+#define __cdecl __attribute__((__cdecl__))
+#define _stdcall __attribute__((__stdcall__))
+#define _fastcall __attribute__((__fastcall__))
+#define _thiscall __attribute__((__thiscall__))
+#define _cdecl __attribute__((__cdecl__))
+#define __GXX_MERGED_TYPEINFO_NAMES 0
+#define __GXX_TYPEINFO_EQUALITY_INLINE 0
+#define __MSVCRT__ 1
+#define __MINGW32__ 1
+#define _WIN32 1
+#define __WIN32 1
+#define __WIN32__ 1
+#define WIN32 1
+#define __WINNT 1
+#define __WINNT__ 1
+#define WINNT 1
+#define _INTEGRAL_MAX_BITS 64
+#define __declspec(x) __attribute__((x))
+#define __DECIMAL_BID_FORMAT__ 1
+# 1 "<command-line>"
+# 1 "dummy"
+
+-- _help=GNU ld (GNU Binutils) 2.31.1
+
+-- _includeLines=c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++
+; c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32
+; c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward
+; c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include
+; c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include
+; c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed
+
+-- _includePath=c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed
+-- _name=__DECIMAL_BID_FORMAT__
+-- _value=1
+-- _ver=g++.exe (MinGW.org GCC-8.2.0-3) 8.2.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+-- d=
+-- f=
+-- l=
+-- nextLine=
+-- nextLineNoFramework= c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed
+
+-- rule=
+-- triangles_BINARY_DIR=C:/GREENFOX/Boritse/week-02/day-05/triangles/cmake-build-debug
+-- triangles_DESCRIPTION=
+-- triangles_HOMEPAGE_URL=
+-- triangles_SOURCE_DIR=C:/GREENFOX/Boritse/week-02/day-05/triangles
+-- type=
+-- v=
+-- var=
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/GREENFOX/Boritse/week-02/day-05/triangles/cmake-build-debug
