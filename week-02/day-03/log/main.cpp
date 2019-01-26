@@ -3,11 +3,34 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include <algorithm>
 
 // Read all data from 'log.txt'.
 // Each line represents a log message from a web server
 // Write a function that returns an array with the unique IP adresses.
 // Write a function that returns the GET / POST request ratio.
+
+float getpostRatio(std::vector<std::string> getsPosts)
+{
+    float g=0;
+    float p=0;
+    for (int i =0; i<getsPosts.size(); i++){
+        if(getsPosts[i]=="POST"){
+        g+=1;
+        }else{
+        p+=1;
+        }
+    }
+    return g/p;
+}
+
+std::vector<std::string>* uniquizer(std::vector<std::string> &duplicatesPresent)
+{
+    std::sort(duplicatesPresent.begin(), duplicatesPresent.end());
+    duplicatesPresent.erase(std::unique(duplicatesPresent.begin(), duplicatesPresent.end()), duplicatesPresent.end());
+
+    return &duplicatesPresent;
+}
 
 int main() {
 
@@ -24,7 +47,6 @@ int main() {
 
     std::ifstream dataset("log.txt");
 
-
     while(dataset >> day >> month >> date >> time >> year >> url >> getpost >> slash){
 
         urls.push_back(url);
@@ -33,22 +55,11 @@ int main() {
 
     dataset.close();
 
-    std::string uniqueIP[urls.size()];
-    for(int i=0; i<urls.size(); i++){
-        uniqueIP[i]=urls[i];
-        std::cout << uniqueIP[i] << std::endl;
-    }
+    std::cout << "Number of IP-s before uniquizing: " << urls.size() << std::endl;
+    uniquizer(urls);
+    std::cout << "Number of IP-s after uniquizing: " << urls.size() << std::endl;
 
-    float g=0;
-    float p=0;
-    for (int i =0; i<getPost.size(); i++){
-    if(getPost[i]=="POST"){
-     g+=1;
-    }else{
-     p+=1;
-    }
-}
-    std::cout << "Ratio of gets out of all requests: " << g/getPost.size() << " Ratio of posts out of all requests: " << p/getPost.size();
+    std::cout << "The get/post request ratio was: " << getpostRatio(getPost) << ".";
 
     return 0;
 }
