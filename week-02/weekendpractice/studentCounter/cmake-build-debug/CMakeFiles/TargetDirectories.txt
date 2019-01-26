@@ -1,0 +1,3 @@
+C:/GREENFOX/Boritse/week-02/weekendpractice/studentCounter/cmake-build-debug/CMakeFiles/studentCounter.dir
+C:/GREENFOX/Boritse/week-02/weekendpractice/studentCounter/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/GREENFOX/Boritse/week-02/weekendpractice/studentCounter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
