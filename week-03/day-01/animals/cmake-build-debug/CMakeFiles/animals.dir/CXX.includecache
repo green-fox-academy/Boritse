@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/GREENFOX/Boritse/week-03/day-01/animals/animals.cpp
+animals.h
+C:/GREENFOX/Boritse/week-03/day-01/animals/animals.h
+
+C:/GREENFOX/Boritse/week-03/day-01/animals/animals.h
+string
+-
+
+C:/GREENFOX/Boritse/week-03/day-01/animals/main.cpp
+iostream
+-
+string
+-
+animals.h
+C:/GREENFOX/Boritse/week-03/day-01/animals/animals.h
+
