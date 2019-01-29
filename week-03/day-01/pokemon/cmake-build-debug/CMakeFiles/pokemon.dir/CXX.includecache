@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/GREENFOX/Boritse/week-03/day-01/pokemon/main.cpp
+iostream
+-
+vector
+-
+pokemon.h
+C:/GREENFOX/Boritse/week-03/day-01/pokemon/pokemon.h
+
+C:/GREENFOX/Boritse/week-03/day-01/pokemon/pokemon.cpp
+pokemon.h
+C:/GREENFOX/Boritse/week-03/day-01/pokemon/pokemon.h
+
+C:/GREENFOX/Boritse/week-03/day-01/pokemon/pokemon.h
+iostream
+-
+

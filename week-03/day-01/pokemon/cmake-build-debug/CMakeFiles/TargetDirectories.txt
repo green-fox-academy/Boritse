@@ -1,0 +1,3 @@
+C:/GREENFOX/Boritse/week-03/day-01/pokemon/cmake-build-debug/CMakeFiles/pokemon.dir
+C:/GREENFOX/Boritse/week-03/day-01/pokemon/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/GREENFOX/Boritse/week-03/day-01/pokemon/cmake-build-debug/CMakeFiles/rebuild_cache.dir
