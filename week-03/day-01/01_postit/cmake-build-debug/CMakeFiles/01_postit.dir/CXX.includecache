@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/GREENFOX/Boritse/week-03/day-01/01_postit/main.cpp
+iostream
+-
+postit.h
+C:/GREENFOX/Boritse/week-03/day-01/01_postit/postit.h
+
+C:/GREENFOX/Boritse/week-03/day-01/01_postit/postit.cpp
+postit.h
+C:/GREENFOX/Boritse/week-03/day-01/01_postit/postit.h
+string
+-
+
+C:/GREENFOX/Boritse/week-03/day-01/01_postit/postit.h
+string
+-
+
