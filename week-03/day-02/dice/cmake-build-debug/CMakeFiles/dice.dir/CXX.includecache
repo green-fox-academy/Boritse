@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/GREENFOX/Boritse/week-03/day-02/dice/dice_set.cpp
+dice_set.h
+C:/GREENFOX/Boritse/week-03/day-02/dice/dice_set.h
+stdlib.h
+-
+time.h
+-
+
+C:/GREENFOX/Boritse/week-03/day-02/dice/dice_set.h
+iostream
+-
+vector
+-
+
+C:/GREENFOX/Boritse/week-03/day-02/dice/main.cpp
+iostream
+-
+dice_set.h
+C:/GREENFOX/Boritse/week-03/day-02/dice/dice_set.h
+
