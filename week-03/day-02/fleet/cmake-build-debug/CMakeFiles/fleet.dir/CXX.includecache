@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/GREENFOX/Boritse/week-03/day-02/fleet/fleet.h
+vector
+-
+string
+-
+thing.h
+C:/GREENFOX/Boritse/week-03/day-02/fleet/thing.h
+
+C:/GREENFOX/Boritse/week-03/day-02/fleet/main.cpp
+iostream
+-
+fleet.h
+C:/GREENFOX/Boritse/week-03/day-02/fleet/fleet.h
+
+C:/GREENFOX/Boritse/week-03/day-02/fleet/thing.h
+string
+-
+
