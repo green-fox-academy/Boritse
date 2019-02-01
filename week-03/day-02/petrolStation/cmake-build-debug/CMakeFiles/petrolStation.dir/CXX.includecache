@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+C:/GREENFOX/Boritse/week-03/day-02/petrolStation/car.cpp
+car.h
+C:/GREENFOX/Boritse/week-03/day-02/petrolStation/car.h
+station.h
+C:/GREENFOX/Boritse/week-03/day-02/petrolStation/station.h
+
+C:/GREENFOX/Boritse/week-03/day-02/petrolStation/car.h
+
+C:/GREENFOX/Boritse/week-03/day-02/petrolStation/main.cpp
+iostream
+-
+station.h
+C:/GREENFOX/Boritse/week-03/day-02/petrolStation/station.h
+car.h
 C:/GREENFOX/Boritse/week-03/day-02/petrolStation/car.h
 
 C:/GREENFOX/Boritse/week-03/day-02/petrolStation/station.cpp

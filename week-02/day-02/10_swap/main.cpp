@@ -18,7 +18,7 @@ int main ()
 
     int* p_a = &a;
     int* p_b = &b;
-    
+
     swapper(*p_a, *p_b);
 
     std::cout << "And now the value of a is: " << a << ", and the value of b is: " << b;

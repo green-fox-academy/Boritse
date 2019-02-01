@@ -1,3 +1,0 @@
-C:/GREENFOX/Boritse/week-01/day-04/printelements/cmake-build-debug/CMakeFiles/printelements.dir
-C:/GREENFOX/Boritse/week-01/day-04/printelements/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/GREENFOX/Boritse/week-01/day-04/printelements/cmake-build-debug/CMakeFiles/rebuild_cache.dir

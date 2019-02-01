@@ -1,4 +1,5 @@
 #include <iostream>
+#include <climits>
 
 
 int main()
@@ -14,17 +15,16 @@ int main()
     }
 
     int* p_myArray = myArray;
-    int y=0;
-    int z=0;
+    int minimumValue = INT_MIN;
+    int vectorMaximumValue = minimumValue;
     for(int i=0; i<x; i++){
-        if(myArray[i]>y){
-            y=myArray[i];
-            z=i;
+        if(myArray[i]>vectorMaximumValue){
+            vectorMaximumValue = i;
         }
     }
 
-    std::cout << "The biggest number in the array is: " << *(p_myArray + z) << std::endl;
-    std::cout << "The memory address of the bigest number is: " << p_myArray + z ;
+    std::cout << "The biggest number in the array is: " << *(p_myArray + vectorMaximumValue) << std::endl;
+    std::cout << "The memory address of the bigest number is: " << p_myArray + vectorMaximumValue ;
 
 
     // Create a program which first asks for a number

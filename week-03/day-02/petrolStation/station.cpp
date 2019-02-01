@@ -15,7 +15,7 @@ int station::currentGasAmount(){
     return gasAmount;
 }
 
-void station::fill(car c){
+void station::fill(car& c){
     while(!c.isFull()){
         c.fill();
         gasAmount--;

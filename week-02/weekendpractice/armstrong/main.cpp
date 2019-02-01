@@ -5,13 +5,14 @@ int main() {
     int numberToCheck;
     std::cout << "Let me check if the number on your mind is an Armstrong number! Which number is on your mind?" << std::endl;
     std::cin >> numberToCheck;
+    int numberToCheckhelp=numberToCheck;
 
     std::vector<int> digits;
     int digit=0;
 
-    while(numberToCheck>0){
-        digit = numberToCheck%10;
-        numberToCheck/=10;
+    while(numberToCheckhelp>0){
+        digit = numberToCheckhelp%10;
+        numberToCheckhelp/=10;
         digits.push_back(digit);
     }
 

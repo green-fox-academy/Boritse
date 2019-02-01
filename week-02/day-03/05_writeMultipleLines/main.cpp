@@ -16,7 +16,7 @@ void writeToFile(std::string path, std::string word, int number){
     std::ofstream workingFile1(workingFile);
     std::cout << "Give me a line ";
     std::cin.ignore();
-    std::getline(std::cin, word,'\n');
+    std::getline(std::cin, word);
     for(int i=0; i<number; i++){
         workingFile1 << word << std::endl;
     }

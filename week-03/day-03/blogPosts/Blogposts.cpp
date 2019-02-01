@@ -3,3 +3,8 @@
 //
 
 #include "Blogposts.h"
+#include <string>
+
+Blogpsts::Blogpsts(std::string authorName, std::string title, std::string text, std::string date){
+
+}

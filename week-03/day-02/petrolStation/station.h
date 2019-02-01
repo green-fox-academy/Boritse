@@ -11,7 +11,7 @@ class station {
 public:
     station(int _gasAmount);
     int currentGasAmount();
-    void fill(car);
+    void fill(car&);
 private:
     int gasAmount;
 };

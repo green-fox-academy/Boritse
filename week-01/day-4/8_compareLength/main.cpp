@@ -2,7 +2,9 @@
 #include <string>
 
 void sizeCompare(int x[], int y[]){
-    if ((sizeof(x) / sizeof(x[0])) > (sizeof(y)/sizeof(y[0]))){
+
+    bool valtozo=(sizeof(x)/sizeof(x[0]) > sizeof(y)/sizeof(y[0]));
+    if (valtozo){
         std::cout << x << " has more elements than " << y << std::endl;
     }else{
         std::cout << y << " has more elements than " << x << std::endl;

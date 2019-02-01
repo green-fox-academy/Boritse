@@ -2,15 +2,20 @@
 // Created by Borbáls on 2019. 02. 01..
 //
 
-#ifndef BLOGPOSTS_BLOGPOSTS_H
-#define BLOGPOSTS_BLOGPOSTS_H
+#ifndef BLOGPOST_BLOGPOST_H
+#define BLOGPOST_BLOGPOST_H
 
+#include <string>
 
-
-class Blogposts {
-
+class Blogpsts {
+public:
+    Blogpsts(std::string, std::string, std::string, std::string);
+private:
+    std::string authorName;
+    std::string title;
+    std::string text;
+    std::string date;
 };
 
 
-
-#endif //BLOGPOSTS_BLOGPOSTS_H
+#endif //BLOGPOST_BLOGPOST_H

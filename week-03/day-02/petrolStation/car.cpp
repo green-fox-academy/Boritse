@@ -21,6 +21,7 @@ void car::fill()
     gasAmount++;
 }
 
-int car::getGasAmount(){
+int car::getGasAmount()
+{
         return gasAmount;
 }

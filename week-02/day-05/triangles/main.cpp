@@ -35,22 +35,22 @@ void draw() {
     for (int i = 0; i < 12; i++) {
         SDL_SetRenderDrawColor(gRenderer, 0 /*R*/, 0x00 /*G*/, 0x00 /*B*/, 0xFF /*A*/);
 //draw line
-        SDL_RenderDrawLine(gRenderer, startingWidth + a, startingHeight - a, endingWidth - a, endingHeight - a);
-        a += endingWidth / 24;
-    }
-    SDL_RenderDrawLine(gRenderer, (endingWidth / 2), (startingHeight / 2), startingWidth, endingHeight);
-    a = 480/24;
-    for(int i=0; i<12; i++) {
+        SDL_RenderDrawLine(gRenderer, startingWidth + a, startingHeight - root3a/2, endingWidth - a, endingHeight - root3a/2);
+        a += endingWidth / 24;}
+        SDL_RenderDrawLine(gRenderer, (endingWidth / 2), (startingHeight / 2), startingWidth, endingHeight);
+        a = 480/24;
+
+        for(int i=0; i<12; i++) {
         SDL_SetRenderDrawColor(gRenderer, 0 /*R*/, 0x00 /*G*/, 0x00 /*B*/, 0xFF /*A*/);
 //draw line
-        SDL_RenderDrawLine(gRenderer, (endingWidth / 2)+a, (startingHeight / 2)+a, startingWidth+2*a, endingHeight);
-        a+=endingWidth/24;
-    }
-    SDL_RenderDrawLine(gRenderer, (endingWidth / 2), (startingHeight / 2), endingWidth, endingHeight);
-    a = 480/24;
-    for(int i=0; i<12; i++) {
+        SDL_RenderDrawLine(gRenderer, (endingWidth / 2)+a, (startingHeight / 2)+root3a/2, startingWidth+2*a, endingHeight);
+        a+=endingWidth/24;}
+        SDL_RenderDrawLine(gRenderer, (endingWidth / 2), (startingHeight / 2), endingWidth, endingHeight);
+        a = 480/24;
+
+        for(int i=0; i<12; i++) {
         SDL_SetRenderDrawColor(gRenderer, 0 /*R*/, 0x00 /*G*/, 0x00 /*B*/, 0xFF /*A*/);
-        SDL_RenderDrawLine(gRenderer, (endingWidth / 2)-a, (startingHeight / 2)+a, endingWidth-2*a, startingHeight);
+        SDL_RenderDrawLine(gRenderer, (endingWidth / 2)-a, (startingHeight / 2)+root3a/2, endingWidth-2*a, startingHeight);
         a+=endingWidth/24;
     }
     // draw a red horizontal line to the canvas' middle.
