@@ -18,9 +18,24 @@ std::vector<Dominoes> initializeDominoes()
 int main(int argc, char* args[])
 {
     std::vector<Dominoes> dominoes = initializeDominoes();
-    // You have the list of Dominoes
-    // Order them into one snake where the adjacent dominoes have the same numbers on their adjacent sides
-    // eg: [2, 4], [4, 3], [3, 5] ...
+
+    std::vector<Dominoes> dominoesInOrder;
+    dominoesInOrder.push_back(dominoes[0]);
+
+    int x=0;
+
+    while(dominoesInOrder.size()!=dominoes.size()) {
+        for (int i = 1; i <= dominoes.size(); i++) {
+            if (dominoesInOrder[x].getValues().second == dominoes[i].getValues().first) {
+                dominoesInOrder.push_back(dominoes[i]);
+                x++;
+            }
+        }
+    }
+
+    for(int i=0; i<dominoesInOrder.size(); i++){
+        std::cout << dominoesInOrder[i].getValues().first << " " << dominoesInOrder[i].getValues().second << " ";
+    }
 
     return 0;
 }
