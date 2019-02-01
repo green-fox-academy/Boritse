@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/GREENFOX/Boritse/week-03/day-02/sharpieSet/main.cpp
+iostream
+-
+sharpie.h
+C:/GREENFOX/Boritse/week-03/day-02/sharpieSet/sharpie.h
+sharpieSet.h
+C:/GREENFOX/Boritse/week-03/day-02/sharpieSet/sharpieSet.h
+
+C:/GREENFOX/Boritse/week-03/day-02/sharpieSet/sharpie.h
+string
+-
+
+C:/GREENFOX/Boritse/week-03/day-02/sharpieSet/sharpieSet.h
+sharpie.h
+C:/GREENFOX/Boritse/week-03/day-02/sharpieSet/sharpie.h
+string
+-
+vector
+-
+
