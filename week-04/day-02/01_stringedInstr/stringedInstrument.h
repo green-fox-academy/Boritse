@@ -1,0 +1,14 @@
+//
+// Created by Borbáls on 2019. 02. 06..
+//
+
+#ifndef INC_01_STRINGEDINSTR_STRINGEDINSTRUMENT_H
+#define INC_01_STRINGEDINSTR_STRINGEDINSTRUMENT_H
+
+
+class stringedInstrument {
+
+};
+
+
+#endif //INC_01_STRINGEDINSTR_STRINGEDINSTRUMENT_H
