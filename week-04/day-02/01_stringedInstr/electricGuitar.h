@@ -5,9 +5,13 @@
 #ifndef INC_01_STRINGEDINSTR_ELECTRICGUITAR_H
 #define INC_01_STRINGEDINSTR_ELECTRICGUITAR_H
 
+#include "stringedInstrument.h"
+#include <string>
 
-class electricGuitar {
-
+class ElectricGuitar : public StringedInstrument {
+public:
+    ElectricGuitar(int _numberOfStrings, std::string _uniqueSound);
+    void sound() override;
 };
 
 

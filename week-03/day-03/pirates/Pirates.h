@@ -6,8 +6,21 @@
 #define PIRATES_PIRATES_H
 
 
-class Pirates {
+#include <richedit.h>
 
+class Pirates {
+public:
+    Pirates();
+    void drinkSomeRum();
+    void howsItGoingMate();
+    int getlevelOfRum();
+    bool die();
+    void deadMessage();
+    int getTimesOfDrinking();
+private:
+    int levelOfRum;
+    int timesOfDrinking;
+    bool alive;
 };
 
 

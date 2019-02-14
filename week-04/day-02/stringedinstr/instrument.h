@@ -5,9 +5,15 @@
 #ifndef STRINGEDINSTR_INSTRUMENT_H
 #define STRINGEDINSTR_INSTRUMENT_H
 
+#include <string>
 
-class instrument {
 
+class Instrument {
+public:
+    Instrument(std::string _name);
+    virtual void play()=0;
+protected:
+    std::string name;
 };
 
 

@@ -3,3 +3,10 @@
 //
 
 #include "stringedInstrument.h"
+
+StringedInstrument::StringedInstrument(int _numberOfStrings) {
+}
+
+void StringedInstrument::play(Inst) {
+    sound();
+}

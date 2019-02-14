@@ -3,3 +3,5 @@
 //
 
 #include "instrument.h"
+
+Instrument::Instrument(std::string _name){}

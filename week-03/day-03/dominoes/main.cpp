@@ -7,9 +7,9 @@ std::vector<Dominoes> initializeDominoes()
 {
     std::vector<Dominoes> dominoes;
     dominoes.push_back(Dominoes(5, 2));
-    dominoes.push_back(Dominoes(4, 6));
+    dominoes.push_back(Dominoes(4, 3));
     dominoes.push_back(Dominoes(1, 5));
-    dominoes.push_back(Dominoes(6, 7));
+    dominoes.push_back(Dominoes(3, 7));
     dominoes.push_back(Dominoes(2, 4));
     dominoes.push_back(Dominoes(7, 1));
     return dominoes;

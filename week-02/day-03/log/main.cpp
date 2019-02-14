@@ -24,12 +24,10 @@ float getpostRatio(std::vector<std::string> getsPosts)
     return g/p;
 }
 
-std::vector<std::string>* uniquizer(std::vector<std::string> &duplicatesPresent)
+void uniquizer(std::vector<std::string> &duplicatesPresent)
 {
     std::sort(duplicatesPresent.begin(), duplicatesPresent.end());
     duplicatesPresent.erase(std::unique(duplicatesPresent.begin(), duplicatesPresent.end()), duplicatesPresent.end());
-
-    return &duplicatesPresent;
 }
 
 int main() {

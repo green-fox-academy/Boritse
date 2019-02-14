@@ -5,9 +5,15 @@
 #ifndef STRINGEDINSTR_STRINGEDINSTRUMENT_H
 #define STRINGEDINSTR_STRINGEDINSTRUMENT_H
 
+#include "instrument.h"
 
-class stringedInstrument {
-
+class StringedInstrument {
+public:
+    StringedInstrument(int _numberOfStrings);
+    virtual void sound()=0;
+    void play(Instrument _instrument);
+protected:
+    int numberOfStrings;
 };
 
 

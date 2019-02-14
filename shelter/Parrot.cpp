@@ -3,3 +3,11 @@
 //
 
 #include "Parrot.h"
+
+Parrot::Parrot(){
+    _name="parrot";
+
+}
+Parrot::Parrot(std::string name){
+    _name=name;
+}

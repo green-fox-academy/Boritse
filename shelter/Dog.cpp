@@ -3,3 +3,11 @@
 //
 
 #include "Dog.h"
+
+Dog::Dog(){
+    _name="dog";
+
+}
+Dog::Dog(std::string name){
+    _name=name;
+}

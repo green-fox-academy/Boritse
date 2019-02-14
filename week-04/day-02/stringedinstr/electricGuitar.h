@@ -5,9 +5,15 @@
 #ifndef STRINGEDINSTR_ELECTRICGUITAR_H
 #define STRINGEDINSTR_ELECTRICGUITAR_H
 
+#include "stringedInstrument.h"
+#include <string>
 
-class electricGuitar {
-
+class ElectricGuitar : public StringedInstrument{
+public:
+    ElectricGuitar();
+    void sound();
+private:
+    std::string soundInst="Twang";
 };
 
 
