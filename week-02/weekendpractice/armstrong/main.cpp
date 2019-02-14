@@ -10,8 +10,8 @@ int main() {
     std::vector<int> digits;
     int digit=0;
 
-    while(numberToCheckhelp>0){
-        digit = numberToCheckhelp%10;
+    while(numberToCheck>0){
+        digit = numberToCheck%10;
         numberToCheckhelp/=10;
         digits.push_back(digit);
     }
