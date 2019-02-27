@@ -8,8 +8,9 @@
 
 int main()
 {
-    int* arr = (int*)malloc(10*sizeof(int));
-    for(int i=0; i<10; i++){
+    int size=10;
+    int* arr = (int*)malloc(size*sizeof(int));
+    for(int i=0; i<size; i++){
         arr[i]=i*2;
         printf("%d. elem: %d\n", i+1, arr[i]);
     }
