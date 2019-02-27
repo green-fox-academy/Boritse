@@ -7,13 +7,14 @@
 
 int main()
 {
-    int* arr=(int*)malloc(10*sizeof(int));
-    int* other_arr=(int*)calloc(10, sizeof(int));
+    int size=10;
+    int* arr=(int*)malloc(size*sizeof(int));
+    int* other_arr=(int*)calloc(size, sizeof(int));
 
-    for(int i=0; i<10; i++){
-        if(i<5){
+    for(int i=0; i<size; i++){
+        if(i<size/2){
             arr[i]=i;
-            other_arr[i]=i*10;
+            other_arr[i]=i*size;
         }
         printf("malloc: %d in: %p    calloc: %d in: %p\n", arr[i], &arr[i], other_arr[i], &other_arr[i]);
     }
