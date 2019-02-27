@@ -15,7 +15,7 @@ int main()
             arr[i]=i;
             other_arr[i]=i*10;
         }
-        printf("malloc: %d    calloc: %d\n", arr[i], other_arr[i]);
+        printf("malloc: %d in: %p    calloc: %d in: %p\n", arr[i], &arr[i], other_arr[i], &other_arr[i]);
     }
 
     free(arr);
