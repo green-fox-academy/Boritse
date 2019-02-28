@@ -14,7 +14,7 @@
 int main()
 {
     int heritage = 1024;
-    srand(time(NULL));   // Initialization, should only be called once.
+    srand(time(NULL)); 
     int this_many_showed_up = rand()%31+20;
 
     int* relatives = (int*)calloc(this_many_showed_up, sizeof(int));
