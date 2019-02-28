@@ -24,8 +24,11 @@ int main()
     linked_list_push_back(linked_list, 89);
     linked_list_print(linked_list);
 
+    linked_list_sort(&linked_list);
+    linked_list_print(linked_list);
+
     linked_list_node_t *search_engine = linked_list_search(linked_list, 10);
-    printf("%d", search_engine->value);
+    printf("the search engine is pointing to value: %d", search_engine->value);
 
     linked_list_dealloc(linked_list);
 

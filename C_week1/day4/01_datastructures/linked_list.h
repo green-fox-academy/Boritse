@@ -31,4 +31,6 @@ int linked_list_delete_value(linked_list_node_t **linked_list, int value);
 
 linked_list_node_t *linked_list_search(linked_list_node_t *linked_list, int value);
 
+void linked_list_sort(linked_list_node_t **linked_list);
+
 #endif //INC_01_DATASTRUCTURES_LINKED_LIST_H
