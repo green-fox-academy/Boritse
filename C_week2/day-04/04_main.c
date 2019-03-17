@@ -8,11 +8,16 @@
  ******************************************************************************
  */
 
+/*
+Control 2 LED from via UART:
+    1. when you get the "on" (with line break) command on UART from your PC, turn on the green LED on your board!
+    2. when you get the "off" (with line break) command on UART from your PC, turn on the red LED on your board!!
+    3. when you get a command, which is not ON and not OFF, flash the RED light 3 times!
+ */
+
 #include "stm32f7xx.h"
 #include "stm32746g_discovery.h"
 #include <string.h>
-
-#define UART_PUTCHAR int __io_putchar(int ch)
 
 GPIO_InitTypeDef GPIOTxConfig;
 GPIO_InitTypeDef GPIORxConfig;
@@ -24,7 +29,6 @@ UART_HandleTypeDef UartHandle;
 int main(void) {
 	HAL_Init();
 
-	/* enable GPIO clock */
 	__HAL_RCC_GPIOA_CLK_ENABLE()
 	;
 	__HAL_RCC_GPIOB_CLK_ENABLE()
@@ -32,7 +36,6 @@ int main(void) {
 	__HAL_RCC_GPIOF_CLK_ENABLE()
 	;
 
-	/* configure GPIO for UART transmit line */
 	GPIOTxConfig.Pin = GPIO_PIN_9;
 	GPIOTxConfig.Mode = GPIO_MODE_AF_PP;
 	GPIOTxConfig.Pull = GPIO_NOPULL;
@@ -41,7 +44,6 @@ int main(void) {
 
 	HAL_GPIO_Init(GPIOA, &GPIOTxConfig);
 
-	/* configure GPIO for UART receive line */
 	GPIORxConfig.Pin = GPIO_PIN_7;
 	GPIORxConfig.Mode = GPIO_MODE_AF_PP;
 	GPIOTxConfig.Pull = GPIO_NOPULL;
@@ -50,11 +52,9 @@ int main(void) {
 
 	HAL_GPIO_Init(GPIOB, &GPIORxConfig);
 
-	/* enable the clock of the used peripherial instance */
 	__HAL_RCC_USART1_CLK_ENABLE()
 	;
 
-	/* defining the UART configuration structure */
 	UartHandle.Instance = USART1;
 	UartHandle.Init.BaudRate = 115200;
 	UartHandle.Init.WordLength = UART_WORDLENGTH_8B;
@@ -65,18 +65,15 @@ int main(void) {
 
 	BSP_COM_Init(COM1, &UartHandle);
 
-	leds.Pin = GPIO_PIN_10 | GPIO_PIN_8; /* setting up 2 pins at once with | operator */
-	leds.Mode = GPIO_MODE_OUTPUT_PP; /* configure as output, in push-pull mode */
-	leds.Pull = GPIO_NOPULL; /* we don't need internal pull-up or -down resistor */
+	leds.Pin = GPIO_PIN_10 | GPIO_PIN_8;
+	leds.Mode = GPIO_MODE_OUTPUT_PP;
+	leds.Pull = GPIO_NOPULL;
 	leds.Speed = GPIO_SPEED_HIGH;
 
 	HAL_GPIO_Init(GPIOF, &leds);
 
 	while (1) {
 
-		//HAL_Delay(1000);
-
-		//HAL_UART_Transmit(&UartHandle, (uint8_t*) hello, strlen(hello), 0xFFFF);
 		int index_counter = 0;
 		uint8_t input[15];
 		uint8_t single_char;
@@ -85,7 +82,6 @@ int main(void) {
 
 		while (1) {
 
-			//HAL_UART_Transmit(&UartHandle, (uint8_t*) hello, strlen(hello), 0xFFFF);
 			while (HAL_UART_Receive(&UartHandle, (uint8_t*) &single_char, 1,
 			HAL_MAX_DELAY) == HAL_OK) {
 				if (single_char != '\n') {
@@ -94,14 +90,14 @@ int main(void) {
 				} else {
 					input[index_counter] = '\0';
 					if (strcmp(input, on) == 0) {
-						HAL_GPIO_WritePin(GPIOF, GPIO_PIN_8, GPIO_PIN_RESET); /* setting the pin to 0 */
+						HAL_GPIO_WritePin(GPIOF, GPIO_PIN_8, GPIO_PIN_RESET);
 						HAL_GPIO_WritePin(GPIOF, GPIO_PIN_10, GPIO_PIN_SET);
 					} else if (strcmp(input, off) == 0) {
-						HAL_GPIO_WritePin(GPIOF, GPIO_PIN_10, GPIO_PIN_RESET); /* setting the pin to 0 */
+						HAL_GPIO_WritePin(GPIOF, GPIO_PIN_10, GPIO_PIN_RESET);
 						HAL_GPIO_WritePin(GPIOF, GPIO_PIN_8, GPIO_PIN_SET);
 					} else {
 						HAL_GPIO_WritePin(GPIOF, GPIO_PIN_10, GPIO_PIN_RESET);
-						for (int i = 0; i < 3; i++) { /* setting the pin to 0 */
+						for (int i = 0; i < 3; i++) {
 							HAL_GPIO_WritePin(GPIOF, GPIO_PIN_8, GPIO_PIN_SET);
 							HAL_Delay(500);
 							HAL_GPIO_WritePin(GPIOF, GPIO_PIN_8,

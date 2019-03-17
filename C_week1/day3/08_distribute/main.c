@@ -14,7 +14,7 @@
 int main()
 {
     int heritage = 1024;
-    srand(time(NULL)); 
+    srand(time(NULL));
     int this_many_showed_up = rand()%31+20;
 
     int* relatives = (int*)calloc(this_many_showed_up, sizeof(int));

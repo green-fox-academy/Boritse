@@ -120,19 +120,29 @@ linked_list_node_t *linked_list_search(linked_list_node_t *linked_list, int valu
 }
 void linked_list_sort(linked_list_node_t **linked_list)
 {
-    linked_list_node_t *it=*linked_list;
-    linked_list_node_t *it_next=it->next;
-    for(int i=0; i<linked_list_size(*linked_list)-1; i++) {
-        for(int j=0; j<linked_list_size(*linked_list)-1-i; j++) {
-            if (it->value > it_next->value) {
-                int temp = it->value;
-                it->value = it_next->value;
-                it_next->value = temp;
+    linked_list_node_t *curr = NULL;
+    linked_list_node_t *trail = NULL;
+    linked_list_node_t *temp = NULL;
+
+    for (int i = 0; i < linked_list_size(*linked_list); i++) { //for every element in the list
+        curr = trail = *linked_list; //set current and trail at the start node
+        while (curr->next != NULL) { //for the rest of the elements in the list
+            if (curr->value > curr->next->value) { //compare curr and curr->next
+                temp = curr->next; // swap pointers for curr and curr->next
+                curr->next = curr->next->next;
+                temp->next = curr;
+                //now we need to setup pointers for trail and possibly head
+                if (curr == *linked_list) { //this is the case of the first element swapping to preserve the head pointer
+                    *linked_list = temp;
+                } else {//setup trail correctly
+                    trail->next = temp;
+                }
+                curr = temp; //update curr to be temp since the positions changed
             }
-            it = it->next;
-            it_next = it_next->next;
+            //advance pointers
+            trail = curr;
+            curr = curr->next;
         }
-        it=*linked_list;
-        it_next=it->next;
     }
 }
+

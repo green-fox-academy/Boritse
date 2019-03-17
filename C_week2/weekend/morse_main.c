@@ -46,7 +46,7 @@ int main(void) {
 	/* configure GPIO for UART receive line */
 	GPIORxConfig.Pin = GPIO_PIN_7;
 	GPIORxConfig.Mode = GPIO_MODE_AF_PP;
-	GPIOTxConfig.Pull = GPIO_NOPULL;
+	GPIORxConfig.Pull = GPIO_NOPULL;
 	GPIORxConfig.Speed = GPIO_SPEED_FAST;
 	GPIORxConfig.Alternate = GPIO_AF7_USART1;
 

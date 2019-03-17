@@ -3,4 +3,4 @@ project(06_mostcommonword C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(06_mostcommonword main.c)
+add_executable(06_mostcommonword main.c store_words.h)
